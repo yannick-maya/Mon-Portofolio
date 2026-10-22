@@ -6,6 +6,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { LocaleSwitcher } from "@/components/locale-switcher";
+import profile from "@/data/profile.json";
 import "../globals.css";
 
 const bricolageGrotesque = Bricolage_Grotesque({
@@ -29,12 +30,12 @@ export async function generateMetadata({
   const isFrench = locale === "fr";
 
   return {
-    title: isFrench
-      ? "Yannick Madjiadoum — Ingénieur informatique"
-      : "Yannick Madjiadoum — Computer Engineer",
+    title: `${profile.name[isFrench ? "fr" : "en"]} — ${
+      profile.title[isFrench ? "fr" : "en"]
+    }`,
     description: isFrench
-      ? "Portfolio de Yannick Madjiadoum, ingénieur informatique spécialisé en data engineering et bases de données."
-      : "Portfolio of Yannick Madjiadoum, a computer engineer specializing in data engineering and databases.",
+      ? `Portfolio de ${profile.name.fr}. ${profile.heroDescription.fr}`
+      : `Portfolio of ${profile.name.en}. ${profile.heroDescription.en}`,
   };
 }
 

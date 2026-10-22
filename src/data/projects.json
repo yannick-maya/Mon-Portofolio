@@ -1,0 +1,338 @@
+[
+  {
+    "id": "afrishop",
+    "slug": "afrishop",
+    "featured": true,
+    "categories": ["data-engineering"],
+    "category": { "fr": "Data engineering", "en": "Data engineering" },
+    "title": { "fr": "AfriShop", "en": "AfriShop" },
+    "summary": {
+      "fr": "Plateforme Lakehouse pour des données e-commerce, avec une couche Curated axée sur la qualité et la protection des données personnelles.",
+      "en": "A Lakehouse platform for e-commerce data, with a Curated layer focused on quality and personal-data protection."
+    },
+    "stack": ["Spark", "Delta Lake", "Apache Iceberg", "Airflow", "dbt", "PostgreSQL", "Great Expectations"],
+    "role": { "fr": "EDA, profilage et couche Curated", "en": "EDA, profiling, and Curated layer" },
+    "image": null,
+    "demo": null,
+    "code": null,
+    "captures": null,
+    "details": {
+      "context": {
+        "fr": "Projet de plateforme Lakehouse e-commerce.",
+        "en": "An e-commerce Lakehouse platform project."
+      },
+      "problem": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "solution": {
+        "fr": "Participation à l'exploration et au profilage des données, puis à la couche Curated : déduplication, mise en quarantaine et hachage salé des données personnelles.",
+        "en": "Contributed to data exploration and profiling, then to the Curated layer: deduplication, quarantine, and salted hashing of personal data."
+      },
+      "technicalChoices": {
+        "fr": "Spark, Delta Lake ou Iceberg, Airflow, dbt, PostgreSQL et Great Expectations sont les technologies du projet.",
+        "en": "Spark, Delta Lake or Iceberg, Airflow, dbt, PostgreSQL, and Great Expectations are the project's technologies."
+      },
+      "challenges": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "results": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "learnings": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      }
+    }
+  },
+  {
+    "id": "diagnostic-telecoms-togo",
+    "slug": "diagnostic-telecoms-togo",
+    "featured": true,
+    "categories": ["dataviz", "sig"],
+    "category": { "fr": "SIG et dataviz", "en": "GIS and data visualization" },
+    "title": { "fr": "Diagnostic télécoms du Togo", "en": "Telecoms diagnostic of Togo" },
+    "summary": {
+      "fr": "Dashboard Python et cartographie des opérateurs, infrastructures et zones blanches au Togo.",
+      "en": "A Python dashboard and map of operators, infrastructure, and coverage gaps in Togo."
+    },
+    "stack": ["Python", "Streamlit", "Dash", "SIG"],
+    "role": { "fr": "Analyse et visualisation de données territoriales", "en": "Territorial data analysis and visualization" },
+    "image": null,
+    "demo": null,
+    "code": null,
+    "captures": null,
+    "details": {
+      "context": {
+        "fr": "Diagnostic territorial des télécommunications au Togo.",
+        "en": "A territorial diagnostic of telecommunications in Togo."
+      },
+      "problem": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "solution": {
+        "fr": "Réalisation d'un dashboard Python et d'une cartographie des agences Moov, Togocom, Télécom et CANAL+, des data centers, des agents Mobile Money et des zones blanches.",
+        "en": "Created a Python dashboard and mapped Moov, Togocom, Télécom, and CANAL+ agencies, data centers, Mobile Money agents, and coverage gaps."
+      },
+      "technicalChoices": {
+        "fr": "Python, Streamlit et Dash pour le dashboard, avec des outils SIG pour la cartographie.",
+        "en": "Python, Streamlit, and Dash for the dashboard, with GIS tools for mapping."
+      },
+      "challenges": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "results": {
+        "fr": "Le projet comprend un rapport de 10 diapositives.",
+        "en": "The project includes a 10-slide report."
+      },
+      "learnings": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      }
+    }
+  },
+  {
+    "id": "fraude-mobile-money",
+    "slug": "fraude-mobile-money",
+    "featured": true,
+    "categories": ["data-science"],
+    "category": { "fr": "Data science", "en": "Data science" },
+    "title": { "fr": "Détection de fraude Mobile Money", "en": "Mobile Money fraud detection" },
+    "summary": {
+      "fr": "Exploration de relations entre opérations à l'aide de graphes et de méthodes de machine learning.",
+      "en": "Exploration of relationships between transactions using graphs and machine-learning methods."
+    },
+    "stack": ["NetworkX", "Force Atlas 2", "scikit-learn"],
+    "role": { "fr": "Analyse de graphes et modélisation", "en": "Graph analysis and modeling" },
+    "image": null,
+    "demo": null,
+    "code": null,
+    "captures": null,
+    "details": {
+      "context": {
+        "fr": "Projet de détection de fraude dans un contexte Mobile Money.",
+        "en": "A fraud-detection project in a Mobile Money context."
+      },
+      "problem": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "solution": {
+        "fr": "Utilisation de NetworkX et Force Atlas 2 pour l'analyse et la visualisation de graphes, avec scikit-learn pour le modèle.",
+        "en": "Used NetworkX and Force Atlas 2 for graph analysis and visualization, with scikit-learn for the model."
+      },
+      "technicalChoices": {
+        "fr": "NetworkX, Force Atlas 2 et scikit-learn.",
+        "en": "NetworkX, Force Atlas 2, and scikit-learn."
+      },
+      "challenges": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "results": {
+        "fr": "ROC-AUC d'environ 0,77.",
+        "en": "ROC-AUC of approximately 0.77."
+      },
+      "learnings": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      }
+    }
+  },
+  {
+    "id": "prix-immobiliers-lome",
+    "slug": "prix-immobiliers-lome",
+    "featured": false,
+    "categories": ["data-science", "development"],
+    "category": { "fr": "Data science et développement", "en": "Data science and development" },
+    "title": { "fr": "Prédiction des prix immobiliers à Lomé", "en": "Real-estate price prediction in Lomé" },
+    "summary": {
+      "fr": "Projet suivant CRISP-DM, avec un modèle XGBoost et une interface FastAPI et React.",
+      "en": "A CRISP-DM project with an XGBoost model and a FastAPI and React interface."
+    },
+    "stack": ["CRISP-DM", "XGBoost", "FastAPI", "React"],
+    "role": { "fr": "Conception du modèle et de l'application", "en": "Model and application development" },
+    "image": null,
+    "demo": null,
+    "code": null,
+    "captures": null,
+    "details": {
+      "context": {
+        "fr": "Projet de prédiction des prix immobiliers à Lomé.",
+        "en": "A project to predict real-estate prices in Lomé."
+      },
+      "problem": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "solution": {
+        "fr": "Démarche CRISP-DM, modèle XGBoost et application avec FastAPI et React.",
+        "en": "Used the CRISP-DM process, an XGBoost model, and an application built with FastAPI and React."
+      },
+      "technicalChoices": {
+        "fr": "CRISP-DM, XGBoost, FastAPI et React.",
+        "en": "CRISP-DM, XGBoost, FastAPI, and React."
+      },
+      "challenges": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "results": {
+        "fr": "R² de 0,924.",
+        "en": "R² of 0.924."
+      },
+      "learnings": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      }
+    }
+  },
+  {
+    "id": "quickdevis",
+    "slug": "quickdevis",
+    "featured": false,
+    "categories": ["development"],
+    "category": { "fr": "Développement", "en": "Development" },
+    "title": { "fr": "QuickDevis", "en": "QuickDevis" },
+    "summary": {
+      "fr": "Application mobile de création de devis et de factures.",
+      "en": "A mobile application for creating quotes and invoices."
+    },
+    "stack": ["React Native", "Expo", "SQLite"],
+    "role": { "fr": "Développement d'une application mobile", "en": "Mobile application development" },
+    "image": null,
+    "demo": null,
+    "code": null,
+    "captures": null,
+    "details": {
+      "context": {
+        "fr": "Application mobile de devis et factures.",
+        "en": "A mobile application for quotes and invoices."
+      },
+      "problem": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "solution": {
+        "fr": "Application développée avec React Native et Expo, utilisant SQLite.",
+        "en": "An application built with React Native and Expo, using SQLite."
+      },
+      "technicalChoices": {
+        "fr": "React Native, Expo et SQLite.",
+        "en": "React Native, Expo, and SQLite."
+      },
+      "challenges": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "results": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "learnings": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      }
+    }
+  },
+  {
+    "id": "edenshop",
+    "slug": "edenshop",
+    "featured": false,
+    "categories": ["dataviz"],
+    "category": { "fr": "Dataviz", "en": "Data visualization" },
+    "title": { "fr": "EdenShop", "en": "EdenShop" },
+    "summary": {
+      "fr": "Dashboard Looker Studio de cinq pages portant sur 8 000 transactions.",
+      "en": "A five-page Looker Studio dashboard covering 8,000 transactions."
+    },
+    "stack": ["Looker Studio"],
+    "role": { "fr": "Création d'un dashboard", "en": "Dashboard development" },
+    "image": null,
+    "demo": null,
+    "code": null,
+    "captures": null,
+    "details": {
+      "context": {
+        "fr": "Dashboard de visualisation des données d'EdenShop.",
+        "en": "A data visualization dashboard for EdenShop."
+      },
+      "problem": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "solution": {
+        "fr": "Création d'un dashboard Looker Studio de cinq pages.",
+        "en": "Created a five-page Looker Studio dashboard."
+      },
+      "technicalChoices": {
+        "fr": "Looker Studio.",
+        "en": "Looker Studio."
+      },
+      "challenges": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "results": {
+        "fr": "Le dashboard porte sur 8 000 transactions.",
+        "en": "The dashboard covers 8,000 transactions."
+      },
+      "learnings": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      }
+    }
+  },
+  {
+    "id": "exercices-corrections",
+    "slug": "exercices-et-corrections",
+    "featured": false,
+    "categories": ["development"],
+    "category": { "fr": "Développement", "en": "Development" },
+    "title": { "fr": "Exercices et corrections", "en": "Exercises and solutions" },
+    "summary": {
+      "fr": "Projet d'archivage de sujets et de corrections pour les étudiants du CBS.",
+      "en": "An archive of exam papers and solutions for CBS students."
+    },
+    "stack": [],
+    "role": { "fr": "Projet étudiant", "en": "Student project" },
+    "image": null,
+    "demo": null,
+    "code": null,
+    "captures": null,
+    "details": {
+      "context": {
+        "fr": "Projet étudiant réalisé d'août à novembre 2023 pour les étudiants du CBS.",
+        "en": "A student project completed from August to November 2023 for CBS students."
+      },
+      "problem": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "solution": {
+        "fr": "Archivage de sujets d'examen et de leurs corrections.",
+        "en": "Archived exam papers and their solutions."
+      },
+      "technicalChoices": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "challenges": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "results": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      },
+      "learnings": {
+        "fr": "[À COMPLÉTER PAR YANNICK]",
+        "en": "[À COMPLÉTER PAR YANNICK]"
+      }
+    }
+  }
+]

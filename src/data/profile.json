@@ -1,0 +1,118 @@
+{
+  "name": {
+    "fr": "Yannick Madjiadoum",
+    "en": "Yannick Madjiadoum"
+  },
+  "title": {
+    "fr": "Ingénieur informatique, data engineering et bases de données",
+    "en": "Computer engineer, data engineering and databases"
+  },
+  "location": {
+    "fr": "Lomé, Togo",
+    "en": "Lomé, Togo"
+  },
+  "origin": {
+    "fr": "Originaire du Tchad",
+    "en": "Originally from Chad"
+  },
+  "heroDescription": {
+    "fr": "Ingénieur informatique spécialisé en data engineering et bases de données.",
+    "en": "Computer engineer specializing in data engineering and databases."
+  },
+  "email": "yannickmadjiadoum@gmail.com",
+  "links": {
+    "linkedin": "https://linkedin.com/in/madjiadoumyannick",
+    "github": "https://github.com/yannick-maya"
+  },
+  "summary": {
+    "fr": "Ingénieur informatique en spécialisation Big Data, avec une expérience solide en gestion et optimisation de bases de données, en développement full-stack et en analyse de données appliquée aux systèmes d'information géographique. Je conçois des pipelines et des solutions data adaptées aux réalités locales, au service de projets à impact social et de transformation numérique en Afrique.",
+    "en": "Computer engineer specializing in Big Data, with solid experience in database management and optimization, full-stack development, and data analysis applied to geographic information systems. I design data pipelines and solutions suited to local contexts, supporting projects with social impact and digital transformation in Africa."
+  },
+  "languages": [
+    {
+      "name": { "fr": "Français", "en": "French" },
+      "level": { "fr": "Courant", "en": "Fluent" }
+    },
+    {
+      "name": { "fr": "Anglais", "en": "English" },
+      "level": { "fr": "A2", "en": "A2" }
+    },
+    {
+      "name": { "fr": "Arabe local", "en": "Local Arabic" },
+      "level": { "fr": "Niveau non précisé", "en": "Level not specified" }
+    }
+  ],
+  "availability": {
+    "fr": "[À COMPLÉTER PAR YANNICK]",
+    "en": "[À COMPLÉTER PAR YANNICK]"
+  },
+  "desiredPosition": {
+    "fr": "[À COMPLÉTER PAR YANNICK]",
+    "en": "[À COMPLÉTER PAR YANNICK]"
+  },
+  "mobility": {
+    "fr": "[À COMPLÉTER PAR YANNICK]",
+    "en": "[À COMPLÉTER PAR YANNICK]"
+  },
+  "interests": [
+    { "fr": "Musique", "en": "Music" },
+    { "fr": "Lecture", "en": "Reading" },
+    { "fr": "Voyage", "en": "Travel" }
+  ],
+  "expertise": [
+    {
+      "id": "data-engineering",
+      "title": { "fr": "Data engineering", "en": "Data engineering" },
+      "description": {
+        "fr": "Conception et préparation de pipelines de données, avec une attention portée à la qualité et à la protection des données personnelles.",
+        "en": "Design and preparation of data pipelines, with attention to data quality and personal-data protection."
+      }
+    },
+    {
+      "id": "databases",
+      "title": { "fr": "Bases de données", "en": "Databases" },
+      "description": {
+        "fr": "Gestion et optimisation de bases de données relationnelles et NoSQL.",
+        "en": "Management and optimization of relational and NoSQL databases."
+      }
+    },
+    {
+      "id": "development",
+      "title": { "fr": "Développement full-stack", "en": "Full-stack development" },
+      "description": {
+        "fr": "Développement d'interfaces et de modules applicatifs pour des besoins métier.",
+        "en": "Development of interfaces and application modules for business needs."
+      }
+    },
+    {
+      "id": "gis",
+      "title": { "fr": "Systèmes d'information géographique", "en": "Geographic information systems" },
+      "description": {
+        "fr": "Analyse et cartographie de données territoriales.",
+        "en": "Analysis and mapping of geographic data."
+      }
+    }
+  ],
+  "skills": [
+    {
+      "category": { "fr": "Big Data et flux", "en": "Big Data and streaming" },
+      "items": ["Kafka", "Spark Structured Streaming", "HDFS", "Airflow", "Docker"]
+    },
+    {
+      "category": { "fr": "Bases de données", "en": "Databases" },
+      "items": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "Access", "MapInfo"]
+    },
+    {
+      "category": { "fr": "Data et visualisation", "en": "Data and visualization" },
+      "items": ["Power BI", "Looker Studio", "Excel"]
+    },
+    {
+      "category": { "fr": "Développement", "en": "Development" },
+      "items": ["Python", "PHP", "Java", "JavaScript", "Node.js", "React", "Next.js", "Laravel", "Django", "Flutter", "Git"]
+    },
+    {
+      "category": { "fr": "Création et SIG", "en": "Design and GIS" },
+      "items": ["SIG", "Canva", "Photoshop"]
+    }
+  ]
+}

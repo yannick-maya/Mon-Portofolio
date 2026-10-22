@@ -1,0 +1,331 @@
+[
+  {
+    "id": "who-is-yannick",
+    "category": "profile",
+    "question": { "fr": "Qui est Yannick Madjiadoum ?", "en": "Who is Yannick Madjiadoum?" },
+    "answer": { "fr": "Yannick Madjiadoum est ingénieur informatique, en spécialisation Big Data, avec des expériences en data engineering, bases de données, développement full-stack et SIG.", "en": "Yannick Madjiadoum is a computer engineer specializing in Big Data, with experience in data engineering, databases, full-stack development, and GIS." },
+    "keywords": ["identité", "profil", "Yannick", "identity", "profile"]
+  },
+  {
+    "id": "where-is-yannick",
+    "category": "profile",
+    "question": { "fr": "Où se trouve Yannick ?", "en": "Where is Yannick based?" },
+    "answer": { "fr": "Il se trouve à Lomé, au Togo, et est originaire du Tchad.", "en": "He is based in Lomé, Togo, and is originally from Chad." },
+    "keywords": ["lieu", "Lomé", "Togo", "Tchad", "location"]
+  },
+  {
+    "id": "contact-email",
+    "category": "contact",
+    "question": { "fr": "Comment contacter Yannick ?", "en": "How can I contact Yannick?" },
+    "answer": { "fr": "Vous pouvez lui écrire à yannickmadjiadoum@gmail.com ou le contacter sur LinkedIn.", "en": "You can email him at yannickmadjiadoum@gmail.com or contact him on LinkedIn." },
+    "keywords": ["contact", "email", "courriel", "collaboration", "recrutement"]
+  },
+  {
+    "id": "linkedin",
+    "category": "contact",
+    "question": { "fr": "Quel est son LinkedIn ?", "en": "What is his LinkedIn profile?" },
+    "answer": { "fr": "Son profil LinkedIn est linkedin.com/in/madjiadoumyannick.", "en": "His LinkedIn profile is linkedin.com/in/madjiadoumyannick." },
+    "keywords": ["LinkedIn", "contact", "réseau"]
+  },
+  {
+    "id": "github",
+    "category": "contact",
+    "question": { "fr": "Quel est son GitHub ?", "en": "What is his GitHub profile?" },
+    "answer": { "fr": "Son profil GitHub est github.com/yannick-maya.", "en": "His GitHub profile is github.com/yannick-maya." },
+    "keywords": ["GitHub", "code", "dépôts"]
+  },
+  {
+    "id": "current-studies",
+    "category": "education",
+    "question": { "fr": "Que fait-il actuellement comme études ?", "en": "What is he currently studying?" },
+    "answer": { "fr": "Depuis 2025, il suit un Master 1 en Big Data et Ingénierie informatique à l'UCAO-UUT, à Lomé, avec une spécialité Ingénieur Big-Data.", "en": "Since 2025, he has been pursuing a master's year 1 in Big Data and Computer Engineering at UCAO-UUT in Lomé, specializing in Big Data Engineering." },
+    "keywords": ["études", "Master", "formation", "education"]
+  },
+  {
+    "id": "bachelor",
+    "category": "education",
+    "question": { "fr": "Quelle licence a-t-il obtenue ?", "en": "What bachelor's degree did he earn?" },
+    "answer": { "fr": "Il a obtenu une Licence en Génie Informatique au CEFOD Business School, à N'Djamena, de 2021 à 2024, avec la mention Assez bien.", "en": "He earned a bachelor's degree in Computer Engineering at CEFOD Business School in N'Djamena from 2021 to 2024, with a Good distinction." },
+    "keywords": ["licence", "bachelor", "CEFOD", "diplôme"]
+  },
+  {
+    "id": "bachelor-grade",
+    "category": "education",
+    "question": { "fr": "Quelle était sa moyenne de licence ?", "en": "What was his bachelor's grade?" },
+    "answer": { "fr": "Sa moyenne de troisième année était de 13,43. Ses moyennes de première et deuxième années étaient respectivement de 12,25 et 12,35.", "en": "His third-year grade was 13.43. His first- and second-year grades were 12.25 and 12.35, respectively." },
+    "keywords": ["moyenne", "notes", "grade", "licence"]
+  },
+  {
+    "id": "bts",
+    "category": "education",
+    "question": { "fr": "A-t-il un BTS ?", "en": "Does he have a higher technician certificate?" },
+    "answer": { "fr": "Oui. Il a obtenu un BTS en Informatique appliquée à la gestion auprès de l'ONECS Tchad lors de la session de novembre 2023.", "en": "Yes. He earned a Higher Technician Certificate in IT for Management from ONECS Chad in the November 2023 session." },
+    "keywords": ["BTS", "ONECS", "diplôme"]
+  },
+  {
+    "id": "baccalaureate",
+    "category": "education",
+    "question": { "fr": "Quel baccalauréat a-t-il obtenu ?", "en": "What baccalaureate did he earn?" },
+    "answer": { "fr": "Il a obtenu un baccalauréat série D en 2020, avec la mention Assez bien.", "en": "He earned a series D baccalaureate in 2020, with a Good distinction." },
+    "keywords": ["bac", "baccalauréat", "Doba"]
+  },
+  {
+    "id": "fale-tech-experience",
+    "category": "experience",
+    "question": { "fr": "Quelle expérience a-t-il chez Fale-Tech ?", "en": "What was his experience at Fale-Tech?" },
+    "answer": { "fr": "Il a été stagiaire IT chez Fale-Tech d'octobre 2024 à mars 2025. Ses activités comprenaient le développement full-stack, l'infogérance et l'administration système.", "en": "He was an IT intern at Fale-Tech from October 2024 to March 2025. His activities included full-stack development, IT services management, and systems administration." },
+    "keywords": ["Fale-Tech", "stage", "emploi", "expérience"]
+  },
+  {
+    "id": "pilc-experience",
+    "category": "experience",
+    "question": { "fr": "Qu'a-t-il fait au Public Interest Law Center ?", "en": "What did he do at the Public Interest Law Center?" },
+    "answer": { "fr": "Lors de son stage d'août à octobre 2024, il a travaillé sur les bases de données, un système de gestion des dossiers juridiques, une interface et des modules applicatifs.", "en": "During his internship from August to October 2024, he worked on databases, a legal case management system, an interface, and application modules." },
+    "keywords": ["PILC", "Public Interest Law Center", "stage", "juridique"]
+  },
+  {
+    "id": "independent-maintenance",
+    "category": "experience",
+    "question": { "fr": "A-t-il travaillé en indépendant ?", "en": "Has he worked independently?" },
+    "answer": { "fr": "Il réalise de la maintenance informatique indépendante depuis octobre 2023.", "en": "He has been providing independent IT maintenance since October 2023." },
+    "keywords": ["indépendant", "maintenance", "expérience"]
+  },
+  {
+    "id": "afrishop",
+    "category": "project",
+    "question": { "fr": "Qu'est-ce qu'AfriShop ?", "en": "What is AfriShop?" },
+    "answer": { "fr": "AfriShop est un projet de plateforme Lakehouse e-commerce. Yannick a participé à l'exploration et au profilage des données ainsi qu'à la couche Curated, notamment la déduplication, la quarantaine et le hachage salé de données personnelles.", "en": "AfriShop is an e-commerce Lakehouse platform project. Yannick contributed to data exploration and profiling, and to the Curated layer, including deduplication, quarantine, and salted hashing of personal data." },
+    "keywords": ["AfriShop", "Lakehouse", "projet", "e-commerce"]
+  },
+  {
+    "id": "afrishop-stack",
+    "category": "project",
+    "question": { "fr": "Quelles technologies sont utilisées dans AfriShop ?", "en": "Which technologies are used in AfriShop?" },
+    "answer": { "fr": "La stack mentionnée pour AfriShop comprend Spark, Delta Lake ou Iceberg, Airflow, dbt, PostgreSQL et Great Expectations.", "en": "The listed AfriShop stack includes Spark, Delta Lake or Iceberg, Airflow, dbt, PostgreSQL, and Great Expectations." },
+    "keywords": ["AfriShop", "Spark", "Delta", "Iceberg", "Airflow", "dbt"]
+  },
+  {
+    "id": "telecom-project",
+    "category": "project",
+    "question": { "fr": "En quoi consiste le diagnostic télécoms du Togo ?", "en": "What does the Togo telecoms diagnostic involve?" },
+    "answer": { "fr": "C'est un dashboard Python et une cartographie des agences de plusieurs opérateurs, des data centers, des agents Mobile Money et des zones blanches au Togo. Le projet comprend un rapport de 10 diapositives.", "en": "It is a Python dashboard and map of several operators' agencies, data centers, Mobile Money agents, and coverage gaps in Togo. The project includes a 10-slide report." },
+    "keywords": ["télécoms", "Togo", "SIG", "Streamlit", "zones blanches"]
+  },
+  {
+    "id": "fraud-project",
+    "category": "project",
+    "question": { "fr": "Comment fonctionne le projet de fraude Mobile Money ?", "en": "How does the Mobile Money fraud project work?" },
+    "answer": { "fr": "Le projet utilise l'analyse de graphes avec NetworkX et Force Atlas 2 ainsi que scikit-learn. Le ROC-AUC communiqué est d'environ 0,77.", "en": "The project uses graph analysis with NetworkX and Force Atlas 2, along with scikit-learn. The reported ROC-AUC is approximately 0.77." },
+    "keywords": ["fraude", "Mobile Money", "NetworkX", "ROC-AUC"]
+  },
+  {
+    "id": "real-estate-project",
+    "category": "project",
+    "question": { "fr": "Que sait-on du projet immobilier à Lomé ?", "en": "What is known about the real-estate project in Lomé?" },
+    "answer": { "fr": "Il s'agit d'un projet de prédiction des prix immobiliers suivant CRISP-DM, avec XGBoost, FastAPI et React. Le R² indiqué est de 0,924.", "en": "It is a real-estate price prediction project following CRISP-DM, using XGBoost, FastAPI, and React. The reported R² is 0.924." },
+    "keywords": ["immobilier", "Lomé", "XGBoost", "CRISP-DM", "R²"]
+  },
+  {
+    "id": "quickdevis-project",
+    "category": "project",
+    "question": { "fr": "Qu'est-ce que QuickDevis ?", "en": "What is QuickDevis?" },
+    "answer": { "fr": "QuickDevis est une application mobile de devis et de factures développée avec React Native, Expo et SQLite.", "en": "QuickDevis is a mobile app for quotes and invoices, built with React Native, Expo, and SQLite." },
+    "keywords": ["QuickDevis", "mobile", "React Native", "factures"]
+  },
+  {
+    "id": "edenshop-project",
+    "category": "project",
+    "question": { "fr": "Que présente EdenShop ?", "en": "What does EdenShop present?" },
+    "answer": { "fr": "EdenShop est un dashboard Looker Studio de cinq pages portant sur 8 000 transactions.", "en": "EdenShop is a five-page Looker Studio dashboard covering 8,000 transactions." },
+    "keywords": ["EdenShop", "Looker Studio", "dashboard", "transactions"]
+  },
+  {
+    "id": "exercises-project",
+    "category": "project",
+    "question": { "fr": "À quoi servait le projet Exercices et corrections ?", "en": "What was the Exercises and solutions project for?" },
+    "answer": { "fr": "Ce projet étudiant, réalisé d'août à novembre 2023, archivait des sujets d'examen et leurs corrections pour les étudiants du CBS.", "en": "This student project, completed from August to November 2023, archived exam papers and solutions for CBS students." },
+    "keywords": ["exercices", "corrections", "CBS", "archivage"]
+  },
+  {
+    "id": "programming-skills",
+    "category": "skills",
+    "question": { "fr": "Quels langages et frameworks de développement utilise-t-il ?", "en": "Which programming languages and frameworks does he use?" },
+    "answer": { "fr": "Les compétences listées comprennent Python, PHP, Java, JavaScript, Node.js, React, Next.js, Laravel, Django et Flutter.", "en": "Listed skills include Python, PHP, Java, JavaScript, Node.js, React, Next.js, Laravel, Django, and Flutter." },
+    "keywords": ["langages", "frameworks", "développement", "compétences"]
+  },
+  {
+    "id": "data-tools",
+    "category": "skills",
+    "question": { "fr": "Quels outils data connaît-il ?", "en": "Which data tools does he know?" },
+    "answer": { "fr": "Les outils cités comprennent Kafka, Spark Structured Streaming, HDFS, Airflow, Docker, Power BI, Looker Studio et Excel.", "en": "Tools mentioned include Kafka, Spark Structured Streaming, HDFS, Airflow, Docker, Power BI, Looker Studio, and Excel." },
+    "keywords": ["outils", "data", "Big Data", "visualisation"]
+  },
+  {
+    "id": "database-skills",
+    "category": "skills",
+    "question": { "fr": "Quelles bases de données sont citées dans son profil ?", "en": "Which databases are listed in his profile?" },
+    "answer": { "fr": "Son profil cite MySQL, PostgreSQL, MongoDB, SQLite et Access.", "en": "His profile lists MySQL, PostgreSQL, MongoDB, SQLite, and Access." },
+    "keywords": ["bases de données", "MySQL", "PostgreSQL", "MongoDB", "SQLite"]
+  },
+  {
+    "id": "gis-skills",
+    "category": "skills",
+    "question": { "fr": "Quelle expérience a-t-il en SIG ?", "en": "What GIS experience does he have?" },
+    "answer": { "fr": "Il a suivi une formation SIG et MapInfo Professional de cinq jours à N'Djamena en janvier 2024 et a travaillé sur un diagnostic cartographique des télécoms au Togo.", "en": "He completed five days of GIS and MapInfo Professional training in N'Djamena in January 2024 and worked on a telecoms mapping diagnostic in Togo." },
+    "keywords": ["SIG", "GIS", "MapInfo", "cartographie"]
+  },
+  {
+    "id": "languages",
+    "category": "profile",
+    "question": { "fr": "Quelles langues parle-t-il ?", "en": "Which languages does he speak?" },
+    "answer": { "fr": "Son profil indique le français courant, l'anglais de niveau A2 et l'arabe local, dont le niveau n'est pas précisé.", "en": "His profile lists fluent French, English at A2 level, and local Arabic, for which no level is specified." },
+    "keywords": ["langues", "français", "anglais", "arabe"]
+  },
+  {
+    "id": "thesis",
+    "category": "education",
+    "question": { "fr": "Quel était le sujet de son mémoire de licence ?", "en": "What was his bachelor's thesis about?" },
+    "answer": { "fr": "Son mémoire portait sur l'optimisation de la plateforme de gestion des préconseils, des restitutions de formations et des dossiers juridiques. Il a été soutenu le 11 octobre 2024 et noté 16,5/20, mention Très bien.", "en": "His thesis focused on optimizing a platform for pre-counselling, training reports, and legal files. It was defended on October 11, 2024, and received 16.5/20, Very Good distinction." },
+    "keywords": ["mémoire", "thèse", "plateforme", "préconseils"]
+  },
+  {
+    "id": "gis-training",
+    "category": "education",
+    "question": { "fr": "Quand a-t-il suivi sa formation MapInfo ?", "en": "When did he complete his MapInfo training?" },
+    "answer": { "fr": "Il a suivi une formation SIG et MapInfo Professional du 2 au 6 janvier 2024 à N'Djamena.", "en": "He completed GIS and MapInfo Professional training from January 2 to 6, 2024, in N'Djamena." },
+    "keywords": ["formation", "MapInfo", "date", "SIG"]
+  },
+  {
+    "id": "sametis-training",
+    "category": "education",
+    "question": { "fr": "Qu'a-t-il étudié avec SAMETIS ?", "en": "What did he study with SAMETIS?" },
+    "answer": { "fr": "En septembre 2023, il a suivi une formation en blogging, community management et business plan.", "en": "In September 2023, he completed training in blogging, community management, and business planning." },
+    "keywords": ["SAMETIS", "formation", "blogging"]
+  },
+  {
+    "id": "interests",
+    "category": "profile",
+    "question": { "fr": "Quels sont ses centres d'intérêt ?", "en": "What are his interests?" },
+    "answer": { "fr": "Ses centres d'intérêt sont la musique, la lecture et le voyage.", "en": "His interests are music, reading, and travel." },
+    "keywords": ["intérêts", "loisirs", "musique", "lecture"]
+  },
+  {
+    "id": "availability",
+    "category": "profile",
+    "question": { "fr": "Est-il disponible pour un poste ?", "en": "Is he available for a role?" },
+    "answer": { "fr": "Cette information n'a pas encore été précisée. Vous pouvez lui demander directement à yannickmadjiadoum@gmail.com.", "en": "This information has not been provided yet. You can ask him directly at yannickmadjiadoum@gmail.com." },
+    "keywords": ["disponibilité", "disponible", "availability", "poste"]
+  },
+  {
+    "id": "desired-role",
+    "category": "profile",
+    "question": { "fr": "Quel type de poste recherche-t-il ?", "en": "What kind of role is he looking for?" },
+    "answer": { "fr": "Le type de poste recherché n'est pas précisé dans les informations disponibles. Contactez-le pour lui poser la question.", "en": "The type of role he is looking for is not specified in the available information. Contact him to ask." },
+    "keywords": ["poste recherché", "emploi", "job", "recherche"]
+  },
+  {
+    "id": "mobility",
+    "category": "profile",
+    "question": { "fr": "Est-il mobile à l'international ?", "en": "Is he open to international relocation?" },
+    "answer": { "fr": "Ses préférences de mobilité ne sont pas précisées. Le mieux est de lui demander directement.", "en": "His mobility preferences are not specified. It is best to ask him directly." },
+    "keywords": ["mobilité", "déménagement", "international"]
+  },
+  {
+    "id": "cv",
+    "category": "site",
+    "question": { "fr": "Où trouver son CV ?", "en": "Where can I find his résumé?" },
+    "answer": { "fr": "Le portfolio prévoit une page CV en français et en anglais. Les fichiers PDF restent à ajouter.", "en": "The portfolio is planned to include a résumé page in French and English. The PDF files still need to be added." },
+    "keywords": ["CV", "résumé", "télécharger"]
+  },
+  {
+    "id": "portfolio-projects",
+    "category": "site",
+    "question": { "fr": "Quels projets sont présentés dans le portfolio ?", "en": "Which projects are featured in the portfolio?" },
+    "answer": { "fr": "Le portfolio présente AfriShop, le diagnostic télécoms du Togo, la détection de fraude Mobile Money, la prédiction de prix immobiliers à Lomé, QuickDevis, EdenShop et Exercices et corrections.", "en": "The portfolio features AfriShop, the Togo telecoms diagnostic, Mobile Money fraud detection, real-estate price prediction in Lomé, QuickDevis, EdenShop, and Exercises and solutions." },
+    "keywords": ["projets", "portfolio", "réalisations"]
+  },
+  {
+    "id": "certificate-ethics",
+    "category": "education",
+    "question": { "fr": "A-t-il suivi une formation en éthique de l'IA ?", "en": "Has he completed training in AI ethics?" },
+    "answer": { "fr": "Oui. Il a suivi le Global MOOC on the Ethics of AI de l'UNESCO et de LG AI Research via Coursera, daté du 8 août 2026.", "en": "Yes. He completed the Global MOOC on the Ethics of AI from UNESCO and LG AI Research via Coursera, dated August 8, 2026." },
+    "keywords": ["éthique", "IA", "UNESCO", "certificat"]
+  },
+  {
+    "id": "data-tour",
+    "category": "education",
+    "question": { "fr": "À quelle compétition data a-t-il participé ?", "en": "Which data competition did he participate in?" },
+    "answer": { "fr": "Il a participé à la phase nationale du CANSD Data Tour 2026 avec l'équipe Dersax Scan du Tchad, organisée par Data Afrique Hub.", "en": "He participated in the national phase of the 2026 CANSD Data Tour with Chad's Dersax Scan team, organized by Data Afrique Hub." },
+    "keywords": ["CANSD", "Data Tour", "compétition", "Dersax Scan"]
+  },
+  {
+    "id": "digital-marketing",
+    "category": "education",
+    "question": { "fr": "A-t-il un certificat en marketing numérique ?", "en": "Does he have a digital marketing certificate?" },
+    "answer": { "fr": "Les informations fournies mentionnent une formation D-CLIC de 100 heures par l'Organisation internationale de la Francophonie, de juillet à septembre 2026.", "en": "The provided information lists a 100-hour D-CLIC course by the International Organisation of La Francophonie, from July to September 2026." },
+    "keywords": ["marketing numérique", "D-CLIC", "OIF"]
+  },
+  {
+    "id": "mobile-money",
+    "category": "knowledge",
+    "question": { "fr": "Qu'est-ce que Mobile Money ?", "en": "What is Mobile Money?" },
+    "answer": { "fr": "Mobile Money désigne des services permettant d'effectuer certaines opérations financières avec un compte associé à un téléphone mobile. Le portfolio de Yannick comprend un projet d'analyse de fraude dans ce contexte.", "en": "Mobile Money refers to services that let users perform certain financial transactions through an account linked to a mobile phone. Yannick's portfolio includes a fraud-analysis project in this context." },
+    "keywords": ["Mobile Money", "paiement", "téléphone"]
+  },
+  {
+    "id": "roc-auc",
+    "category": "knowledge",
+    "question": { "fr": "Que mesure le ROC-AUC ?", "en": "What does ROC-AUC measure?" },
+    "answer": { "fr": "Le ROC-AUC résume la capacité d'un modèle de classification à classer les exemples positifs au-dessus des négatifs à différents seuils. Une valeur proche de 1 indique généralement une meilleure séparation, mais le contexte et les données comptent.", "en": "ROC-AUC summarizes how well a classifier ranks positive examples above negative ones across thresholds. A value closer to 1 generally indicates better separation, but the data and context matter." },
+    "keywords": ["ROC-AUC", "classification", "métrique"]
+  },
+  {
+    "id": "lakehouse",
+    "category": "knowledge",
+    "question": { "fr": "Qu'est-ce qu'un Lakehouse ?", "en": "What is a Lakehouse?" },
+    "answer": { "fr": "Un Lakehouse combine le stockage flexible d'un data lake avec certaines fonctions de gestion et de fiabilité associées aux entrepôts de données. AfriShop est présenté comme un projet de plateforme Lakehouse e-commerce.", "en": "A Lakehouse combines the flexible storage of a data lake with some data-warehouse management and reliability features. AfriShop is presented as an e-commerce Lakehouse platform project." },
+    "keywords": ["Lakehouse", "data lake", "entrepôt"]
+  },
+  {
+    "id": "follow-up",
+    "category": "conversation",
+    "question": { "fr": "Et celui-là, quelles technologies utilise-t-il ?", "en": "And that one, which technologies does it use?" },
+    "answer": { "fr": "La réponse dépend du projet auquel vous faites référence. Précisez son nom, par exemple AfriShop, QuickDevis ou EdenShop.", "en": "The answer depends on which project you mean. Please name it, for example AfriShop, QuickDevis, or EdenShop." },
+    "keywords": ["suivi", "celui-là", "technologies"]
+  },
+  {
+    "id": "beginner-explanation",
+    "category": "knowledge",
+    "question": { "fr": "Peux-tu expliquer comme à un débutant ?", "en": "Can you explain it for a beginner?" },
+    "answer": { "fr": "Bien sûr. Je peux reprendre l'explication avec des mots simples, une analogie et un exemple concret.", "en": "Of course. I can explain it again using simple language, an analogy, and a concrete example." },
+    "keywords": ["débutant", "simple", "vulgariser"]
+  },
+  {
+    "id": "greeting",
+    "category": "conversation",
+    "question": { "fr": "Bonjour !", "en": "Hello!" },
+    "answer": { "fr": "Bonjour ! Je suis l'assistant IA du portfolio de Yannick. Que souhaitez-vous découvrir ?", "en": "Hello! I am the AI assistant for Yannick's portfolio. What would you like to explore?" },
+    "keywords": ["bonjour", "salut", "hello", "greeting"]
+  },
+  {
+    "id": "goodbye",
+    "category": "conversation",
+    "question": { "fr": "Au revoir", "en": "Goodbye" },
+    "answer": { "fr": "Au revoir et merci pour votre visite !", "en": "Goodbye, and thank you for visiting!" },
+    "keywords": ["au revoir", "à bientôt", "goodbye", "bye"]
+  },
+  {
+    "id": "assistant-identity",
+    "category": "conversation",
+    "question": { "fr": "Qui es-tu ?", "en": "Who are you?" },
+    "answer": { "fr": "Je suis l'assistant IA du portfolio de Yannick, pas Yannick lui-même.", "en": "I am the AI assistant for Yannick's portfolio, not Yannick himself." },
+    "keywords": ["assistant", "identité", "qui es-tu"]
+  },
+  {
+    "id": "out-of-scope",
+    "category": "conversation",
+    "question": { "fr": "Peux-tu donner un conseil médical ?", "en": "Can you give me medical advice?" },
+    "answer": { "fr": "Je ne peux pas aider sur ce sujet ; je peux en revanche vous renseigner sur le parcours et les projets présentés dans ce portfolio.", "en": "I cannot help with that topic, but I can tell you about the background and projects featured in this portfolio." },
+    "keywords": ["hors sujet", "médical", "juridique", "politique", "religion"]
+  }
+]

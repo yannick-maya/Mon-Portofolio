@@ -1,9 +1,12 @@
 import { ButtonLink } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Tag } from "@/components/ui/tag";
-import { getTranslations } from "next-intl/server";
+import profile from "@/data/profile.json";
+import { getLocale, getTranslations } from "next-intl/server";
 
 export default async function Home() {
+  const locale = await getLocale();
+  const language = locale === "en" ? "en" : "fr";
   const t = await getTranslations("home");
 
   return (
@@ -12,12 +15,14 @@ export default async function Home() {
         <section className="landing__copy" aria-labelledby="home-title">
           <Tag>{t("status")}</Tag>
           <h1 className="landing__title" id="home-title">
-            Yannick
-            <br />
-            <span>Madjiadoum</span>
+            <span>{profile.name[language]}</span>
           </h1>
-          <p className="landing__description">{t("description")}</p>
-          <p className="eyebrow">{t("location")}</p>
+          <p className="landing__description">
+            {profile.heroDescription[language]}
+          </p>
+          <p className="eyebrow">
+            {profile.location[language]} · {profile.origin[language]}
+          </p>
           <div className="landing__actions">
             <ButtonLink href="mailto:yannickmadjiadoum@gmail.com">
               {t("contact")}

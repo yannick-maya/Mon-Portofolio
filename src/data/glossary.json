@@ -1,0 +1,5124 @@
+[
+  {
+    "id": "data-pipeline",
+    "terme": {
+      "fr": "pipeline de données",
+      "en": "data pipeline"
+    },
+    "alias": {
+      "fr": [
+        "data pipeline"
+      ],
+      "en": [
+        "pipeline de données"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Suite d'étapes qui collecte, transforme et déplace des données.",
+      "en": "A sequence of steps that collects, transforms, and moves data."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "etl",
+      "elt",
+      "orchestration"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "etl",
+    "terme": {
+      "fr": "ETL",
+      "en": "ETL"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Approche qui extrait les données, les transforme, puis les charge dans la cible.",
+      "en": "An approach that extracts data, transforms it, and then loads it into a destination."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "elt",
+      "orchestration"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "elt",
+    "terme": {
+      "fr": "ELT",
+      "en": "ELT"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Approche qui charge les données avant de les transformer dans la plateforme cible.",
+      "en": "An approach that loads data before transforming it in the target platform."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "orchestration"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "orchestration",
+    "terme": {
+      "fr": "orchestration",
+      "en": "orchestration"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Coordination et planification de tâches de traitement liées entre elles.",
+      "en": "Coordination and scheduling of related processing tasks."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "airflow",
+    "terme": {
+      "fr": "Airflow",
+      "en": "Airflow"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Apache Airflow est un outil open source pour définir, planifier et suivre des workflows.",
+      "en": "Apache Airflow is an open-source tool for defining, scheduling, and monitoring workflows."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [
+      "afrishop"
+    ],
+    "relu": false
+  },
+  {
+    "id": "dag",
+    "terme": {
+      "fr": "DAG",
+      "en": "DAG"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Graphe orienté sans cycle qui représente des tâches et leurs dépendances.",
+      "en": "A directed acyclic graph representing tasks and their dependencies."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "dbt",
+    "terme": {
+      "fr": "dbt",
+      "en": "dbt"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Outil de transformation de données dans l'entrepôt, utilisant principalement SQL et des modèles.",
+      "en": "A data transformation tool for the warehouse, primarily using SQL and models."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [
+      "afrishop"
+    ],
+    "relu": false
+  },
+  {
+    "id": "lakehouse",
+    "terme": {
+      "fr": "Lakehouse",
+      "en": "Lakehouse"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Architecture qui associe stockage de type data lake et fonctions de gestion des données analytiques.",
+      "en": "An architecture combining data-lake-style storage with data-management features for analytics."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [
+      "afrishop"
+    ],
+    "relu": false
+  },
+  {
+    "id": "data-lake",
+    "terme": {
+      "fr": "Data Lake",
+      "en": "Data Lake"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Référentiel qui stocke de grandes quantités de données dans des formats variés.",
+      "en": "A repository that stores large amounts of data in varied formats."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "data-warehouse",
+    "terme": {
+      "fr": "Data Warehouse",
+      "en": "Data Warehouse"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Système de données structurées conçu pour l'analyse et le reporting.",
+      "en": "A structured data system designed for analytics and reporting."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "delta-lake",
+    "terme": {
+      "fr": "Delta Lake",
+      "en": "Delta Lake"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Couche de stockage ouverte qui ajoute des transactions et des fonctions de gestion aux fichiers de données.",
+      "en": "An open storage layer that adds transactions and data-management features to data files."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [
+      "afrishop"
+    ],
+    "relu": false
+  },
+  {
+    "id": "iceberg",
+    "terme": {
+      "fr": "Iceberg",
+      "en": "Iceberg"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Format de table ouvert pour gérer de grandes tables analytiques sur des fichiers.",
+      "en": "An open table format for managing large analytic tables over files."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [
+      "afrishop"
+    ],
+    "relu": false
+  },
+  {
+    "id": "parquet",
+    "terme": {
+      "fr": "Parquet",
+      "en": "Parquet"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Format de fichier colonnaire ouvert, conçu pour le stockage et le traitement de données.",
+      "en": "An open columnar file format designed for data storage and processing."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "schema",
+    "terme": {
+      "fr": "schéma",
+      "en": "schema"
+    },
+    "alias": {
+      "fr": [
+        "schema"
+      ],
+      "en": [
+        "schéma"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Description de la structure, des champs et des types d'un ensemble de données.",
+      "en": "A description of the structure, fields, and types of a dataset."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "partitioning",
+    "terme": {
+      "fr": "partitionnement",
+      "en": "partitioning"
+    },
+    "alias": {
+      "fr": [
+        "partitioning"
+      ],
+      "en": [
+        "partitionnement"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Organisation des données en parties selon une ou plusieurs valeurs, souvent pour faciliter les lectures.",
+      "en": "Organization of data into parts by one or more values, often to improve reads."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "ingestion",
+    "terme": {
+      "fr": "ingestion",
+      "en": "ingestion"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Importation de données depuis une ou plusieurs sources vers un système de traitement.",
+      "en": "Importing data from one or more sources into a processing system."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "raw-layer",
+    "terme": {
+      "fr": "couche Raw",
+      "en": "Raw layer"
+    },
+    "alias": {
+      "fr": [
+        "Raw layer"
+      ],
+      "en": [
+        "couche Raw"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Zone qui conserve les données reçues avant les transformations analytiques.",
+      "en": "A zone that retains received data before analytical transformations."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "curated-layer",
+    "terme": {
+      "fr": "couche Curated",
+      "en": "Curated layer"
+    },
+    "alias": {
+      "fr": [
+        "Curated layer"
+      ],
+      "en": [
+        "couche Curated"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Zone de données préparées, contrôlées et organisées pour des usages définis.",
+      "en": "A zone of data prepared, checked, and organized for defined uses."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "deduplication",
+    "terme": {
+      "fr": "déduplication",
+      "en": "deduplication"
+    },
+    "alias": {
+      "fr": [
+        "deduplication"
+      ],
+      "en": [
+        "déduplication"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Repérage et traitement d'enregistrements considérés comme des doublons.",
+      "en": "Identification and handling of records considered duplicates."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "data-quarantine",
+    "terme": {
+      "fr": "quarantaine de données",
+      "en": "data quarantine"
+    },
+    "alias": {
+      "fr": [
+        "data quarantine"
+      ],
+      "en": [
+        "quarantaine de données"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Mise à l'écart de données qui échouent à des contrôles, en attendant leur examen ou traitement.",
+      "en": "Isolation of data that fails checks pending review or handling."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "salted-hash",
+    "terme": {
+      "fr": "hachage salé",
+      "en": "salted hash"
+    },
+    "alias": {
+      "fr": [
+        "salted hash"
+      ],
+      "en": [
+        "hachage salé"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Empreinte calculée après ajout d'un secret ou d'une valeur aléatoire appelée sel; ce procédé ne chiffre pas la donnée.",
+      "en": "A digest computed after adding a secret or random value called a salt; it does not encrypt the data."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "pseudonymization",
+    "terme": {
+      "fr": "pseudonymisation",
+      "en": "pseudonymization"
+    },
+    "alias": {
+      "fr": [
+        "pseudonymization"
+      ],
+      "en": [
+        "pseudonymisation"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Remplacement d'identifiants directs par des valeurs substitutives, avec possibilité de réassociation séparée.",
+      "en": "Replacing direct identifiers with substitutes while keeping re-association possible separately."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "great-expectations",
+    "terme": {
+      "fr": "Great Expectations",
+      "en": "Great Expectations"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Outil open source qui aide à définir et vérifier des attentes sur les données.",
+      "en": "An open-source tool that helps define and validate expectations about data."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [
+      "afrishop"
+    ],
+    "relu": false
+  },
+  {
+    "id": "data-quality",
+    "terme": {
+      "fr": "qualité des données",
+      "en": "data quality"
+    },
+    "alias": {
+      "fr": [
+        "data quality"
+      ],
+      "en": [
+        "qualité des données"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Adéquation des données à un usage selon des critères comme validité, cohérence et complétude.",
+      "en": "Fitness of data for a purpose using criteria such as validity, consistency, and completeness."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "lineage",
+    "terme": {
+      "fr": "lineage",
+      "en": "data lineage"
+    },
+    "alias": {
+      "fr": [
+        "data lineage"
+      ],
+      "en": [
+        "lineage"
+      ]
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Historique des origines, transformations et destinations d'une donnée.",
+      "en": "The record of a data item's origins, transformations, and destinations."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "idempotence",
+    "terme": {
+      "fr": "idempotence",
+      "en": "idempotence"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Propriété d'une opération qui produit le même état si elle est répétée dans les mêmes conditions.",
+      "en": "Property of an operation that produces the same state when repeated under the same conditions."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "batch",
+    "terme": {
+      "fr": "batch",
+      "en": "batch"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Ensemble de données traité comme un groupe plutôt qu'événement par événement.",
+      "en": "A set of data processed as a group rather than event by event."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "cdc",
+    "terme": {
+      "fr": "CDC",
+      "en": "CDC"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data engineering",
+      "en": "Data engineering"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Capture des changements de données pour transmettre les insertions, mises à jour ou suppressions.",
+      "en": "Change data capture, which propagates inserts, updates, or deletes."
+    },
+    "analogie": {
+      "fr": "Comme une étape organisée dans le trajet d'un colis.",
+      "en": "Like an organized step in a parcel's journey."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe prépare des données avant de les analyser.",
+      "en": "Generic example: a team prepares data before analyzing it."
+    },
+    "termesLies": [
+      "data-pipeline",
+      "etl",
+      "elt"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "big-data",
+    "terme": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Données dont le volume, la vitesse ou la diversité posent des défis aux outils et méthodes classiques.",
+      "en": "Data whose volume, velocity, or variety challenges conventional tools and methods."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "spark",
+      "structured-streaming",
+      "kafka"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "spark",
+    "terme": {
+      "fr": "Spark",
+      "en": "Spark"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Apache Spark est un moteur distribué pour le traitement de données à grande échelle.",
+      "en": "Apache Spark is a distributed engine for large-scale data processing."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "structured-streaming",
+      "kafka"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "structured-streaming",
+    "terme": {
+      "fr": "Structured Streaming",
+      "en": "Structured Streaming"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Moteur de traitement de flux de Spark qui exprime les calculs continus sous forme de requêtes structurées.",
+      "en": "Spark's stream-processing engine, which expresses continuous computations as structured queries."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "kafka"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "kafka",
+    "terme": {
+      "fr": "Kafka",
+      "en": "Kafka"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Apache Kafka est une plateforme distribuée pour publier, stocker et lire des flux d'événements.",
+      "en": "Apache Kafka is a distributed platform for publishing, storing, and reading event streams."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [
+      "afrishop"
+    ],
+    "relu": false
+  },
+  {
+    "id": "topic",
+    "terme": {
+      "fr": "topic",
+      "en": "topic"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Catégorie nommée dans Kafka à laquelle les producteurs écrivent et dont les consommateurs lisent les événements.",
+      "en": "A named Kafka category to which producers write and from which consumers read events."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "producer",
+    "terme": {
+      "fr": "producteur",
+      "en": "producer"
+    },
+    "alias": {
+      "fr": [
+        "producer"
+      ],
+      "en": [
+        "producteur"
+      ]
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Application ou service qui publie des événements dans un système de messagerie comme Kafka.",
+      "en": "An application or service that publishes events to a messaging system such as Kafka."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "consumer",
+    "terme": {
+      "fr": "consommateur",
+      "en": "consumer"
+    },
+    "alias": {
+      "fr": [
+        "consumer"
+      ],
+      "en": [
+        "consommateur"
+      ]
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Application ou service qui lit et traite des événements publiés dans un système de messagerie.",
+      "en": "An application or service that reads and processes events from a messaging system."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "hdfs",
+    "terme": {
+      "fr": "HDFS",
+      "en": "HDFS"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Système de fichiers distribué de Hadoop, conçu pour répartir le stockage sur plusieurs machines.",
+      "en": "Hadoop's distributed file system, designed to spread storage across machines."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "hadoop",
+    "terme": {
+      "fr": "Hadoop",
+      "en": "Hadoop"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Écosystème logiciel open source pour le stockage et le traitement distribués de données.",
+      "en": "An open-source software ecosystem for distributed data storage and processing."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "cluster",
+    "terme": {
+      "fr": "cluster",
+      "en": "cluster"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Ensemble de machines coordonnées qui travaillent comme un système pour exécuter des tâches.",
+      "en": "A group of coordinated machines that work as a system to run tasks."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "scalability",
+    "terme": {
+      "fr": "scalabilité",
+      "en": "scalability"
+    },
+    "alias": {
+      "fr": [
+        "scalability"
+      ],
+      "en": [
+        "scalabilité"
+      ]
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Capacité d'un système à gérer une charge croissante en adaptant ses ressources ou son architecture.",
+      "en": "A system's ability to handle increasing workload by adjusting resources or architecture."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "mapreduce",
+    "terme": {
+      "fr": "MapReduce",
+      "en": "MapReduce"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Modèle distribué qui répartit un calcul en tâches de transformation (map) puis d'agrégation (reduce).",
+      "en": "A distributed model that splits computation into mapping tasks and reduction or aggregation."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "docker",
+    "terme": {
+      "fr": "Docker",
+      "en": "Docker"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Plateforme permettant de construire, distribuer et exécuter des applications dans des conteneurs.",
+      "en": "A platform for building, distributing, and running applications in containers."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "container",
+    "terme": {
+      "fr": "conteneur",
+      "en": "container"
+    },
+    "alias": {
+      "fr": [
+        "container"
+      ],
+      "en": [
+        "conteneur"
+      ]
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Unité logicielle qui regroupe une application et ses dépendances dans un environnement isolé.",
+      "en": "A software unit bundling an application and its dependencies in an isolated environment."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "superset",
+    "terme": {
+      "fr": "Superset",
+      "en": "Superset"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Apache Superset est une plateforme open source d'exploration et de visualisation de données.",
+      "en": "Apache Superset is an open-source platform for data exploration and visualization."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "grafana",
+    "terme": {
+      "fr": "Grafana",
+      "en": "Grafana"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Big Data",
+      "en": "Big Data"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Plateforme d'observabilité pour interroger et visualiser des métriques et autres données.",
+      "en": "An observability platform for querying and visualizing metrics and other data."
+    },
+    "analogie": {
+      "fr": "Comme organiser une équipe nombreuse où chaque personne traite une partie du travail.",
+      "en": "Like organizing a large team where each person handles part of the work."
+    },
+    "exemple": {
+      "fr": "Exemple générique : plusieurs services échangent des événements pendant qu'un système les traite.",
+      "en": "Generic example: several services exchange events while a system processes them."
+    },
+    "termesLies": [
+      "big-data",
+      "spark",
+      "structured-streaming"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "eda",
+    "terme": {
+      "fr": "EDA",
+      "en": "EDA"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Analyse exploratoire des données : premières vérifications et visualisations pour comprendre un jeu de données.",
+      "en": "Exploratory data analysis: initial checks and visualizations used to understand a dataset."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "profiling",
+      "crisp-dm",
+      "feature"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "profiling",
+    "terme": {
+      "fr": "profilage",
+      "en": "profiling"
+    },
+    "alias": {
+      "fr": [
+        "profiling"
+      ],
+      "en": [
+        "profilage"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Résumé statistique et structurel d'un jeu de données pour repérer ses caractéristiques et anomalies.",
+      "en": "A statistical and structural summary of a dataset to identify characteristics and anomalies."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "crisp-dm",
+      "feature"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "crisp-dm",
+    "terme": {
+      "fr": "CRISP-DM",
+      "en": "CRISP-DM"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Méthodologie de projet data mining décrivant des phases comme compréhension métier, données, modélisation et évaluation.",
+      "en": "A data-mining project methodology with phases such as business understanding, data, modeling, and evaluation."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "feature"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "feature",
+    "terme": {
+      "fr": "feature",
+      "en": "feature"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Variable ou attribut utilisé par un modèle pour produire une prédiction.",
+      "en": "A variable or attribute used by a model to make a prediction."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "classification",
+    "terme": {
+      "fr": "classification",
+      "en": "classification"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Tâche qui attribue une observation à une catégorie parmi un ensemble défini.",
+      "en": "A task that assigns an observation to one of a set of defined categories."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "regression",
+    "terme": {
+      "fr": "régression",
+      "en": "regression"
+    },
+    "alias": {
+      "fr": [
+        "regression"
+      ],
+      "en": [
+        "régression"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Tâche qui estime une valeur numérique à partir de variables d'entrée.",
+      "en": "A task that estimates a numeric value from input variables."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "clustering",
+    "terme": {
+      "fr": "clustering",
+      "en": "clustering"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Regroupement d'observations selon leurs similarités, sans étiquettes de groupe préalables.",
+      "en": "Grouping observations by similarity without pre-existing group labels."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "decision-tree",
+    "terme": {
+      "fr": "arbre de décision",
+      "en": "decision tree"
+    },
+    "alias": {
+      "fr": [
+        "decision tree"
+      ],
+      "en": [
+        "arbre de décision"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Modèle qui divise les données par une suite de règles pour produire une décision ou prédiction.",
+      "en": "A model that splits data using a sequence of rules to produce a decision or prediction."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "id3",
+    "terme": {
+      "fr": "ID3",
+      "en": "ID3"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Algorithme d'arbre de décision qui sélectionne les divisions notamment à partir du gain d'information.",
+      "en": "A decision-tree algorithm that selects splits using measures such as information gain."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "cart",
+    "terme": {
+      "fr": "CART",
+      "en": "CART"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Famille d'arbres de décision produisant des arbres de classification ou de régression binaires.",
+      "en": "A family of decision-tree methods that builds binary classification or regression trees."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "svm",
+    "terme": {
+      "fr": "SVM",
+      "en": "SVM"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Méthode d'apprentissage supervisé qui cherche une frontière séparant des classes, éventuellement dans un espace transformé.",
+      "en": "A supervised-learning method that seeks a boundary separating classes, possibly in a transformed space."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "neural-network",
+    "terme": {
+      "fr": "réseau de neurones",
+      "en": "neural network"
+    },
+    "alias": {
+      "fr": [
+        "neural network"
+      ],
+      "en": [
+        "réseau de neurones"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Modèle composé de couches de fonctions paramétrées, ajustées à partir de données.",
+      "en": "A model made of layers of parameterized functions fitted from data."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "cnn",
+    "terme": {
+      "fr": "CNN",
+      "en": "CNN"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Réseau de neurones convolutionnel, souvent utilisé pour traiter des données à structure spatiale comme des images.",
+      "en": "A convolutional neural network, often used for spatially structured data such as images."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "xgboost",
+    "terme": {
+      "fr": "XGBoost",
+      "en": "XGBoost"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Bibliothèque d'apprentissage par gradient boosting, notamment utilisée avec des arbres de décision.",
+      "en": "A gradient-boosting library, commonly used with decision trees."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [
+      "prix-immobiliers-lome"
+    ],
+    "relu": false
+  },
+  {
+    "id": "overfitting",
+    "terme": {
+      "fr": "surapprentissage",
+      "en": "overfitting"
+    },
+    "alias": {
+      "fr": [
+        "overfitting"
+      ],
+      "en": [
+        "surapprentissage"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Situation où un modèle s'ajuste trop aux données d'entraînement et généralise mal à de nouvelles données.",
+      "en": "A situation where a model fits training data too closely and generalizes poorly to new data."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "cross-validation",
+    "terme": {
+      "fr": "validation croisée",
+      "en": "cross-validation"
+    },
+    "alias": {
+      "fr": [
+        "cross-validation"
+      ],
+      "en": [
+        "validation croisée"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Méthode qui répète l'entraînement et l'évaluation sur différentes partitions des données.",
+      "en": "A method that repeats training and evaluation on different data partitions."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "roc-auc",
+    "terme": {
+      "fr": "ROC-AUC",
+      "en": "ROC-AUC"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Aire sous la courbe ROC, qui résume le classement positif/négatif d'un classifieur selon différents seuils.",
+      "en": "Area under the ROC curve, summarizing a classifier's positive-versus-negative ranking across thresholds."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [
+      "fraude-mobile-money"
+    ],
+    "relu": false
+  },
+  {
+    "id": "precision",
+    "terme": {
+      "fr": "précision",
+      "en": "precision"
+    },
+    "alias": {
+      "fr": [
+        "precision"
+      ],
+      "en": [
+        "précision"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Part des prédictions positives qui sont réellement positives.",
+      "en": "The proportion of positive predictions that are actually positive."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "recall",
+    "terme": {
+      "fr": "rappel",
+      "en": "recall"
+    },
+    "alias": {
+      "fr": [
+        "recall"
+      ],
+      "en": [
+        "rappel"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Part des cas réellement positifs que le modèle identifie comme positifs.",
+      "en": "The proportion of actual positive cases identified as positive by a model."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "r-squared",
+    "terme": {
+      "fr": "R²",
+      "en": "R-squared"
+    },
+    "alias": {
+      "fr": [
+        "R-squared"
+      ],
+      "en": [
+        "R²"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Mesure de la variation de la cible expliquée par un modèle de régression, selon une référence donnée.",
+      "en": "A measure of target variation explained by a regression model relative to a baseline."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [
+      "prix-immobiliers-lome"
+    ],
+    "relu": false
+  },
+  {
+    "id": "training-set",
+    "terme": {
+      "fr": "jeu d'entraînement",
+      "en": "training set"
+    },
+    "alias": {
+      "fr": [
+        "training set"
+      ],
+      "en": [
+        "jeu d'entraînement"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Données utilisées pour ajuster les paramètres d'un modèle.",
+      "en": "Data used to fit a model's parameters."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "test-set",
+    "terme": {
+      "fr": "jeu de test",
+      "en": "test set"
+    },
+    "alias": {
+      "fr": [
+        "test set"
+      ],
+      "en": [
+        "jeu de test"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Données mises de côté pour évaluer un modèle final sur des observations non utilisées pour son entraînement.",
+      "en": "Held-out data used to evaluate a final model on observations not used for training."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "pagerank",
+    "terme": {
+      "fr": "PageRank",
+      "en": "PageRank"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Algorithme qui estime l'importance relative de nœuds à partir des liens entrants dans un graphe.",
+      "en": "An algorithm that estimates the relative importance of nodes from incoming links in a graph."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "graph",
+    "terme": {
+      "fr": "graphe",
+      "en": "graph"
+    },
+    "alias": {
+      "fr": [
+        "graph"
+      ],
+      "en": [
+        "graphe"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Structure composée de nœuds et de liens représentant des entités et leurs relations.",
+      "en": "A structure of nodes and edges representing entities and their relationships."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "networkx",
+    "terme": {
+      "fr": "NetworkX",
+      "en": "NetworkX"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Bibliothèque Python pour créer, manipuler et analyser des graphes.",
+      "en": "A Python library for creating, manipulating, and analyzing graphs."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [
+      "fraude-mobile-money"
+    ],
+    "relu": false
+  },
+  {
+    "id": "force-atlas-2",
+    "terme": {
+      "fr": "Force Atlas 2",
+      "en": "Force Atlas 2"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Algorithme de disposition qui place les nœuds d'un graphe en simulant des forces d'attraction et de répulsion.",
+      "en": "A graph layout algorithm that positions nodes by simulating attraction and repulsion forces."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [
+      "fraude-mobile-money"
+    ],
+    "relu": false
+  },
+  {
+    "id": "fraud-detection",
+    "terme": {
+      "fr": "détection de fraude",
+      "en": "fraud detection"
+    },
+    "alias": {
+      "fr": [
+        "fraud detection"
+      ],
+      "en": [
+        "détection de fraude"
+      ]
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Recherche de transactions ou comportements suspects à l'aide de règles ou de modèles, sans constituer une preuve à elle seule.",
+      "en": "Identification of suspicious transactions or behavior using rules or models; a flag alone is not proof."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [
+      "fraude-mobile-money"
+    ],
+    "relu": false
+  },
+  {
+    "id": "churn",
+    "terme": {
+      "fr": "churn",
+      "en": "churn"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Data science et ML",
+      "en": "Data science and ML"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Départ ou désengagement de clients ou d'utilisateurs pendant une période définie.",
+      "en": "The loss or disengagement of customers or users over a defined period."
+    },
+    "analogie": {
+      "fr": "Comme examiner des indices avant de choisir une explication ou une prédiction.",
+      "en": "Like examining clues before choosing an explanation or prediction."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des exemples passés servent à ajuster puis évaluer un modèle.",
+      "en": "Generic example: past examples are used to fit and then evaluate a model."
+    },
+    "termesLies": [
+      "eda",
+      "profiling",
+      "crisp-dm"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "sql",
+    "terme": {
+      "fr": "SQL",
+      "en": "SQL"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Langage utilisé pour définir, interroger et modifier des données dans les bases relationnelles.",
+      "en": "A language used to define, query, and modify data in relational databases."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "nosql",
+      "mysql",
+      "postgresql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "nosql",
+    "terme": {
+      "fr": "NoSQL",
+      "en": "NoSQL"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Terme regroupant plusieurs modèles de bases non relationnelles, comme documents, clé-valeur ou graphes.",
+      "en": "An umbrella term for non-relational database models such as document, key-value, and graph."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "mysql",
+      "postgresql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "mysql",
+    "terme": {
+      "fr": "MySQL",
+      "en": "MySQL"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Système de gestion de base de données relationnelle qui utilise SQL.",
+      "en": "A relational database management system that uses SQL."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "postgresql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "postgresql",
+    "terme": {
+      "fr": "PostgreSQL",
+      "en": "PostgreSQL"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Système de gestion de base de données relationnelle open source avec prise en charge de types et fonctions avancés.",
+      "en": "An open-source relational database system with support for advanced types and features."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "mongodb",
+    "terme": {
+      "fr": "MongoDB",
+      "en": "MongoDB"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Base de données orientée documents qui stocke des documents dans une structure de type BSON.",
+      "en": "A document-oriented database that stores documents in a BSON-like structure."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "sqlite",
+    "terme": {
+      "fr": "SQLite",
+      "en": "SQLite"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Moteur de base relationnelle embarqué qui stocke généralement une base dans un fichier.",
+      "en": "An embedded relational database engine that commonly stores a database in a file."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [
+      "quickdevis"
+    ],
+    "relu": false
+  },
+  {
+    "id": "gridfs",
+    "terme": {
+      "fr": "GridFS",
+      "en": "GridFS"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Convention MongoDB permettant de stocker et récupérer des fichiers dépassant la taille d'un document BSON.",
+      "en": "A MongoDB convention for storing and retrieving files larger than a BSON document."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "index",
+    "terme": {
+      "fr": "index",
+      "en": "index"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Structure auxiliaire qui accélère certaines recherches au prix d'espace et de coûts d'écriture.",
+      "en": "An auxiliary structure that speeds up some queries at the cost of storage and write overhead."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "primary-key",
+    "terme": {
+      "fr": "clé primaire",
+      "en": "primary key"
+    },
+    "alias": {
+      "fr": [
+        "primary key"
+      ],
+      "en": [
+        "clé primaire"
+      ]
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Colonne ou ensemble de colonnes qui identifie de façon unique chaque ligne d'une table.",
+      "en": "A column or set of columns that uniquely identifies each row in a table."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "join",
+    "terme": {
+      "fr": "jointure",
+      "en": "join"
+    },
+    "alias": {
+      "fr": [
+        "join"
+      ],
+      "en": [
+        "jointure"
+      ]
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Opération qui combine des lignes de tables selon une condition de correspondance.",
+      "en": "An operation that combines rows from tables according to a matching condition."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "transaction",
+    "terme": {
+      "fr": "transaction",
+      "en": "transaction"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Ensemble d'opérations traité comme une unité logique par la base de données.",
+      "en": "A group of operations handled as one logical unit by a database."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "acid",
+    "terme": {
+      "fr": "ACID",
+      "en": "ACID"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Propriétés transactionnelles d'atomicité, cohérence, isolation et durabilité.",
+      "en": "The transactional properties of atomicity, consistency, isolation, and durability."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "normalization",
+    "terme": {
+      "fr": "normalisation",
+      "en": "normalization"
+    },
+    "alias": {
+      "fr": [
+        "normalization"
+      ],
+      "en": [
+        "normalisation"
+      ]
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Organisation des tables relationnelles visant à réduire certaines redondances et anomalies.",
+      "en": "Organization of relational tables intended to reduce certain redundancies and anomalies."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "merise",
+    "terme": {
+      "fr": "MERISE",
+      "en": "MERISE"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Méthode française d'analyse et de conception des systèmes d'information et de leurs données.",
+      "en": "A French method for analyzing and designing information systems and their data."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "mcd",
+    "terme": {
+      "fr": "MCD",
+      "en": "conceptual data model"
+    },
+    "alias": {
+      "fr": [
+        "conceptual data model"
+      ],
+      "en": [
+        "MCD"
+      ]
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Modèle conceptuel des données décrivant entités, propriétés et associations indépendamment du stockage.",
+      "en": "A conceptual data model describing entities, attributes, and relationships independently of storage."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "uml",
+    "terme": {
+      "fr": "UML",
+      "en": "UML"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Langage de modélisation visuelle pour représenter la structure et le comportement de systèmes.",
+      "en": "A visual modeling language for representing system structure and behavior."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "window-function",
+    "terme": {
+      "fr": "fonction de fenêtrage",
+      "en": "window function"
+    },
+    "alias": {
+      "fr": [
+        "window function"
+      ],
+      "en": [
+        "fonction de fenêtrage"
+      ]
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Fonction SQL qui calcule sur un ensemble de lignes liées à la ligne courante sans les regrouper en une seule ligne.",
+      "en": "An SQL function that computes over related rows without collapsing them into a single grouped row."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "data-warehouse",
+    "terme": {
+      "fr": "entrepôt de données",
+      "en": "data warehouse"
+    },
+    "alias": {
+      "fr": [
+        "data warehouse"
+      ],
+      "en": [
+        "entrepôt de données"
+      ]
+    },
+    "categorie": {
+      "fr": "Bases de données",
+      "en": "Databases"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Référentiel structuré qui rassemble des données préparées pour l'analyse et le reporting.",
+      "en": "A structured repository that brings together prepared data for analytics and reporting."
+    },
+    "analogie": {
+      "fr": "Comme un registre structuré où l'on retrouve et relie des informations.",
+      "en": "Like a structured register where information can be found and linked."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une application conserve et consulte des enregistrements selon son modèle de données.",
+      "en": "Generic example: an application stores and queries records according to its data model."
+    },
+    "termesLies": [
+      "sql",
+      "nosql",
+      "mysql"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "sig",
+    "terme": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "alias": {
+      "fr": [
+        "GIS"
+      ],
+      "en": [
+        "SIG"
+      ]
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Système qui organise, analyse et représente des données associées à des lieux.",
+      "en": "A system for organizing, analyzing, and representing location-linked data."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "gis",
+      "mapinfo",
+      "geographic-layer"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "gis",
+    "terme": {
+      "fr": "système d'information géographique",
+      "en": "GIS"
+    },
+    "alias": {
+      "fr": ["SIG"],
+      "en": [
+        "SIG"
+      ]
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Système qui organise, analyse et représente des données associées à des lieux.",
+      "en": "A system for organizing, analyzing, and representing location-linked data."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "mapinfo",
+      "geographic-layer"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "mapinfo",
+    "terme": {
+      "fr": "MapInfo",
+      "en": "MapInfo"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Logiciel SIG utilisé pour créer, analyser et représenter des données cartographiques.",
+      "en": "GIS software used to create, analyze, and represent mapped data."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "gis",
+      "geographic-layer"
+    ],
+    "projetsLies": [
+      "diagnostic-telecoms-togo"
+    ],
+    "relu": false
+  },
+  {
+    "id": "geographic-layer",
+    "terme": {
+      "fr": "couche géographique",
+      "en": "geographic layer"
+    },
+    "alias": {
+      "fr": [
+        "geographic layer"
+      ],
+      "en": [
+        "couche géographique"
+      ]
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Ensemble d'entités géographiques de même type ou thème affichées dans un SIG.",
+      "en": "A collection of geographic features of the same type or theme in a GIS."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "gis",
+      "mapinfo"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "geocoding",
+    "terme": {
+      "fr": "géocodage",
+      "en": "geocoding"
+    },
+    "alias": {
+      "fr": [
+        "geocoding"
+      ],
+      "en": [
+        "géocodage"
+      ]
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Conversion d'une description d'adresse ou de lieu en coordonnées géographiques.",
+      "en": "Conversion of an address or place description into geographic coordinates."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "gis",
+      "mapinfo"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "polygon",
+    "terme": {
+      "fr": "polygone",
+      "en": "polygon"
+    },
+    "alias": {
+      "fr": [
+        "polygon"
+      ],
+      "en": [
+        "polygone"
+      ]
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Géométrie fermée composée de segments, utilisée pour représenter une zone.",
+      "en": "A closed geometry made of line segments and used to represent an area."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "gis",
+      "mapinfo"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "gps",
+    "terme": {
+      "fr": "GPS",
+      "en": "GPS"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Système satellitaire permettant de déterminer une position et une heure à l'aide de récepteurs.",
+      "en": "A satellite system that allows receivers to determine position and time."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "gis",
+      "mapinfo"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "coverage-gap",
+    "terme": {
+      "fr": "zone blanche",
+      "en": "coverage gap"
+    },
+    "alias": {
+      "fr": [
+        "coverage gap"
+      ],
+      "en": [
+        "zone blanche"
+      ]
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Zone où un service de télécommunication donné est absent ou insuffisant selon un critère défini.",
+      "en": "An area where a specified telecommunications service is absent or insufficient under a defined criterion."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "gis",
+      "mapinfo"
+    ],
+    "projetsLies": [
+      "diagnostic-telecoms-togo"
+    ],
+    "relu": false
+  },
+  {
+    "id": "population-density",
+    "terme": {
+      "fr": "densité de population",
+      "en": "population density"
+    },
+    "alias": {
+      "fr": [
+        "population density"
+      ],
+      "en": [
+        "densité de population"
+      ]
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Rapport entre une population et la superficie d'un territoire donné.",
+      "en": "The ratio of a population to the area of a defined territory."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "gis",
+      "mapinfo"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "cartography",
+    "terme": {
+      "fr": "cartographie",
+      "en": "cartography"
+    },
+    "alias": {
+      "fr": [
+        "cartography"
+      ],
+      "en": [
+        "cartographie"
+      ]
+    },
+    "categorie": {
+      "fr": "SIG",
+      "en": "GIS"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Discipline qui conçoit et produit des représentations graphiques de l'espace géographique.",
+      "en": "The discipline of designing and producing graphic representations of geographic space."
+    },
+    "analogie": {
+      "fr": "Comme une carte à calques où chaque couche ajoute une information de lieu.",
+      "en": "Like a layered map where each layer adds location information."
+    },
+    "exemple": {
+      "fr": "Exemple générique : des points d'intérêt sont placés sur une carte pour comparer leur répartition.",
+      "en": "Generic example: points of interest are placed on a map to compare their distribution."
+    },
+    "termesLies": [
+      "sig",
+      "gis",
+      "mapinfo"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "dashboard",
+    "terme": {
+      "fr": "dashboard",
+      "en": "dashboard"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Dataviz",
+      "en": "Data visualization"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Interface qui rassemble des indicateurs et visualisations pour le suivi ou l'exploration.",
+      "en": "An interface that brings together indicators and visualizations for monitoring or exploration."
+    },
+    "analogie": {
+      "fr": "Comme présenter des repères visuels pour comprendre une situation rapidement.",
+      "en": "Like presenting visual cues to understand a situation quickly."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un graphique rend une évolution plus facile à comparer qu'une longue liste de nombres.",
+      "en": "Generic example: a chart can make a trend easier to compare than a long list of numbers."
+    },
+    "termesLies": [
+      "kpi",
+      "power-bi",
+      "looker-studio"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "kpi",
+    "terme": {
+      "fr": "KPI",
+      "en": "KPI"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Dataviz",
+      "en": "Data visualization"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Indicateur clé choisi pour mesurer un objectif ou un aspect important d'une activité.",
+      "en": "A key indicator selected to measure an objective or important aspect of an activity."
+    },
+    "analogie": {
+      "fr": "Comme présenter des repères visuels pour comprendre une situation rapidement.",
+      "en": "Like presenting visual cues to understand a situation quickly."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un graphique rend une évolution plus facile à comparer qu'une longue liste de nombres.",
+      "en": "Generic example: a chart can make a trend easier to compare than a long list of numbers."
+    },
+    "termesLies": [
+      "dashboard",
+      "power-bi",
+      "looker-studio"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "power-bi",
+    "terme": {
+      "fr": "Power BI",
+      "en": "Power BI"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Dataviz",
+      "en": "Data visualization"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Ensemble d'outils Microsoft de connexion, modélisation et visualisation de données.",
+      "en": "A Microsoft set of tools for connecting, modeling, and visualizing data."
+    },
+    "analogie": {
+      "fr": "Comme présenter des repères visuels pour comprendre une situation rapidement.",
+      "en": "Like presenting visual cues to understand a situation quickly."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un graphique rend une évolution plus facile à comparer qu'une longue liste de nombres.",
+      "en": "Generic example: a chart can make a trend easier to compare than a long list of numbers."
+    },
+    "termesLies": [
+      "dashboard",
+      "kpi",
+      "looker-studio"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "looker-studio",
+    "terme": {
+      "fr": "Looker Studio",
+      "en": "Looker Studio"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Dataviz",
+      "en": "Data visualization"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Outil Google de création de rapports et de tableaux de bord à partir de sources de données.",
+      "en": "A Google tool for building reports and dashboards from data sources."
+    },
+    "analogie": {
+      "fr": "Comme présenter des repères visuels pour comprendre une situation rapidement.",
+      "en": "Like presenting visual cues to understand a situation quickly."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un graphique rend une évolution plus facile à comparer qu'une longue liste de nombres.",
+      "en": "Generic example: a chart can make a trend easier to compare than a long list of numbers."
+    },
+    "termesLies": [
+      "dashboard",
+      "kpi",
+      "power-bi"
+    ],
+    "projetsLies": [
+      "edenshop"
+    ],
+    "relu": false
+  },
+  {
+    "id": "streamlit",
+    "terme": {
+      "fr": "Streamlit",
+      "en": "Streamlit"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Dataviz",
+      "en": "Data visualization"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Framework Python open source pour créer des applications interactives orientées données.",
+      "en": "An open-source Python framework for building interactive data-oriented applications."
+    },
+    "analogie": {
+      "fr": "Comme présenter des repères visuels pour comprendre une situation rapidement.",
+      "en": "Like presenting visual cues to understand a situation quickly."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un graphique rend une évolution plus facile à comparer qu'une longue liste de nombres.",
+      "en": "Generic example: a chart can make a trend easier to compare than a long list of numbers."
+    },
+    "termesLies": [
+      "dashboard",
+      "kpi",
+      "power-bi"
+    ],
+    "projetsLies": [
+      "diagnostic-telecoms-togo"
+    ],
+    "relu": false
+  },
+  {
+    "id": "dash",
+    "terme": {
+      "fr": "Dash",
+      "en": "Dash"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Dataviz",
+      "en": "Data visualization"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Framework Python de Plotly pour créer des applications web analytiques.",
+      "en": "Plotly's Python framework for building analytical web applications."
+    },
+    "analogie": {
+      "fr": "Comme présenter des repères visuels pour comprendre une situation rapidement.",
+      "en": "Like presenting visual cues to understand a situation quickly."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un graphique rend une évolution plus facile à comparer qu'une longue liste de nombres.",
+      "en": "Generic example: a chart can make a trend easier to compare than a long list of numbers."
+    },
+    "termesLies": [
+      "dashboard",
+      "kpi",
+      "power-bi"
+    ],
+    "projetsLies": [
+      "diagnostic-telecoms-togo"
+    ],
+    "relu": false
+  },
+  {
+    "id": "data-storytelling",
+    "terme": {
+      "fr": "storytelling avec les données",
+      "en": "data storytelling"
+    },
+    "alias": {
+      "fr": [
+        "data storytelling"
+      ],
+      "en": [
+        "storytelling avec les données"
+      ]
+    },
+    "categorie": {
+      "fr": "Dataviz",
+      "en": "Data visualization"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Présentation qui associe données, visualisations et récit pour communiquer un constat.",
+      "en": "A presentation combining data, visualizations, and narrative to communicate a finding."
+    },
+    "analogie": {
+      "fr": "Comme présenter des repères visuels pour comprendre une situation rapidement.",
+      "en": "Like presenting visual cues to understand a situation quickly."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un graphique rend une évolution plus facile à comparer qu'une longue liste de nombres.",
+      "en": "Generic example: a chart can make a trend easier to compare than a long list of numbers."
+    },
+    "termesLies": [
+      "dashboard",
+      "kpi",
+      "power-bi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "api",
+    "terme": {
+      "fr": "API",
+      "en": "API"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Interface définissant les règles par lesquelles des logiciels échangent des données ou des opérations.",
+      "en": "An interface defining how software systems exchange data or operations."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "rest",
+      "fastapi",
+      "react"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "rest",
+    "terme": {
+      "fr": "REST",
+      "en": "REST"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Style d'architecture d'API web qui s'appuie notamment sur des ressources et les méthodes HTTP.",
+      "en": "A web API architectural style based in part on resources and HTTP methods."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "fastapi",
+      "react"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "fastapi",
+    "terme": {
+      "fr": "FastAPI",
+      "en": "FastAPI"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Framework Python pour construire des API web avec validation et documentation basées sur les types.",
+      "en": "A Python framework for building web APIs with type-based validation and documentation."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "react"
+    ],
+    "projetsLies": [
+      "prix-immobiliers-lome"
+    ],
+    "relu": false
+  },
+  {
+    "id": "react",
+    "terme": {
+      "fr": "React",
+      "en": "React"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Bibliothèque JavaScript pour construire des interfaces utilisateur à partir de composants.",
+      "en": "A JavaScript library for building user interfaces from components."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [
+      "prix-immobiliers-lome"
+    ],
+    "relu": false
+  },
+  {
+    "id": "nextjs",
+    "terme": {
+      "fr": "Next.js",
+      "en": "Next.js"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Framework React pour créer des applications web, avec routage et fonctionnalités serveur intégrées.",
+      "en": "A React framework for building web applications with routing and server features."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "react-native",
+    "terme": {
+      "fr": "React Native",
+      "en": "React Native"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Framework permettant de créer des applications mobiles natives avec React et JavaScript ou TypeScript.",
+      "en": "A framework for building native mobile applications with React and JavaScript or TypeScript."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [
+      "quickdevis"
+    ],
+    "relu": false
+  },
+  {
+    "id": "expo",
+    "terme": {
+      "fr": "Expo",
+      "en": "Expo"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Ensemble d'outils et services facilitant le développement et la livraison d'applications React Native.",
+      "en": "A set of tools and services that simplifies React Native development and delivery."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [
+      "quickdevis"
+    ],
+    "relu": false
+  },
+  {
+    "id": "nodejs",
+    "terme": {
+      "fr": "Node.js",
+      "en": "Node.js"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Environnement d'exécution JavaScript côté serveur basé sur le moteur V8.",
+      "en": "A server-side JavaScript runtime built on the V8 engine."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "laravel",
+    "terme": {
+      "fr": "Laravel",
+      "en": "Laravel"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Framework PHP pour développer des applications web.",
+      "en": "A PHP framework for developing web applications."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "django",
+    "terme": {
+      "fr": "Django",
+      "en": "Django"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Framework web Python fournissant des composants pour construire des applications web.",
+      "en": "A Python web framework providing components for building web applications."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "flutter",
+    "terme": {
+      "fr": "Flutter",
+      "en": "Flutter"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Kit de développement multiplateforme de Google pour créer des interfaces d'applications.",
+      "en": "Google's cross-platform development toolkit for building application interfaces."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "git",
+    "terme": {
+      "fr": "Git",
+      "en": "Git"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Système distribué de gestion de versions qui enregistre l'évolution de fichiers.",
+      "en": "A distributed version-control system that records changes to files."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "github",
+    "terme": {
+      "fr": "GitHub",
+      "en": "GitHub"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Plateforme d'hébergement de dépôts Git et de collaboration autour du code.",
+      "en": "A platform for hosting Git repositories and collaborating on code."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "cicd",
+    "terme": {
+      "fr": "CI/CD",
+      "en": "CI/CD"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Pratiques d'intégration continue et de livraison ou déploiement continus pour automatiser validation et publication.",
+      "en": "Continuous integration and delivery or deployment practices that automate validation and release."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "unit-test",
+    "terme": {
+      "fr": "test unitaire",
+      "en": "unit test"
+    },
+    "alias": {
+      "fr": [
+        "unit test"
+      ],
+      "en": [
+        "test unitaire"
+      ]
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Test automatisé qui vérifie une petite unité de code de façon isolée.",
+      "en": "An automated test that checks a small unit of code in isolation."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "responsive",
+    "terme": {
+      "fr": "responsive",
+      "en": "responsive design"
+    },
+    "alias": {
+      "fr": [
+        "responsive design"
+      ],
+      "en": [
+        "responsive"
+      ]
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Approche de conception qui adapte la présentation aux dimensions et capacités de l'écran.",
+      "en": "A design approach that adapts presentation to screen size and capabilities."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "hosting",
+    "terme": {
+      "fr": "hébergement",
+      "en": "hosting"
+    },
+    "alias": {
+      "fr": [
+        "hosting"
+      ],
+      "en": [
+        "hébergement"
+      ]
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Mise à disposition d'infrastructures pour rendre un site ou service accessible sur un réseau.",
+      "en": "Provision of infrastructure that makes a website or service available over a network."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "serverless",
+    "terme": {
+      "fr": "serverless",
+      "en": "serverless"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Modèle où le fournisseur gère l'infrastructure d'exécution; des serveurs existent toujours sous-jacents.",
+      "en": "A model where the provider manages runtime infrastructure; servers still exist underneath."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "environment-variable",
+    "terme": {
+      "fr": "variable d'environnement",
+      "en": "environment variable"
+    },
+    "alias": {
+      "fr": [
+        "environment variable"
+      ],
+      "en": [
+        "variable d'environnement"
+      ]
+    },
+    "categorie": {
+      "fr": "Développement",
+      "en": "Development"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Valeur de configuration fournie au processus depuis son environnement plutôt que codée dans l'application.",
+      "en": "A configuration value provided to a process by its environment instead of being hard-coded."
+    },
+    "analogie": {
+      "fr": "Comme suivre un plan pour construire un outil dont d'autres peuvent se servir.",
+      "en": "Like following a plan to build a tool that others can use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un site reçoit une action, vérifie les données puis affiche un résultat.",
+      "en": "Generic example: a website receives an action, validates data, and displays a result."
+    },
+    "termesLies": [
+      "api",
+      "rest",
+      "fastapi"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "llm",
+    "terme": {
+      "fr": "LLM",
+      "en": "LLM"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Grand modèle de langage entraîné à prédire et générer des séquences de texte.",
+      "en": "A large language model trained to predict and generate text sequences."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "prompt",
+      "rag",
+      "embedding"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "prompt",
+    "terme": {
+      "fr": "prompt",
+      "en": "prompt"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Instruction ou entrée fournie à un modèle pour orienter sa réponse.",
+      "en": "An instruction or input given to a model to guide its response."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "rag",
+      "embedding"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "rag",
+    "terme": {
+      "fr": "RAG",
+      "en": "RAG"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Génération augmentée par récupération : recherche de documents pertinents avant de générer une réponse.",
+      "en": "Retrieval-augmented generation: retrieving relevant documents before generating a response."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "prompt",
+      "embedding"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "embedding",
+    "terme": {
+      "fr": "embedding",
+      "en": "embedding"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Représentation numérique d'un contenu dans un espace vectoriel, souvent utile pour comparer des similarités.",
+      "en": "A numerical representation of content in a vector space, often useful for comparing similarity."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "prompt",
+      "rag"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "hallucination",
+    "terme": {
+      "fr": "hallucination",
+      "en": "hallucination"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Réponse générée par un modèle qui semble plausible mais contient une information fabriquée ou incorrecte.",
+      "en": "A model-generated response that sounds plausible but contains fabricated or incorrect information."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "prompt",
+      "rag"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "algorithmic-bias",
+    "terme": {
+      "fr": "biais algorithmique",
+      "en": "algorithmic bias"
+    },
+    "alias": {
+      "fr": [
+        "algorithmic bias"
+      ],
+      "en": [
+        "biais algorithmique"
+      ]
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Effet systématique d'un système algorithmique qui défavorise certains cas ou groupes.",
+      "en": "A systematic effect of an algorithmic system that disadvantages certain cases or groups."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "prompt",
+      "rag"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "ai-ethics",
+    "terme": {
+      "fr": "éthique de l'IA",
+      "en": "AI ethics"
+    },
+    "alias": {
+      "fr": [
+        "AI ethics"
+      ],
+      "en": [
+        "éthique de l'IA"
+      ]
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Examen des responsabilités, risques et effets sociaux des systèmes d'intelligence artificielle.",
+      "en": "Examination of the responsibilities, risks, and social effects of AI systems."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "prompt",
+      "rag"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "personal-data-protection",
+    "terme": {
+      "fr": "protection des données personnelles",
+      "en": "personal data protection"
+    },
+    "alias": {
+      "fr": [
+        "personal data protection"
+      ],
+      "en": [
+        "protection des données personnelles"
+      ]
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Règles et pratiques visant à protéger les informations relatives à des personnes identifiées ou identifiables.",
+      "en": "Rules and practices intended to protect information about identified or identifiable people."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "prompt",
+      "rag"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "malabo-convention",
+    "terme": {
+      "fr": "convention de Malabo",
+      "en": "Malabo Convention"
+    },
+    "alias": {
+      "fr": [
+        "Malabo Convention"
+      ],
+      "en": [
+        "convention de Malabo"
+      ]
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Convention de l'Union africaine sur la cybersécurité et la protection des données à caractère personnel.",
+      "en": "African Union Convention on Cyber Security and Personal Data Protection."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "prompt",
+      "rag"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "agentic-ai",
+    "terme": {
+      "fr": "IA agentique",
+      "en": "agentic AI"
+    },
+    "alias": {
+      "fr": [
+        "agentic AI"
+      ],
+      "en": [
+        "IA agentique"
+      ]
+    },
+    "categorie": {
+      "fr": "IA et éthique",
+      "en": "AI and ethics"
+    },
+    "niveau": "avancé",
+    "definition": {
+      "fr": "Système d'IA conçu pour planifier et exécuter plusieurs actions vers un objectif, avec un degré variable d'autonomie.",
+      "en": "An AI system designed to plan and perform multiple actions toward a goal, with varying autonomy."
+    },
+    "analogie": {
+      "fr": "Comme un assistant ou un outil qu'il faut vérifier et utiliser avec des règles claires.",
+      "en": "Like an assistant or tool that needs checking and clear rules for use."
+    },
+    "exemple": {
+      "fr": "Exemple générique : une équipe examine les sources et les limites d'un système avant de l'utiliser.",
+      "en": "Generic example: a team reviews a system's sources and limitations before using it."
+    },
+    "termesLies": [
+      "llm",
+      "prompt",
+      "rag"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "mobile-money",
+    "terme": {
+      "fr": "Mobile Money",
+      "en": "Mobile Money"
+    },
+    "alias": {
+      "fr": [],
+      "en": []
+    },
+    "categorie": {
+      "fr": "Contexte",
+      "en": "Context"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Service financier permettant certaines opérations à partir d'un compte associé à un téléphone mobile.",
+      "en": "A financial service that enables transactions through an account associated with a mobile phone."
+    },
+    "analogie": {
+      "fr": "Comme une infrastructure qui permet à des personnes d'échanger et d'accéder à des services.",
+      "en": "Like infrastructure that lets people exchange and access services."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un service numérique relie des utilisateurs, des outils et des organisations.",
+      "en": "Generic example: a digital service connects users, tools, and organizations."
+    },
+    "termesLies": [
+      "digital-inclusion",
+      "digital-transformation"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "digital-inclusion",
+    "terme": {
+      "fr": "inclusion numérique",
+      "en": "digital inclusion"
+    },
+    "alias": {
+      "fr": [
+        "digital inclusion"
+      ],
+      "en": [
+        "inclusion numérique"
+      ]
+    },
+    "categorie": {
+      "fr": "Contexte",
+      "en": "Context"
+    },
+    "niveau": "débutant",
+    "definition": {
+      "fr": "Démarche visant à réduire les obstacles d'accès, d'usage et de compétences liés au numérique.",
+      "en": "Efforts to reduce barriers to digital access, use, and skills."
+    },
+    "analogie": {
+      "fr": "Comme une infrastructure qui permet à des personnes d'échanger et d'accéder à des services.",
+      "en": "Like infrastructure that lets people exchange and access services."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un service numérique relie des utilisateurs, des outils et des organisations.",
+      "en": "Generic example: a digital service connects users, tools, and organizations."
+    },
+    "termesLies": [
+      "mobile-money",
+      "digital-transformation"
+    ],
+    "projetsLies": [],
+    "relu": false
+  },
+  {
+    "id": "digital-transformation",
+    "terme": {
+      "fr": "transformation numérique",
+      "en": "digital transformation"
+    },
+    "alias": {
+      "fr": [
+        "digital transformation"
+      ],
+      "en": [
+        "transformation numérique"
+      ]
+    },
+    "categorie": {
+      "fr": "Contexte",
+      "en": "Context"
+    },
+    "niveau": "intermédiaire",
+    "definition": {
+      "fr": "Évolution d'activités ou d'organisations par l'intégration réfléchie de technologies numériques.",
+      "en": "The considered integration of digital technologies to change activities or organizations."
+    },
+    "analogie": {
+      "fr": "Comme une infrastructure qui permet à des personnes d'échanger et d'accéder à des services.",
+      "en": "Like infrastructure that lets people exchange and access services."
+    },
+    "exemple": {
+      "fr": "Exemple générique : un service numérique relie des utilisateurs, des outils et des organisations.",
+      "en": "Generic example: a digital service connects users, tools, and organizations."
+    },
+    "termesLies": [
+      "mobile-money",
+      "digital-inclusion"
+    ],
+    "projetsLies": [],
+    "relu": false
+  }
+]

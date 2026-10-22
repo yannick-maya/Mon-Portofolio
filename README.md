@@ -31,6 +31,18 @@ Les titres utilisent Bricolage Grotesque et le texte Public Sans, chargées et
 optimisées avec `next/font`. Les composants communs (boutons, conteneur,
 étiquettes et titres de section) se trouvent dans `src/components/ui`.
 
+## Contenus bilingues
+
+Les données FR/EN sont regroupées dans `src/data` : profil, parcours, projets,
+diplômes et certificats, FAQ, glossaire et explications. Les champs de texte
+utilisent les clés `fr` et `en`. Les niveaux de compétences et les informations
+indiquées par `[À COMPLÉTER PAR YANNICK]` restent à confirmer ; les entrées du
+glossaire portent `relu: false` jusqu'à leur relecture.
+
+Les fichiers des diplômes ne sont pas publiés sans copie masquée approuvée :
+les champs `fichier` et `vignette` sont donc `null`, et `allowDownload` est
+`false` par défaut.
+
 ## Éléments à compléter
 
 - Ajouter `public/images/profile.jpg` (1200 × 1500) et
@@ -39,6 +51,7 @@ optimisées avec `next/font`. Les composants communs (boutons, conteneur,
   projet.
 - Ajouter `public/cv/CV_Yannick_FR.pdf` et `public/cv/CV_Yannick_EN.pdf`.
 - Confirmer la disponibilité, le poste recherché et les préférences de mobilité.
+- Confirmer les niveaux de maîtrise des compétences avant de les afficher.
 - Renseigner les liens de démonstration, de code et les captures des projets
   lorsqu’ils seront disponibles.
 

@@ -11,9 +11,6 @@ const messages = {
     },
     home: {
       status: "Portfolio en construction",
-      description:
-        "Ingénieur informatique, spécialisé en data engineering et bases de données.",
-      location: "Lomé, Togo · originaire du Tchad",
       contact: "Me contacter",
       github: "Voir GitHub",
     },
@@ -26,9 +23,6 @@ const messages = {
     },
     home: {
       status: "Portfolio in progress",
-      description:
-        "Computer engineer specializing in data engineering and databases.",
-      location: "Lomé, Togo · originally from Chad",
       contact: "Contact me",
       github: "View GitHub",
     },

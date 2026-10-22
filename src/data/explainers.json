@@ -1,0 +1,107 @@
+[
+  {
+    "id": "data-pipeline",
+    "term": { "fr": "Pipeline de données", "en": "Data pipeline" },
+    "explanation": { "fr": "Un pipeline de données est une suite d'étapes qui collecte, transforme et transmet des données. Imaginez une chaîne de préparation qui trie des ingrédients avant de les servir.", "en": "A data pipeline is a sequence of steps that collects, transforms, and delivers data. Think of a preparation line that sorts ingredients before serving them." },
+    "analogy": { "fr": "Comme une chaîne qui trie et prépare des ingrédients.", "en": "Like a line that sorts and prepares ingredients." },
+    "example": { "fr": "Un pipeline peut charger des commandes, retirer les doublons puis les rendre disponibles pour un tableau de bord.", "en": "A pipeline might load orders, remove duplicates, and make them available to a dashboard." }
+  },
+  {
+    "id": "lakehouse",
+    "term": { "fr": "Lakehouse", "en": "Lakehouse" },
+    "explanation": { "fr": "Un Lakehouse réunit un stockage souple de type data lake et des fonctions de gestion des données souvent associées à un entrepôt. C'est un compromis d'architecture, pas une garantie automatique de qualité.", "en": "A Lakehouse combines flexible data-lake storage with data-management features often associated with a warehouse. It is an architectural approach, not an automatic guarantee of quality." },
+    "analogy": { "fr": "Comme un grand entrepôt équipé de rayonnages et d'un inventaire organisé.", "en": "Like a large storeroom with shelves and an organized inventory." },
+    "example": { "fr": "AfriShop est décrit comme une plateforme Lakehouse pour des données e-commerce.", "en": "AfriShop is described as a Lakehouse platform for e-commerce data." }
+  },
+  {
+    "id": "etl",
+    "term": { "fr": "ETL", "en": "ETL" },
+    "explanation": { "fr": "ETL signifie extraire, transformer, charger : les données sont modifiées avant d'être placées dans la cible. Cette séquence convient lorsque les transformations doivent précéder le chargement.", "en": "ETL means extract, transform, load: data is changed before being placed in its destination. This sequence is useful when transformations need to happen before loading." },
+    "analogy": { "fr": "Comme laver et couper les légumes avant de les ranger.", "en": "Like washing and chopping vegetables before storing them." },
+    "example": { "fr": "Un flux ETL peut extraire des ventes, normaliser les dates puis les charger dans une base.", "en": "An ETL flow might extract sales, standardize dates, and load them into a database." }
+  },
+  {
+    "id": "big-data",
+    "term": { "fr": "Big Data", "en": "Big Data" },
+    "explanation": { "fr": "Big Data désigne des données dont le volume, la vitesse ou la diversité posent des défis aux outils classiques. Le terme dépend du contexte : il n'existe pas de seuil universel unique.", "en": "Big Data describes data whose volume, speed, or variety challenges conventional tools. The term is contextual; there is no single universal threshold." },
+    "analogy": { "fr": "Comme organiser une bibliothèque qui grandit plus vite qu'une seule personne ne peut la classer.", "en": "Like organizing a library that grows faster than one person can catalog it." },
+    "example": { "fr": "Spark et Kafka font partie des outils cités dans le profil pour les traitements et flux de données.", "en": "Spark and Kafka are among the tools listed in the profile for data processing and streaming." }
+  },
+  {
+    "id": "streaming",
+    "term": { "fr": "Streaming de données", "en": "Data streaming" },
+    "explanation": { "fr": "Le streaming traite des événements au fil de leur arrivée plutôt que d'attendre un lot complet. La latence dépend de l'architecture et de la configuration.", "en": "Streaming processes events as they arrive instead of waiting for a complete batch. Latency depends on the architecture and configuration." },
+    "analogy": { "fr": "Comme lire les nouvelles au fur et à mesure de leur publication.", "en": "Like reading news as it is published." },
+    "example": { "fr": "Kafka peut transporter un flux d'événements vers un service qui les traite continuellement.", "en": "Kafka can carry an event stream to a service that processes it continuously." }
+  },
+  {
+    "id": "relational-vs-nosql",
+    "term": { "fr": "Base relationnelle et NoSQL", "en": "Relational and NoSQL databases" },
+    "explanation": { "fr": "Une base relationnelle organise souvent les données en tables reliées et utilise SQL. NoSQL regroupe plusieurs modèles non relationnels, aux structures et garanties différentes ; le choix dépend des besoins.", "en": "A relational database commonly organizes data in related tables and uses SQL. NoSQL covers several non-relational models with different structures and guarantees; the choice depends on requirements." },
+    "analogy": { "fr": "Comme choisir entre des tableaux liés et des dossiers adaptés à chaque document.", "en": "Like choosing between linked spreadsheets and folders shaped for each document." },
+    "example": { "fr": "PostgreSQL est relationnel ; MongoDB est une base orientée documents.", "en": "PostgreSQL is relational; MongoDB is document-oriented." }
+  },
+  {
+    "id": "api",
+    "term": { "fr": "API", "en": "API" },
+    "explanation": { "fr": "Une API définit comment un logiciel peut demander ou fournir des informations à un autre. Elle précise notamment les opérations et le format des échanges.", "en": "An API defines how one software system can request or provide information to another. It specifies operations and the format of exchanges." },
+    "analogy": { "fr": "Comme un guichet qui reçoit une demande selon des règles et transmet la réponse.", "en": "Like a service counter that accepts requests under rules and returns a response." },
+    "example": { "fr": "Une interface web peut appeler une API pour obtenir des données de projet.", "en": "A web interface can call an API to retrieve project data." }
+  },
+  {
+    "id": "dashboard",
+    "term": { "fr": "Dashboard", "en": "Dashboard" },
+    "explanation": { "fr": "Un dashboard rassemble des indicateurs et visualisations pour suivre un sujet ou explorer des données. Il doit présenter des mesures définies et compréhensibles.", "en": "A dashboard brings together indicators and visualizations to monitor a topic or explore data. Its metrics should be clearly defined and understandable." },
+    "analogy": { "fr": "Comme un tableau de bord de véhicule qui réunit quelques informations utiles.", "en": "Like a vehicle dashboard that brings together a few useful readings." },
+    "example": { "fr": "EdenShop est un dashboard Looker Studio de cinq pages sur 8 000 transactions.", "en": "EdenShop is a five-page Looker Studio dashboard covering 8,000 transactions." }
+  },
+  {
+    "id": "gis",
+    "term": { "fr": "SIG", "en": "GIS" },
+    "explanation": { "fr": "Un système d'information géographique organise, analyse et représente des informations liées à des lieux. Il associe des données à des coordonnées ou à des zones.", "en": "A geographic information system organizes, analyzes, and represents information linked to places. It associates data with coordinates or areas." },
+    "analogy": { "fr": "Comme une carte à plusieurs calques que l'on peut afficher et comparer.", "en": "Like a map with several layers that can be displayed and compared." },
+    "example": { "fr": "Le diagnostic télécoms du Togo cartographie notamment des agences et des zones blanches.", "en": "The Togo telecoms diagnostic maps agencies and coverage gaps, among other features." }
+  },
+  {
+    "id": "machine-learning",
+    "term": { "fr": "Machine learning", "en": "Machine learning" },
+    "explanation": { "fr": "Le machine learning utilise des exemples de données pour ajuster un modèle qui effectue ensuite une prédiction ou une classification. Ses résultats doivent être évalués sur des données adaptées.", "en": "Machine learning uses data examples to fit a model that can then make predictions or classifications. Its results need to be evaluated on suitable data." },
+    "analogy": { "fr": "Comme apprendre à reconnaître des objets après avoir étudié plusieurs exemples étiquetés.", "en": "Like learning to recognize objects after studying many labeled examples." },
+    "example": { "fr": "Le projet immobilier de Yannick utilise XGBoost pour prédire des prix.", "en": "Yannick's real-estate project uses XGBoost to predict prices." }
+  },
+  {
+    "id": "fraud-detection",
+    "term": { "fr": "Détection de fraude", "en": "Fraud detection" },
+    "explanation": { "fr": "La détection de fraude cherche des opérations ou comportements qui méritent un examen, à partir de règles ou de modèles. Un signal automatique n'est pas à lui seul une preuve de fraude.", "en": "Fraud detection looks for transactions or behaviors that warrant review, using rules or models. An automated flag is not, by itself, proof of fraud." },
+    "analogy": { "fr": "Comme un détecteur qui signale une situation inhabituelle pour qu'une personne la vérifie.", "en": "Like a detector that flags an unusual situation for a person to review." },
+    "example": { "fr": "Un projet de Yannick explore cette question dans le contexte Mobile Money.", "en": "One of Yannick's projects explores this in a Mobile Money context." }
+  },
+  {
+    "id": "data-quality",
+    "term": { "fr": "Qualité des données", "en": "Data quality" },
+    "explanation": { "fr": "La qualité des données décrit leur adéquation à un usage, selon des critères comme la validité, la cohérence ou la complétude. Les critères doivent être définis selon le contexte.", "en": "Data quality describes how fit data is for a purpose, using criteria such as validity, consistency, or completeness. Criteria need to be defined for the context." },
+    "analogy": { "fr": "Comme vérifier les ingrédients et les étiquettes avant de préparer un repas.", "en": "Like checking ingredients and labels before preparing a meal." },
+    "example": { "fr": "Great Expectations peut aider à exprimer et vérifier des règles de données.", "en": "Great Expectations can help express and check data rules." }
+  },
+  {
+    "id": "cloud",
+    "term": { "fr": "Cloud", "en": "Cloud" },
+    "explanation": { "fr": "Le cloud donne accès à des ressources informatiques hébergées et administrées via un réseau. Le modèle de responsabilité et les coûts varient selon le service.", "en": "Cloud computing provides access to network-hosted computing resources. Responsibility models and costs vary by service." },
+    "analogy": { "fr": "Comme louer un espace et des équipements au lieu de tout construire soi-même.", "en": "Like renting space and equipment instead of building everything yourself." },
+    "example": { "fr": "Un site peut être hébergé sur une plateforme cloud, selon sa configuration.", "en": "A website can be hosted on a cloud platform, depending on its configuration." }
+  },
+  {
+    "id": "ai-ethics",
+    "term": { "fr": "Éthique de l'IA", "en": "AI ethics" },
+    "explanation": { "fr": "L'éthique de l'IA examine les effets, les risques et les responsabilités associés aux systèmes d'intelligence artificielle. Elle inclut notamment l'équité, la transparence et la protection des personnes.", "en": "AI ethics examines the effects, risks, and responsibilities associated with artificial intelligence systems. It includes fairness, transparency, and protection of people." },
+    "analogy": { "fr": "Comme vérifier les règles et les conséquences avant d'utiliser un nouvel outil.", "en": "Like checking the rules and consequences before using a new tool." },
+    "example": { "fr": "Yannick a suivi le Global MOOC on the Ethics of AI via Coursera.", "en": "Yannick completed the Global MOOC on the Ethics of AI via Coursera." }
+  },
+  {
+    "id": "chatbot-llm",
+    "term": { "fr": "Chatbot et LLM", "en": "Chatbot and LLM" },
+    "explanation": { "fr": "Un chatbot est une interface conversationnelle. Un LLM est un modèle de langage qui génère du texte ; il peut produire des erreurs et doit être encadré par des sources fiables.", "en": "A chatbot is a conversational interface. An LLM is a language model that generates text; it can make mistakes and should be grounded in reliable sources." },
+    "analogy": { "fr": "Comme un interlocuteur logiciel qui compose des réponses à partir de modèles appris et de documents fournis.", "en": "Like a software conversation partner that forms replies from learned patterns and supplied documents." },
+    "example": { "fr": "Le chatbot prévu pour ce portfolio doit répondre sur Yannick à partir d'une base d'information vérifiée.", "en": "The planned portfolio chatbot should answer questions about Yannick using a verified knowledge base." }
+  }
+]

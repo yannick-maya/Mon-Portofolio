@@ -1,0 +1,140 @@
+[
+  {
+    "id": "master-big-data",
+    "period": { "fr": "2025 à aujourd'hui", "en": "2025 to present" },
+    "title": {
+      "fr": "Master 1 Big Data et Ingénierie informatique",
+      "en": "Master's year 1 in Big Data and Computer Engineering"
+    },
+    "organization": { "fr": "UCAO-UUT", "en": "UCAO-UUT" },
+    "location": { "fr": "Lomé, Togo", "en": "Lomé, Togo" },
+    "description": {
+      "fr": "Spécialité Ingénieur Big-Data.",
+      "en": "Big Data Engineering specialization."
+    },
+    "type": "education"
+  },
+  {
+    "id": "fale-tech",
+    "period": { "fr": "Octobre 2024 à mars 2025", "en": "October 2024 to March 2025" },
+    "title": {
+      "fr": "Stagiaire IT",
+      "en": "IT intern"
+    },
+    "organization": { "fr": "Fale-Tech", "en": "Fale-Tech" },
+    "location": { "fr": "Togo", "en": "Togo" },
+    "description": {
+      "fr": "Développement full-stack, infogérance et administration système.",
+      "en": "Full-stack development, IT services management, and systems administration."
+    },
+    "type": "experience"
+  },
+  {
+    "id": "pilc",
+    "period": { "fr": "Août à octobre 2024", "en": "August to October 2024" },
+    "title": {
+      "fr": "Stage et mémoire de licence",
+      "en": "Internship and bachelor's thesis"
+    },
+    "organization": {
+      "fr": "Public Interest Law Center (PILC)",
+      "en": "Public Interest Law Center (PILC)"
+    },
+    "location": { "fr": "Tchad", "en": "Chad" },
+    "description": {
+      "fr": "Bases de données, système de gestion des dossiers juridiques, interface et modules applicatifs. Mémoire sur l'optimisation de la plateforme de gestion des préconseils, restitutions de formations et dossiers juridiques, soutenu le 11 octobre 2024 : 16,5/20, mention Très bien.",
+      "en": "Databases, a legal case management system, interface, and application modules. Thesis on optimizing the platform for pre-counselling, training reports, and legal files, defended on October 11, 2024: 16.5/20, Very Good distinction."
+    },
+    "type": "experience"
+  },
+  {
+    "id": "bachelor",
+    "period": { "fr": "2021 à 2024", "en": "2021 to 2024" },
+    "title": {
+      "fr": "Licence en Génie Informatique",
+      "en": "Bachelor's degree in Computer Engineering"
+    },
+    "organization": { "fr": "CEFOD Business School", "en": "CEFOD Business School" },
+    "location": { "fr": "N'Djamena, Tchad", "en": "N'Djamena, Chad" },
+    "description": {
+      "fr": "Moyennes : 12,25 en L1, 12,35 en L2 et 13,43 en L3 ; mention Assez bien. Matières clés : développement mobile, J2EE, bases de données avancées, cryptographie et sécurité, réseaux, systèmes distribués, entrepôts de données, XML et services web, concepts d'IA et gestion de projets.",
+      "en": "Grades: 12.25 in year 1, 12.35 in year 2, and 13.43 in year 3; Good distinction. Key subjects: mobile development, J2EE, advanced databases, cryptography and security, networking, distributed systems, data warehousing, XML and web services, AI concepts, and project management."
+    },
+    "type": "education"
+  },
+  {
+    "id": "gis-training",
+    "period": { "fr": "Janvier 2024", "en": "January 2024" },
+    "title": {
+      "fr": "Formation SIG et MapInfo Professional",
+      "en": "GIS and MapInfo Professional training"
+    },
+    "organization": {
+      "fr": "World Engineering Consulting SARL",
+      "en": "World Engineering Consulting SARL"
+    },
+    "location": { "fr": "N'Djamena, Tchad", "en": "N'Djamena, Chad" },
+    "description": {
+      "fr": "Formation de cinq jours, du 2 au 6 janvier 2024.",
+      "en": "Five-day training, January 2–6, 2024."
+    },
+    "type": "training"
+  },
+  {
+    "id": "bts",
+    "period": { "fr": "Novembre 2023", "en": "November 2023" },
+    "title": {
+      "fr": "BTS Informatique appliquée à la gestion",
+      "en": "Higher Technician Certificate in IT for Management"
+    },
+    "organization": { "fr": "ONECS Tchad", "en": "ONECS Chad" },
+    "location": { "fr": "Tchad", "en": "Chad" },
+    "description": {
+      "fr": "Diplôme obtenu lors de la session de novembre 2023.",
+      "en": "Diploma awarded in the November 2023 session."
+    },
+    "type": "education"
+  },
+  {
+    "id": "exercices-corrections",
+    "period": { "fr": "Août à novembre 2023", "en": "August to November 2023" },
+    "title": {
+      "fr": "Exercices et corrections",
+      "en": "Exercises and solutions"
+    },
+    "organization": { "fr": "Projet étudiant au CBS", "en": "Student project at CBS" },
+    "location": { "fr": "N'Djamena, Tchad", "en": "N'Djamena, Chad" },
+    "description": {
+      "fr": "Projet d'archivage de sujets d'examen et de corrections pour les étudiants du CBS.",
+      "en": "A project to archive exam papers and solutions for CBS students."
+    },
+    "type": "project"
+  },
+  {
+    "id": "sametis",
+    "period": { "fr": "Septembre 2023", "en": "September 2023" },
+    "title": { "fr": "Formation SAMETIS", "en": "SAMETIS training" },
+    "organization": { "fr": "SAMETIS", "en": "SAMETIS" },
+    "location": { "fr": "Tchad", "en": "Chad" },
+    "description": {
+      "fr": "Formation en blogging, community management et business plan.",
+      "en": "Training in blogging, community management, and business planning."
+    },
+    "type": "training"
+  },
+  {
+    "id": "baccalaureat",
+    "period": { "fr": "2020", "en": "2020" },
+    "title": {
+      "fr": "Baccalauréat série D",
+      "en": "Science-track baccalaureate, series D"
+    },
+    "organization": { "fr": "Établissement non précisé", "en": "Institution not specified" },
+    "location": { "fr": "Doba, Tchad", "en": "Doba, Chad" },
+    "description": {
+      "fr": "Mention Assez bien.",
+      "en": "Good distinction."
+    },
+    "type": "education"
+  }
+]
