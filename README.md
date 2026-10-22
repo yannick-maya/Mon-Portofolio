@@ -43,6 +43,17 @@ Les fichiers des diplômes ne sont pas publiés sans copie masquée approuvée :
 les champs `fichier` et `vignette` sont donc `null`, et `allowDownload` est
 `false` par défaut.
 
+## Pages du portfolio
+
+- `/fr/profil` et `/en/profil` : résumé, expertises, compétences, expérience et intérêts.
+- `/fr/parcours` et `/en/parcours` : frise chronologique dépliable.
+- `/fr/projets` et `/en/projets` : projets filtrables, avec une page de détail par slug.
+- `/fr/contact` et `/en/contact` : coordonnées publiques et formulaire.
+
+Le formulaire envoie les messages avec Resend lorsque `RESEND_API_KEY` et
+`CONTACT_FROM_EMAIL` sont configurées côté serveur. Sans service configuré ou
+en cas d'échec d'envoi, il propose un lien `mailto` prérempli.
+
 ## Éléments à compléter
 
 - Ajouter `public/images/profile.jpg` (1200 × 1500) et

@@ -2,7 +2,11 @@ import { ButtonLink } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Tag } from "@/components/ui/tag";
 import profile from "@/data/profile.json";
+import projects from "@/data/projects.json";
+import { ProjectCard } from "@/components/project-card";
 import { getLocale, getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
+import { SectionHeading } from "@/components/ui/section-heading";
 
 export default async function Home() {
   const locale = await getLocale();
@@ -24,8 +28,17 @@ export default async function Home() {
             {profile.location[language]} · {profile.origin[language]}
           </p>
           <div className="landing__actions">
+            <Link className="button button--primary" href="/projets">
+              {t("viewProjects")}
+            </Link>
             <ButtonLink href="mailto:yannickmadjiadoum@gmail.com">
               {t("contact")}
+            </ButtonLink>
+            <ButtonLink
+              href="mailto:yannickmadjiadoum@gmail.com?subject=CV%20de%20Yannick%20Madjiadoum"
+              variant="quiet"
+            >
+              {t("requestCv")}
             </ButtonLink>
             <ButtonLink
               href="https://github.com/yannick-maya"
@@ -78,6 +91,27 @@ export default async function Home() {
           <circle cx="414" cy="240" r="5" fill="var(--signal)" />
         </svg>
       </Container>
+      <section className="home-projects">
+        <Container>
+          <div className="home-projects__heading">
+            <SectionHeading
+              description={t("projectsDescription")}
+              eyebrow={t("projectsEyebrow")}
+              title={t("projectsTitle")}
+            />
+            <Link className="text-link" href="/projets">
+              {t("viewProjects")} <span aria-hidden="true">↗</span>
+            </Link>
+          </div>
+          <div className="project-grid">
+            {projects
+              .filter((project) => project.featured)
+              .map((project) => (
+                <ProjectCard key={project.id} project={project} />
+              ))}
+          </div>
+        </Container>
+      </section>
     </main>
   );
 }

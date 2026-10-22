@@ -5,7 +5,8 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import { LocaleSwitcher } from "@/components/locale-switcher";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import profile from "@/data/profile.json";
 import "../globals.css";
 
@@ -63,10 +64,9 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${bricolageGrotesque.variable} ${publicSans.variable}`}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <header className="site-header">
-            <LocaleSwitcher />
-          </header>
+          <SiteHeader name={profile.name[locale]} />
           {children}
+          <SiteFooter />
         </NextIntlClientProvider>
       </body>
     </html>
