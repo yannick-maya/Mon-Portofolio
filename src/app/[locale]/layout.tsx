@@ -7,6 +7,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { ChatWidget } from "@/components/chat-widget";
 import profile from "@/data/profile.json";
 import "../globals.css";
 
@@ -67,6 +68,7 @@ export default async function LocaleLayout({
           <SiteHeader name={profile.name[locale]} />
           {children}
           <SiteFooter />
+          <ChatWidget />
         </NextIntlClientProvider>
       </body>
     </html>

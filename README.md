@@ -57,6 +57,20 @@ Le formulaire envoie les messages avec Resend lorsque `RESEND_API_KEY` et
 `CONTACT_FROM_EMAIL` sont configurées côté serveur. Sans service configuré ou
 en cas d'échec d'envoi, il propose un lien `mailto` prérempli.
 
+## Assistant du portfolio
+
+Le widget appelle `/api/chat`, qui transmet les messages à Anthropic côté
+serveur et injecte les données du portfolio avec prompt caching. Claude Haiku
+5.5 (`claude-haiku-5-5`, [identifiant officiel](https://platform.claude.com/docs/en/models/haiku-5-5/overview))
+est le modèle par défaut ; `CHAT_MODEL` peut le remplacer. Sans clé Anthropic
+ou si le service est indisponible, une réponse FAQ locale est utilisée.
+
+Copiez `.env.example` en `.env.local` et configurez les secrets côté serveur.
+Le rate-limit autorise 15 messages par fenêtre de 10 minutes : Upstash Redis
+est utilisé si ses deux variables sont configurées ; sinon, le serveur utilise
+un repli mémoire local. Le repli mémoire n'est pas partagé entre plusieurs
+instances. Les requêtes cross-origin sont refusées.
+
 ## Éléments à compléter
 
 - Ajouter `public/images/profile.jpg` (1200 × 1500) et
