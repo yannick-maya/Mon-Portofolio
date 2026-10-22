@@ -48,6 +48,7 @@ les champs `fichier` et `vignette` sont donc `null`, et `allowDownload` est
 - `/fr/profil` et `/en/profil` : résumé, expertises, compétences, expérience et intérêts.
 - `/fr/parcours` et `/en/parcours` : frise chronologique dépliable.
 - `/fr/projets` et `/en/projets` : projets filtrables, avec une page de détail par slug.
+- `/fr/cv` et `/en/cv` : CV bilingue avec onglets, aperçu et actions PDF lorsqu'une copie expurgée est disponible.
 - `/fr/contact` et `/en/contact` : coordonnées publiques et formulaire.
 
 Le formulaire envoie les messages avec Resend lorsque `RESEND_API_KEY` et
@@ -60,7 +61,8 @@ en cas d'échec d'envoi, il propose un lien `mailto` prérempli.
   `public/images/og.jpg` (1200 × 630).
 - Ajouter une image `public/images/projects/<slug>.jpg` (1600 × 900) par
   projet.
-- Ajouter `public/cv/CV_Yannick_FR.pdf` et `public/cv/CV_Yannick_EN.pdf`.
+- Ajouter des copies publiques expurgées dans `public/cv/CV_Yannick_FR.pdf` et
+  `public/cv/CV_Yannick_EN.pdf`. Les originaux de l'archive ne sont pas publiés.
 - Confirmer la disponibilité, le poste recherché et les préférences de mobilité.
 - Confirmer les niveaux de maîtrise des compétences avant de les afficher.
 - Renseigner les liens de démonstration, de code et les captures des projets

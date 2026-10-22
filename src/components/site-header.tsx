@@ -16,6 +16,7 @@ export function SiteHeader({ name }: { name: string }) {
           <Link href="/profil">{t("profile")}</Link>
           <Link href="/parcours">{t("timeline")}</Link>
           <Link href="/projets">{t("projects")}</Link>
+          <Link href="/cv">{t("cv")}</Link>
           <Link href="/contact">{t("contact")}</Link>
         </nav>
         <LocaleSwitcher />

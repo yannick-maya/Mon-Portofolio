@@ -37,11 +37,8 @@ export default async function Home() {
             <MagneticLink href="mailto:yannickmadjiadoum@gmail.com" variant="secondary">
               {t("contact")}
             </MagneticLink>
-            <MagneticLink
-              href="mailto:yannickmadjiadoum@gmail.com?subject=CV%20de%20Yannick%20Madjiadoum"
-              variant="quiet"
-            >
-              {t("requestCv")}
+            <MagneticLink href="/cv" variant="quiet">
+              {t("viewCv")}
             </MagneticLink>
             <MagneticLink
               href="https://github.com/yannick-maya"

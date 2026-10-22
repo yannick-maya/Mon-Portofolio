@@ -34,9 +34,24 @@ const messages = {
       projectsDescription:
         "Quelques projets autour des pipelines, de l'analyse et de la cartographie.",
       viewProjects: "Voir mes projets",
-      requestCv: "Demander mon CV",
+      viewCv: "Voir mon CV",
       contact: "Me contacter",
       github: "Voir GitHub",
+    },
+    cvPage: {
+      eyebrow: "CV",
+      title: "Parcours et compétences",
+      intro:
+        "Consultez le CV de Yannick en français ou en anglais. Les versions PDF seront ajoutées après vérification des informations personnelles.",
+      frenchTab: "Français",
+      englishTab: "Anglais",
+      previewLabel: "Aperçu du CV en {language}",
+      previewFallback: "L’aperçu PDF n’est pas disponible dans ce navigateur.",
+      download: "Télécharger le CV",
+      open: "Ouvrir dans un nouvel onglet",
+      unavailable:
+        "La version PDF expurgée n’est pas encore disponible. En attendant, vous pouvez demander une copie à Yannick.",
+      requestCopy: "Demander une copie par email",
     },
     profilePage: {
       eyebrow: "Profil",
@@ -154,9 +169,24 @@ const messages = {
       projectsDescription:
         "A selection of projects spanning pipelines, analysis, and mapping.",
       viewProjects: "View my projects",
-      requestCv: "Request my résumé",
+      viewCv: "View my résumé",
       contact: "Contact me",
       github: "View GitHub",
+    },
+    cvPage: {
+      eyebrow: "Résumé",
+      title: "Experience and skills",
+      intro:
+        "View Yannick’s résumé in French or English. PDF versions will be added after personal information has been reviewed.",
+      frenchTab: "French",
+      englishTab: "English",
+      previewLabel: "Résumé preview in {language}",
+      previewFallback: "PDF preview is not available in this browser.",
+      download: "Download résumé",
+      open: "Open in a new tab",
+      unavailable:
+        "The redacted PDF version is not available yet. You can request a copy from Yannick in the meantime.",
+      requestCopy: "Request a copy by email",
     },
     profilePage: {
       eyebrow: "Profile",
