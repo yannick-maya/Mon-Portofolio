@@ -23,6 +23,7 @@
 # misc
 .DS_Store
 *.pem
+/Dossier Yannick_Madjiadoum PRO.zip
 
 # debug
 npm-debug.log*

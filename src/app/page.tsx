@@ -1,69 +1,78 @@
-import Image from "next/image";
+import { ButtonLink } from "@/components/ui/button";
+import { Container } from "@/components/ui/container";
+import { Tag } from "@/components/ui/tag";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <main className="landing">
+      <Container className="landing__layout">
+        <section className="landing__copy" aria-labelledby="home-title">
+          <Tag>Portfolio en construction</Tag>
+          <h1 className="landing__title" id="home-title">
+            Yannick
+            <br />
+            <span>Madjiadoum</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="landing__description">
+            Ingénieur informatique, spécialisé en data engineering et bases de
+            données.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+          <p className="eyebrow">Lomé, Togo · originaire du Tchad</p>
+          <div className="landing__actions">
+            <ButtonLink href="mailto:yannickmadjiadoum@gmail.com">
+              Me contacter
+            </ButtonLink>
+            <ButtonLink
+              href="https://github.com/yannick-maya"
+              rel="noreferrer"
+              target="_blank"
+              variant="secondary"
+            >
+              Voir GitHub
+            </ButtonLink>
+          </div>
+        </section>
+        <svg
+          aria-hidden="true"
+          className="landing__art"
+          fill="none"
+          viewBox="0 0 480 480"
+        >
+          <path
+            d="M239 25c118 0 214 96 214 215S357 455 239 455 25 359 25 240 121 25 239 25Z"
+            opacity=".18"
+            stroke="currentColor"
+          />
+          <path
+            d="M239 57c101 0 183 82 183 183s-82 183-183 183S56 341 56 240 138 57 239 57Z"
+            opacity=".28"
+            stroke="currentColor"
+          />
+          <path
+            d="M240 91c82 0 149 67 149 149s-67 149-149 149-149-67-149-149S158 91 240 91Z"
+            opacity=".38"
+            stroke="currentColor"
+          />
+          <path
+            d="M240 126c63 0 114 51 114 114s-51 114-114 114-114-51-114-114 51-114 114-114Z"
+            opacity=".52"
+            stroke="currentColor"
+          />
+          <path
+            d="M240 162c43 0 78 35 78 78s-35 78-78 78-78-35-78-78 35-78 78-78Z"
+            opacity=".72"
+            stroke="currentColor"
+          />
+          <path
+            d="M240 240h174"
+            opacity=".55"
+            stroke="currentColor"
+            strokeDasharray="4 8"
+          />
+          <circle cx="240" cy="240" r="8" fill="var(--accent)" />
+          <circle cx="414" cy="240" r="5" fill="var(--signal)" />
+        </svg>
+      </Container>
+    </main>
   );
 }

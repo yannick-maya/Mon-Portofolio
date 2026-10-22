@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio de Yannick Madjiadoum
 
-## Getting Started
+Portfolio développé avec Next.js App Router, TypeScript et Tailwind CSS.
 
-First, run the development server:
+## Développement local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Vérifications disponibles avant publication :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run lint
+npm run typecheck
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Système visuel
 
-## Learn More
+Les couleurs de marque sont définies comme variables CSS sémantiques dans
+`src/app/globals.css` : bleu profond pour la structure, safran comme accent
+principal, rouge pour les repères ponctuels, et encre/blanc froid pour les
+surfaces. Le thème suit la préférence système et accepte une surcharge avec
+`data-theme="light"` ou `data-theme="dark"` sur l’élément racine.
 
-To learn more about Next.js, take a look at the following resources:
+Les titres utilisent Bricolage Grotesque et le texte Public Sans, chargées et
+optimisées avec `next/font`. Les composants communs (boutons, conteneur,
+étiquettes et titres de section) se trouvent dans `src/components/ui`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Éléments à compléter
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Ajouter `public/images/profile.jpg` (1200 × 1500) et
+  `public/images/og.jpg` (1200 × 630).
+- Ajouter une image `public/images/projects/<slug>.jpg` (1600 × 900) par
+  projet.
+- Ajouter `public/cv/CV_Yannick_FR.pdf` et `public/cv/CV_Yannick_EN.pdf`.
+- Confirmer la disponibilité, le poste recherché et les préférences de mobilité.
+- Renseigner les liens de démonstration, de code et les captures des projets
+  lorsqu’ils seront disponibles.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+L’archive `Dossier Yannick_Madjiadoum PRO.zip` reste locale et n’est pas suivie
+par Git.
