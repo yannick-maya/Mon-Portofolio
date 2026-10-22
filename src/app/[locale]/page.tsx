@@ -1,26 +1,26 @@
 import { ButtonLink } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Tag } from "@/components/ui/tag";
+import { getTranslations } from "next-intl/server";
 
-export default function Home() {
+export default async function Home() {
+  const t = await getTranslations("home");
+
   return (
     <main className="landing">
       <Container className="landing__layout">
         <section className="landing__copy" aria-labelledby="home-title">
-          <Tag>Portfolio en construction</Tag>
+          <Tag>{t("status")}</Tag>
           <h1 className="landing__title" id="home-title">
             Yannick
             <br />
             <span>Madjiadoum</span>
           </h1>
-          <p className="landing__description">
-            Ingénieur informatique, spécialisé en data engineering et bases de
-            données.
-          </p>
-          <p className="eyebrow">Lomé, Togo · originaire du Tchad</p>
+          <p className="landing__description">{t("description")}</p>
+          <p className="eyebrow">{t("location")}</p>
           <div className="landing__actions">
             <ButtonLink href="mailto:yannickmadjiadoum@gmail.com">
-              Me contacter
+              {t("contact")}
             </ButtonLink>
             <ButtonLink
               href="https://github.com/yannick-maya"
@@ -28,7 +28,7 @@ export default function Home() {
               target="_blank"
               variant="secondary"
             >
-              Voir GitHub
+              {t("github")}
             </ButtonLink>
           </div>
         </section>

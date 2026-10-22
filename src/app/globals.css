@@ -111,6 +111,48 @@ a {
   margin-inline: auto;
 }
 
+.site-header {
+  position: absolute;
+  z-index: 1;
+  inset: 1rem 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: max(1.25rem, calc((100vw - 76rem) / 2));
+}
+
+.locale-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.25rem;
+}
+
+.locale-switcher__option {
+  min-width: 2.5rem;
+  min-height: 2.25rem;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.35rem 0.55rem;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.locale-switcher__option[aria-current="true"] {
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
+
+.locale-switcher__divider {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
 .landing {
   display: grid;
   min-height: 100vh;

@@ -1,6 +1,8 @@
 # Portfolio de Yannick Madjiadoum
 
 Portfolio développé avec Next.js App Router, TypeScript et Tailwind CSS.
+Les routes `/fr` et `/en` sont gérées par next-intl ; la racine redirige vers
+`/fr` par défaut.
 
 ## Développement local
 
