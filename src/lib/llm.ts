@@ -43,9 +43,10 @@ function createTextStream(text: string) {
 function createFaqFallbackStream(
   query: string,
   locale: ChatLocale,
+  history: ChatMessage[],
   onUnknown: () => void,
 ) {
-  const answer = buildFallbackAnswer(query, locale);
+  const answer = buildFallbackAnswer(query, locale, history);
   if (answer.includes("[[UNKNOWN]]")) onUnknown();
   return createTextStream(answer);
 }
@@ -70,7 +71,7 @@ export async function createAssistantStream({
 }) {
   const client = getClient();
   if (!client) {
-    return createFaqFallbackStream(query, locale, onUnknown);
+    return createFaqFallbackStream(query, locale, history, onUnknown);
   }
 
   const messages = [...history, { role: "user" as const, content: query }];
@@ -92,7 +93,7 @@ export async function createAssistantStream({
     console.error("Chat request could not be started; using FAQ fallback.", {
       errorName: error instanceof Error ? error.name : "UnknownError",
     });
-    return createFaqFallbackStream(query, locale, onUnknown);
+    return createFaqFallbackStream(query, locale, history, onUnknown);
   }
 
   let cancelled = false;
@@ -121,7 +122,7 @@ export async function createAssistantStream({
           console.error("Chat completion failed; using FAQ fallback.", {
             errorName: error instanceof Error ? error.name : "UnknownError",
           });
-          const fallback = buildFallbackAnswer(query, locale);
+          const fallback = buildFallbackAnswer(query, locale, history);
           if (fallback.includes("[[UNKNOWN]]")) onUnknown();
           controller.enqueue(encoder.encode(fallback));
         } else {

@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "npm run build:knowledge && next build",
     "build:knowledge": "node scripts/build-knowledge.mjs",
+    "eval:chat": "node scripts/eval-chat.mjs",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit"

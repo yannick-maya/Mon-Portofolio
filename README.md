@@ -77,6 +77,13 @@ est utilisé si ses deux variables sont configurées ; sinon, le serveur utilise
 un repli mémoire local. Le repli mémoire n'est pas partagé entre plusieurs
 instances. Les requêtes cross-origin sont refusées.
 
+Pour évaluer le chatbot, démarrez le serveur dans un terminal (`npm run dev`
+ou `npm run build && npm run start`), puis lancez `npm run eval:chat` dans un
+autre. Le jeu couvre les questions FR/EN, les explications, les suivis, les
+refus de confidentialité et les garde-fous HTTP. `CHAT_EVAL_BASE_URL` permet
+de viser un autre serveur de test ; par défaut, l'évaluation utilise
+`http://localhost:3000`.
+
 ## Éléments à compléter
 
 - Ajouter `public/images/profile.jpg` (1200 × 1500) et
