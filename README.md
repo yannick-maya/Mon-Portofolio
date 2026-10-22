@@ -41,13 +41,15 @@ glossaire portent `relu: false` jusqu'à leur relecture.
 
 Les fichiers des diplômes ne sont pas publiés sans copie masquée approuvée :
 les champs `fichier` et `vignette` sont donc `null`, et `allowDownload` est
-`false` par défaut.
+`false` par défaut. Conservez les originaux dans `private/`, ignoré par Git ;
+seules les copies expurgées et approuvées doivent être placées dans `public/`.
 
 ## Pages du portfolio
 
 - `/fr/profil` et `/en/profil` : résumé, expertises, compétences, expérience et intérêts.
 - `/fr/parcours` et `/en/parcours` : frise chronologique dépliable.
 - `/fr/projets` et `/en/projets` : projets filtrables, avec une page de détail par slug.
+- `/fr/diplomes` et `/en/diplomes` : documents filtrables et visionneuse pour les copies expurgées approuvées.
 - `/fr/cv` et `/en/cv` : CV bilingue avec onglets, aperçu et actions PDF lorsqu'une copie expurgée est disponible.
 - `/fr/contact` et `/en/contact` : coordonnées publiques et formulaire.
 
