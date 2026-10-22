@@ -39,6 +39,12 @@ utilisent les clés `fr` et `en`. Les niveaux de compétences et les information
 indiquées par `[À COMPLÉTER PAR YANNICK]` restent à confirmer ; les entrées du
 glossaire portent `relu: false` jusqu'à leur relecture.
 
+La base de connaissances compte 47 FAQ, 139 termes et 15 explications.
+`npm run build:knowledge` vérifie les références croisées et génère
+`src/data/knowledge.md` sans inclure les noms ou chemins des documents privés.
+La route du chatbot injecte les mêmes données sources bilingues directement,
+sans lecture de fichier au runtime.
+
 Les fichiers des diplômes ne sont pas publiés sans copie masquée approuvée :
 les champs `fichier` et `vignette` sont donc `null`, et `allowDownload` est
 `false` par défaut. Conservez les originaux dans `private/`, ignoré par Git ;
