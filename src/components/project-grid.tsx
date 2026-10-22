@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import projects from "@/data/projects.json";
 import { ProjectCard } from "@/components/project-card";
 
@@ -18,6 +19,7 @@ export function ProjectGrid() {
   const [selectedFilter, setSelectedFilter] = useState<string>("all");
   const locale = useLocale();
   const t = useTranslations("projectsPage");
+  const reducedMotion = useReducedMotion();
   const filteredProjects = useMemo(
     () =>
       selectedFilter === "all"
@@ -47,9 +49,20 @@ export function ProjectGrid() {
       </div>
       {filteredProjects.length ? (
         <div className="project-grid" aria-live="polite">
-          {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
+          <AnimatePresence mode="popLayout">
+            {filteredProjects.map((project) => (
+              <motion.div
+                key={project.id}
+                layout={!reducedMotion}
+                initial={reducedMotion ? false : { opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={reducedMotion ? undefined : { opacity: 0, y: -8 }}
+                transition={{ duration: reducedMotion ? 0 : 0.18 }}
+              >
+                <ProjectCard project={project} />
+              </motion.div>
+            ))}
+          </AnimatePresence>
         </div>
       ) : (
         <p className="empty-state">{t("empty")}</p>

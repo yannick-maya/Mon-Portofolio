@@ -222,6 +222,20 @@ a {
   color: var(--navy);
 }
 
+.animated-name {
+  display: inline;
+}
+
+.animated-name__word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.animated-name__letter {
+  display: inline-block;
+  white-space: pre;
+}
+
 .landing__description {
   max-width: 38rem;
   color: var(--muted);
@@ -416,6 +430,11 @@ a {
 
 .project-card__image {
   aspect-ratio: 16 / 9;
+  transition: transform 220ms ease;
+}
+
+.project-card__link:hover .project-card__image {
+  transform: scale(1.015);
 }
 
 .image-frame {
@@ -676,14 +695,27 @@ a {
   list-style: none;
 }
 
-.timeline-list::before {
+.timeline-progress {
+  position: relative;
+}
+
+.timeline-progress__track,
+.timeline-progress__fill {
   position: absolute;
   top: 0.5rem;
   bottom: 0.5rem;
   left: 0.37rem;
   width: 1px;
+}
+
+.timeline-progress__track {
   background: var(--border);
-  content: "";
+}
+
+.timeline-progress__fill {
+  z-index: 1;
+  background: var(--accent);
+  pointer-events: none;
 }
 
 .timeline-entry {
@@ -995,5 +1027,7 @@ a {
   *::after {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }

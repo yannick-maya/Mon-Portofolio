@@ -1,4 +1,7 @@
+"use client";
+
 import { useLocale, useTranslations } from "next-intl";
+import { motion, useReducedMotion } from "framer-motion";
 import type projects from "@/data/projects.json";
 import { Link } from "@/i18n/navigation";
 import { ImagePlaceholder } from "@/components/image-placeholder";
@@ -9,9 +12,14 @@ type Project = (typeof projects)[number];
 export function ProjectCard({ project }: { project: Project }) {
   const locale = useLocale() === "en" ? "en" : "fr";
   const t = useTranslations("common");
+  const reducedMotion = useReducedMotion();
 
   return (
-    <article className="project-card">
+    <motion.article
+      className="project-card"
+      whileHover={reducedMotion ? undefined : { y: -5 }}
+      transition={{ type: "spring", stiffness: 260, damping: 22 }}
+    >
       <Link
         aria-label={`${t("viewProject")}: ${project.title[locale]}`}
         className="project-card__link"
@@ -38,6 +46,6 @@ export function ProjectCard({ project }: { project: Project }) {
           </span>
         </div>
       </Link>
-    </article>
+    </motion.article>
   );
 }
