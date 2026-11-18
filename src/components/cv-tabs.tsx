@@ -120,7 +120,7 @@ export function CvTabs({ files }: CvTabsProps) {
                 <a
                   className="button button--secondary"
                   href={`mailto:yannickmadjiadoum@gmail.com?subject=${encodeURIComponent(
-                    `CV ${locale.toUpperCase()} de Yannick Madjiadoum`,
+                    `CV ${locale.toUpperCase()} de Yannick MADJIADOUM`,
                   )}`}
                 >
                   {t("requestCopy")}

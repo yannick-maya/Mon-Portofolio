@@ -11,8 +11,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: isEnglish ? "Degrees and certificates" : "Diplômes et certificats",
     description: isEnglish
-      ? "Browse Yannick Madjiadoum’s degrees, certificates, and attestations."
-      : "Parcourir les diplômes, certificats et attestations de Yannick Madjiadoum.",
+      ? "Browse Yannick MADJIADOUM’s degrees, certificates, and attestations."
+      : "Parcourir les diplômes, certificats et attestations de Yannick MADJIADOUM.",
   };
 }
 

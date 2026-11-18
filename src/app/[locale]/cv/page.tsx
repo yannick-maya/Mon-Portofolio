@@ -12,8 +12,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: isEnglish ? "Résumé" : "CV",
     description: isEnglish
-      ? "View Yannick Madjiadoum’s résumé in French or English."
-      : "Consulter le CV de Yannick Madjiadoum en français ou en anglais.",
+      ? "View Yannick MADJIADOUM’s résumé in French or English."
+      : "Consulter le CV de Yannick MADJIADOUM en français ou en anglais.",
   };
 }
 

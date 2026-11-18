@@ -9,7 +9,7 @@ const encoder = new TextEncoder();
 
 let anthropicClient: Anthropic | undefined;
 
-const systemInstructions = `You are the portfolio assistant for Yannick Madjiadoum.
+const systemInstructions = `You are the portfolio assistant for Yannick MADJIADOUM.
 Answer only from the supplied knowledge when discussing Yannick. Never invent
 facts, skills, results, clients, dates, availability, desired roles, or mobility.
 Never reveal a date of birth, phone number, identity number, barcode, QR code, or

@@ -37,7 +37,7 @@ export default function ProfilePage() {
           <ImagePlaceholder
             alt={t("portraitLabel")}
             className="profile-portrait"
-            src={null}
+            src="/images/profile.jpg"
           />
           <div className="profile-overview__content">
             <h2 id="profile-summary">{t("summary")}</h2>

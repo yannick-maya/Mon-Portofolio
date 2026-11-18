@@ -2,8 +2,8 @@
   {
     "id": "who-is-yannick",
     "category": "profile",
-    "question": { "fr": "Qui est Yannick Madjiadoum ?", "en": "Who is Yannick Madjiadoum?" },
-    "answer": { "fr": "Yannick Madjiadoum est ingénieur informatique, en spécialisation Big Data, avec des expériences en data engineering, bases de données, développement full-stack et SIG.", "en": "Yannick Madjiadoum is a computer engineer specializing in Big Data, with experience in data engineering, databases, full-stack development, and GIS." },
+    "question": { "fr": "Qui est Yannick MADJIADOUM ?", "en": "Who is Yannick MADJIADOUM?" },
+    "answer": { "fr": "Yannick MADJIADOUM est ingénieur informatique, en spécialisation Big Data, avec des expériences en data engineering, bases de données, développement full-stack et SIG.", "en": "Yannick MADJIADOUM is a computer engineer specializing in Big Data, with experience in data engineering, databases, full-stack development, and GIS." },
     "keywords": ["identité", "profil", "Yannick", "identity", "profile"]
   },
   {

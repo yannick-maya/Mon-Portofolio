@@ -172,12 +172,12 @@ streaming utilisés par le chatbot. Après le déploiement, vérifiez les pages
   des projets.
 - Relire les 139 entrées du glossaire et ne passer `relu` à `true` qu’après
   validation humaine.
-- Ajouter `public/images/profile.jpg` (1200 × 1500) et
-  `public/images/og.jpg` (1200 × 630).
+- La photo de profil fournie est publiée dans `public/images/profile.jpg` ;
+  une image `public/images/og.jpg` (1200 × 630) reste à ajouter.
 - Ajouter une image `public/images/projects/<slug>.jpg` (1600 × 900) par
   projet.
-- Ajouter des copies publiques expurgées dans `public/cv/CV_Yannick_FR.pdf` et
-  `public/cv/CV_Yannick_EN.pdf`. Les originaux de l'archive ne sont pas publiés.
+- Les copies publiques expurgées sont dans `public/cv/CV_Yannick_FR.pdf` et
+  `public/cv/CV_Yannick_EN.pdf`. Les originaux de l'archive restent privés.
 - Confirmer les niveaux de maîtrise des compétences avant de les afficher.
 - Renseigner les liens de démonstration, de code et les captures des projets
   lorsqu’ils seront disponibles.
@@ -200,7 +200,7 @@ streaming utilisés par le chatbot. Après le déploiement, vérifiez les pages
 - [ ] Navigation mobile vérifiée sur les routes FR/EN
 - [ ] Focus clavier, contraste AA, libellés et alternatives accessibles vérifiés
 - [ ] Métadonnées, Open Graph et sitemap vérifiés
-- [ ] CV publiés uniquement après expurgation approuvée
+- [x] CV publics expurgés avant publication
 - [ ] Diplômes affichés uniquement avec des copies masquées approuvées
 - [ ] Variables secrètes présentes uniquement sur Netlify et en local
 - [ ] Repli FAQ testé sans `ANTHROPIC_API_KEY`
