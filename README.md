@@ -140,20 +140,29 @@ cp .env.example .env.local
 Ne placez aucune clé dans le code, dans `NEXT_PUBLIC_*` ou dans un fichier suivi
 par Git. `.env.local` est ignoré. Seul `.env.example` doit être commité.
 
-## Déploiement Vercel
+## Déploiement Netlify
 
-Le dépôt peut être déployé directement depuis Vercel.
+Le projet utilise l’adaptateur Next.js géré automatiquement par Netlify, sans
+plugin épinglé dans les dépendances. La configuration versionnée dans
+`netlify.toml` lance `npm run build`, publie `.next` et utilise Node.js 22.
 
-1. Importez le dépôt GitHub dans Vercel.
-2. Utilisez les réglages Next.js détectés automatiquement.
-3. Ajoutez les variables d’environnement dans les environnements Preview et Production.
-4. Configurez `ANTHROPIC_API_KEY` et `CHAT_MODEL` pour activer Claude.
-5. Configurez Resend avec `RESEND_API_KEY` et `CONTACT_FROM_EMAIL`.
-6. Ajoutez les variables Upstash pour partager le rate-limit entre les instances.
-7. Déployez la branche `main`.
+1. Dans Netlify, créez un site depuis le dépôt GitHub `yannick-maya/Mon-Portofolio`.
+2. Gardez le répertoire de base à la racine du dépôt ; les réglages de build
+   sont définis dans `netlify.toml`.
+3. Dans les variables d’environnement du site, ajoutez les valeurs de
+   `.env.example` nécessaires, avec les scopes **Builds** et **Functions**.
+   Ne commitez jamais leurs valeurs ni un fichier `.env`.
+4. Configurez `ANTHROPIC_API_KEY` et, si nécessaire, `CHAT_MODEL` pour activer
+   Claude. Sans clé Anthropic, le repli FAQ reste actif.
+5. Configurez `RESEND_API_KEY` et `CONTACT_FROM_EMAIL` pour l’envoi du
+   formulaire ; `UPSTASH_REDIS_REST_URL` et `UPSTASH_REDIS_REST_TOKEN` sont
+   facultatives et activent le rate-limit distribué.
+6. Définissez `main` comme branche de production, puis lancez le déploiement.
 
-Le fichier `.env.example` décrit les noms de variables attendus. Les pages sont
-servies en `/fr` et `/en`; la route racine redirige vers `/fr`.
+Netlify prend en charge les routes App Router et Route Handlers ainsi que le
+streaming utilisés par le chatbot. Après le déploiement, vérifiez les pages
+`/fr` et `/en`, le formulaire de contact et `/api/chat`. Le fichier
+`.env.example` décrit les noms des variables attendues.
 
 ## Éléments à compléter
 
@@ -193,7 +202,7 @@ servies en `/fr` et `/en`; la route racine redirige vers `/fr`.
 - [ ] Métadonnées, Open Graph et sitemap vérifiés
 - [ ] CV publiés uniquement après expurgation approuvée
 - [ ] Diplômes affichés uniquement avec des copies masquées approuvées
-- [ ] Variables secrètes présentes uniquement sur Vercel et en local
+- [ ] Variables secrètes présentes uniquement sur Netlify et en local
 - [ ] Repli FAQ testé sans `ANTHROPIC_API_KEY`
 - [ ] Rate-limit testé avec mémoire puis Upstash
 - [ ] Évaluation du chatbot passée avec `npm run eval:chat`

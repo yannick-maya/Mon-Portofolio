@@ -1,7 +1,7 @@
 Tu es un développeur full-stack et designer senior. Construis le site portfolio complet de Yannick Madjiadoum (ingénieur informatique, data engineering, Lomé / Tchad), avec un chatbot sur mesure. Avance étape par étape, explique chaque choix important en une ligne, et publie chaque étape sur GitHub (voir section DÉPÔT GIT).
 
 STACK (imposée)
-- Next.js (App Router) + TypeScript, Tailwind CSS, Framer Motion, next-intl (routes /fr et /en, FR par défaut), @anthropic-ai/sdk, déploiement Vercel.
+- Next.js (App Router) + TypeScript, Tailwind CSS, Framer Motion, next-intl (routes /fr et /en, FR par défaut), @anthropic-ai/sdk, déploiement Netlify.
 - Tout le contenu dans /src/data/*.json (profile, timeline, projects, credentials, faq, glossary, explainers), avec une version FR et EN de chaque texte, pour que je modifie sans toucher au code.
 - Thème clair et sombre, responsive mobile d'abord, accessibilité AA (focus visible, alt, clavier), SEO (metadata, Open Graph, sitemap), Lighthouse > 90.
 
@@ -105,7 +105,7 @@ Diplômes et certificats (credentials.json : id, categorie, titre, organisme, da
 - Attestation : SAMETIS, 25 au 30/09/2023.
 
 DÉPÔT GIT ET PUBLICATION À CHAQUE ÉTAPE
-- Dépôt GitHub : [(https://github.com/yannick-maya/Mon-Portofolio.git)] (déjà créé, vide, git configuré). Travaille sur la branche main et pousse après chaque étape. Vercel est connecté au dépôt.
+- Dépôt GitHub : [(https://github.com/yannick-maya/Mon-Portofolio.git)] (déjà créé, vide, git configuré). Travaille sur la branche main et pousse après chaque étape. Netlify est connecté au dépôt.
 - Après CHAQUE étape : lance lint, typecheck et build. S'ils passent, fais git add, un commit au format Conventional Commits, puis git push origin main. Donne ensuite un récapitulatif de 3 lignes (fait, à vérifier, étape suivante). S'ils échouent, corrige avant de pousser.
 - Étapes et messages de commit :
   1. chore: initialise Next.js, TypeScript et Tailwind
@@ -120,12 +120,12 @@ DÉPÔT GIT ET PUBLICATION À CHAQUE ÉTAPE
   10. feat(knowledge): FAQ, explainers et glossaire interne
   11. test(chatbot): jeu d'évaluation
   12. docs: README
-  13. chore(deploy): configuration Vercel
+  13. chore(deploy): configuration Netlify
 - Sécurité : .gitignore contient .env*, node_modules, .next et un dossier /private pour les originaux non masqués. Seul .env.example est commité. Ne commite jamais de clé, de jeton ni de document d'identité non masqué ; vérifie git status avant chaque commit. Si un secret est commité par erreur, préviens-moi tout de suite et ne réécris pas l'historique sans mon accord. Aucun force push.
 
 LIVRABLES
 1. Projet complet (arborescence et tous les fichiers), poussé étape par étape.
 2. JSON de contenu pré-remplis (FR et EN), knowledge.md généré, faq.json, explainers.json, glossary.json.
 3. .env.example (ANTHROPIC_API_KEY, CHAT_MODEL, RESEND_API_KEY, UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN).
-4. README : lancer en local, modifier le contenu, compléter les champs "[À COMPLÉTER PAR YANNICK]", relire le glossaire, remplacer photos et CV, configurer le chatbot, déployer sur Vercel.
+4. README : lancer en local, modifier le contenu, compléter les champs "[À COMPLÉTER PAR YANNICK]", relire le glossaire, remplacer photos et CV, configurer le chatbot, déployer sur Netlify.
 5. Liste de vérification finale (accessibilité, mobile, performances, sécurité du chatbot, confidentialité des documents).
