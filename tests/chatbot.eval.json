@@ -1,5 +1,23 @@
 [
   {
+    "id": "fr-force-n-data-engineering-skills",
+    "locale": "fr",
+    "message": "Quelles compétences Yannick a-t-il étudiées dans la formation Force-N en Data Engineering ?",
+    "expect": { "includes": ["pipelines", "orchestration", "lakehouse", "gouvernance"] }
+  },
+  {
+    "id": "fr-force-n-data-engineering-dates",
+    "locale": "fr",
+    "message": "Quand a-t-il suivi et obtenu le certificat Force-N ?",
+    "expect": { "includes": ["mai à septembre 2026", "novembre 2026"] }
+  },
+  {
+    "id": "en-force-n-partners",
+    "locale": "en",
+    "message": "Which organizations partnered with the Force-N program for this certificate?",
+    "expect": { "includes": ["Cheikh Hamidou Kane", "Mastercard Foundation"] }
+  },
+  {
     "id": "fr-profile",
     "locale": "fr",
     "message": "Qui est Yannick Madjiadoum ?",

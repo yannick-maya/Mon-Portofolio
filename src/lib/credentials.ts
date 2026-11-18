@@ -6,6 +6,9 @@ export type Credential = Omit<
 > & {
   fichier: string | null;
   vignette: string | null;
+  dateSort?: string;
+  description?: { fr: string; en: string };
+  featured?: boolean;
 };
 
 export const credentialEntries: Credential[] = credentials;

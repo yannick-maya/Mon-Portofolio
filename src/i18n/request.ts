@@ -127,6 +127,7 @@ const messages = {
       mobility: "Mobilité",
       toConfirm: "À confirmer",
       expertise: "Expertises",
+      featuredCertifications: "Certifications mises en avant",
       skills: "Compétences",
       skillsNote:
         "Les niveaux de maîtrise restent à confirmer. Les compétences sont listées sans évaluation individuelle.",
@@ -321,6 +322,7 @@ const messages = {
       mobility: "Mobility",
       toConfirm: "To be confirmed",
       expertise: "Areas of expertise",
+      featuredCertifications: "Featured certifications",
       skills: "Skills",
       skillsNote:
         "Skill levels still need confirmation. Skills are listed without individual ratings.",

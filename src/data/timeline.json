@@ -1,5 +1,41 @@
 [
   {
+    "id": "force-n-data-engineering-certificate",
+    "period": { "fr": "Novembre 2026", "en": "November 2026" },
+    "title": {
+      "fr": "Certificat en Data Engineering obtenu",
+      "en": "Data Engineering Certificate awarded"
+    },
+    "organization": {
+      "fr": "Programme Force-N",
+      "en": "Force-N program"
+    },
+    "location": { "fr": "", "en": "" },
+    "description": {
+      "fr": "Attestation de réussite du certificat en Data Engineering, délivrée en partenariat avec l'Université Numérique Cheikh Hamidou Kane (UN-CHK) et la Mastercard Foundation.",
+      "en": "Certificate of achievement in Data Engineering, issued in partnership with Université Numérique Cheikh Hamidou Kane (UN-CHK) and the Mastercard Foundation."
+    },
+    "type": "education"
+  },
+  {
+    "id": "force-n-data-engineering-training",
+    "period": { "fr": "Mai à septembre 2026", "en": "May to September 2026" },
+    "title": {
+      "fr": "Formation en Data Engineering",
+      "en": "Data Engineering training"
+    },
+    "organization": {
+      "fr": "Programme Force-N",
+      "en": "Force-N program"
+    },
+    "location": { "fr": "", "en": "" },
+    "description": {
+      "fr": "Formation sur toute la chaîne de la donnée : conception de pipelines, orchestration, architecture lakehouse, qualité et gouvernance des données. Elle inclut aussi la construction d'un projet de carrière structuré autour du métier d'Ingénieur Big Data.",
+      "en": "Training covering the whole data chain: pipeline design, orchestration, lakehouse architecture, data quality and governance. It also includes building a structured career plan around the Big Data Engineer profession."
+    },
+    "type": "training"
+  },
+  {
     "id": "master-big-data",
     "period": { "fr": "2025 à aujourd'hui", "en": "2025 to present" },
     "title": {

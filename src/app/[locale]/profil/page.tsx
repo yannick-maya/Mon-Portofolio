@@ -1,6 +1,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import profile from "@/data/profile.json";
 import timeline from "@/data/timeline.json";
+import { credentialEntries } from "@/lib/credentials";
 import { ImagePlaceholder } from "@/components/image-placeholder";
 import { Container } from "@/components/ui/container";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -10,6 +11,9 @@ export default function ProfilePage() {
   const locale = useLocale() === "en" ? "en" : "fr";
   const t = useTranslations("profilePage");
   const experience = timeline.filter((entry) => entry.type === "experience");
+  const featuredCredentials = credentialEntries.filter(
+    (credential) => credential.featured,
+  );
   const languageText = profile.languages
     .map((language) => `${language.name[locale]} (${language.level[locale]})`)
     .join(", ");
@@ -65,6 +69,29 @@ export default function ProfilePage() {
             ))}
           </div>
         </section>
+
+        {featuredCredentials.length ? (
+          <section className="content-section">
+            <SectionHeading title={t("featuredCertifications")} />
+            <div className="expertise-grid">
+              {featuredCredentials.map((credential) => (
+                <article className="expertise-item" key={credential.id}>
+                  <p className="experience-item__period">
+                    {credential.categorie[locale]}
+                  </p>
+                  <h3>{credential.titre[locale]}</h3>
+                  <p className="experience-item__organization">
+                    {credential.organisme[locale]}
+                  </p>
+                  <p>{credential.date[locale]}</p>
+                  {credential.description ? (
+                    <p>{credential.description[locale]}</p>
+                  ) : null}
+                </article>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         <section className="content-section">
           <SectionHeading title={t("skills")} />

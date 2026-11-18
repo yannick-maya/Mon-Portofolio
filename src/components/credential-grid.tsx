@@ -24,12 +24,20 @@ export function CredentialGrid() {
   const [selectedCredential, setSelectedCredential] =
     useState<Credential | null>(null);
   const visibleCredentials = useMemo(
-    () =>
-      selectedCategory === "all"
-        ? credentialEntries
-        : credentialEntries.filter(
-            (credential) => credential.categorie.fr === selectedCategory,
-          ),
+    () => {
+      const filteredCredentials =
+        selectedCategory === "all"
+          ? credentialEntries
+          : credentialEntries.filter(
+              (credential) => credential.categorie.fr === selectedCategory,
+            );
+
+      return selectedCategory === "Certificat"
+        ? [...filteredCredentials].sort((a, b) =>
+            (b.dateSort ?? "").localeCompare(a.dateSort ?? ""),
+          )
+        : filteredCredentials;
+    },
     [selectedCategory],
   );
   const viewableCredentials = useMemo(
@@ -96,6 +104,9 @@ export function CredentialGrid() {
                   <p className="credential-card__date">
                     {credential.date[locale]}
                   </p>
+                  {credential.description ? (
+                    <p>{credential.description[locale]}</p>
+                  ) : null}
                   <div className="credential-card__actions">
                     {isViewable ? (
                       <button

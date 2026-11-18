@@ -32,9 +32,15 @@ export default function TimelinePage() {
                     <span className="timeline-entry__heading">
                       <span>
                         <strong>{item.title[locale]}</strong>
-                        <span className="timeline-entry__organization">
-                          {item.organization[locale]} · {item.location[locale]}
-                        </span>
+                        {item.organization[locale] || item.location[locale] ? (
+                          <span className="timeline-entry__organization">
+                            {item.organization[locale]}
+                            {item.organization[locale] && item.location[locale]
+                              ? " · "
+                              : null}
+                            {item.location[locale]}
+                          </span>
+                        ) : null}
                       </span>
                       <span className="timeline-entry__toggle" aria-hidden="true">
                         +

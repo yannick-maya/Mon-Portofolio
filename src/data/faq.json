@@ -252,6 +252,66 @@
     "keywords": ["éthique", "IA", "UNESCO", "certificat"]
   },
   {
+    "id": "force-n-data-engineering",
+    "category": "education",
+    "question": {
+      "fr": "Qu'est-ce que le certificat Force-N en Data Engineering ?",
+      "en": "What is the Force-N Data Engineering Certificate?"
+    },
+    "answer": {
+      "fr": "Yannick a obtenu une attestation de réussite au certificat en Data Engineering du programme Force-N. La formation couvre la conception de pipelines, l'orchestration, l'architecture lakehouse, la qualité et la gouvernance des données, ainsi qu'un projet de carrière structuré autour du métier d'Ingénieur Big Data.",
+      "en": "Yannick received a certificate of achievement for the Force-N program's Data Engineering Certificate. The training covers pipeline design, orchestration, lakehouse architecture, data quality and governance, as well as a career plan structured around the Big Data Engineer profession."
+    },
+    "keywords": ["Force-N", "Data Engineering", "certificat", "attestation de réussite"]
+  },
+  {
+    "id": "force-n-data-engineering-dates",
+    "category": "education",
+    "question": {
+      "fr": "Quand Yannick a-t-il suivi la formation Force-N et obtenu le certificat ?",
+      "en": "When did Yannick take the Force-N training and receive the certificate?"
+    },
+    "answer": {
+      "fr": "La formation en Data Engineering s'est déroulée de mai à septembre 2026. L'attestation de réussite a été délivrée en novembre 2026.",
+      "en": "The Data Engineering training ran from May to September 2026. The certificate of achievement was issued in November 2026."
+    },
+    "keywords": ["Force-N", "dates", "mai", "septembre", "novembre 2026"]
+  },
+  {
+    "id": "force-n-data-engineering-skills",
+    "category": "education",
+    "question": {
+      "fr": "Quelles compétences couvre le certificat Force-N en Data Engineering ?",
+      "en": "Which skills does the Force-N Data Engineering Certificate cover?"
+    },
+    "answer": {
+      "fr": "La formation aborde la conception de pipelines de données, leur orchestration, l'architecture lakehouse, la qualité et la gouvernance des données. Elle comprend aussi la construction d'un projet de carrière autour du métier d'Ingénieur Big Data.",
+      "en": "The training covers data pipeline design and orchestration, lakehouse architecture, data quality, and data governance. It also includes building a career plan around the Big Data Engineer profession."
+    },
+    "keywords": ["Force-N", "compétences", "pipelines", "orchestration", "lakehouse", "qualité", "gouvernance"]
+  },
+  {
+    "id": "force-n-partners",
+    "category": "education",
+    "question": {
+      "fr": "Quels sont les partenaires du programme Force-N pour ce certificat ?",
+      "en": "Which organizations partnered with the Force-N program for this certificate?"
+    },
+    "answer": {
+      "fr": "Le programme Force-N a délivré cette attestation en partenariat avec l'Université Numérique Cheikh Hamidou Kane (UN-CHK) et la Mastercard Foundation.",
+      "en": "The Force-N program issued this certificate in partnership with Université Numérique Cheikh Hamidou Kane (UN-CHK) and the Mastercard Foundation."
+    },
+    "keywords": [
+      "Force-N",
+      "partenaires",
+      "partners",
+      "partnered",
+      "organizations",
+      "UN-CHK",
+      "Mastercard Foundation"
+    ]
+  },
+  {
     "id": "data-tour",
     "category": "education",
     "question": { "fr": "À quelle compétition data a-t-il participé ?", "en": "Which data competition did he participate in?" },
