@@ -181,6 +181,9 @@ const messages = {
       intro:
         "Pour une collaboration, une opportunité ou une question, vous pouvez écrire à Yannick.",
       email: "Email",
+      alternateEmail: "Autre adresse email",
+      whatsapp: "WhatsApp",
+      contactMethods: "Moyens de contact",
       linkedin: "LinkedIn",
       github: "GitHub",
       formTitle: "Envoyer un message",
@@ -375,6 +378,9 @@ const messages = {
       intro:
         "For collaboration, an opportunity, or a question, you can write to Yannick.",
       email: "Email",
+      alternateEmail: "Alternative email",
+      whatsapp: "WhatsApp",
+      contactMethods: "Contact methods",
       linkedin: "LinkedIn",
       github: "GitHub",
       formTitle: "Send a message",

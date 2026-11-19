@@ -11,6 +11,8 @@ import { ChatWidget } from "@/components/chat-widget";
 import profile from "@/data/profile.json";
 import "../globals.css";
 
+export const dynamic = "force-static";
+
 const bricolageGrotesque = Bricolage_Grotesque({
   variable: "--font-bricolage-grotesque",
   subsets: ["latin", "latin-ext"],

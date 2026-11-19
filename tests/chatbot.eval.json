@@ -153,7 +153,19 @@
     "id": "fr-availability",
     "locale": "fr",
     "message": "Est-il disponible pour un poste ?",
-    "expect": { "includes": ["pas encore été précisée", "yannickmadjiadoum@gmail.com"] }
+    "expect": { "includes": ["disponible", "opportunités professionnelles"] }
+  },
+  {
+    "id": "fr-desired-role",
+    "locale": "fr",
+    "message": "Quel type de poste recherche-t-il ?",
+    "expect": { "includes": ["Data Analyst", "Data Engineer", "Analyste BI", "Prompt Engineer"] }
+  },
+  {
+    "id": "en-mobility",
+    "locale": "en",
+    "message": "Is Yannick open to mobility?",
+    "expect": { "includes": ["available", "open to mobility"] }
   },
   {
     "id": "fr-contact",

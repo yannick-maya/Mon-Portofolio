@@ -20,9 +20,9 @@ export default function ProfilePage() {
   const facts = [
     { label: t("location"), value: `${profile.location[locale]} · ${profile.origin[locale]}` },
     { label: t("languages"), value: languageText },
-    { label: t("availability"), value: t("toConfirm") },
-    { label: t("desiredPosition"), value: t("toConfirm") },
-    { label: t("mobility"), value: t("toConfirm") },
+    { label: t("availability"), value: profile.availability[locale] },
+    { label: t("desiredPosition"), value: profile.desiredPosition[locale] },
+    { label: t("mobility"), value: profile.mobility[locale] },
   ];
 
   return (

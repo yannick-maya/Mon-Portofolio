@@ -1,5 +1,6 @@
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import contact from "@/data/contact.json";
 import profile from "@/data/profile.json";
 
 export function SiteFooter() {
@@ -30,6 +31,16 @@ export function SiteFooter() {
             <a href={profile.links.github} rel="noreferrer" target="_blank">
               GitHub <span aria-hidden="true">↗</span>
             </a>
+            {contact.whatsappNumbers.map((phone) => (
+              <a
+                href={`https://wa.me/${phone.replace(/\D/g, "")}`}
+                key={phone}
+                rel="noreferrer"
+                target="_blank"
+              >
+                WhatsApp · {phone} <span aria-hidden="true">↗</span>
+              </a>
+            ))}
           </div>
         </div>
         <div className="site-footer__bottom">
@@ -37,7 +48,13 @@ export function SiteFooter() {
             © {new Date().getFullYear()} {profile.name[language]}.{" "}
             {footer("rights")}
           </p>
-          <a href={`mailto:${profile.email}`}>{profile.email}</a>
+          <div className="site-footer__contact-links">
+            {[profile.email, ...contact.additionalEmails].map((email) => (
+              <a href={`mailto:${email}`} key={email}>
+                {email}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </footer>

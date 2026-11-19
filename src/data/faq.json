@@ -213,21 +213,21 @@
     "id": "availability",
     "category": "profile",
     "question": { "fr": "Est-il disponible pour un poste ?", "en": "Is he available for a role?" },
-    "answer": { "fr": "Cette information n'a pas encore été précisée. Vous pouvez lui demander directement à yannickmadjiadoum@gmail.com.", "en": "This information has not been provided yet. You can ask him directly at yannickmadjiadoum@gmail.com." },
+    "answer": { "fr": "Oui, Yannick est disponible pour des opportunités professionnelles.", "en": "Yes, Yannick is available for professional opportunities." },
     "keywords": ["disponibilité", "disponible", "availability", "poste"]
   },
   {
     "id": "desired-role",
     "category": "profile",
     "question": { "fr": "Quel type de poste recherche-t-il ?", "en": "What kind of role is he looking for?" },
-    "answer": { "fr": "Le type de poste recherché n'est pas précisé dans les informations disponibles. Contactez-le pour lui poser la question.", "en": "The type of role he is looking for is not specified in the available information. Contact him to ask." },
+    "answer": { "fr": "Il recherche des opportunités comme Data Analyst, Data Engineer, Analyste BI ou Prompt Engineer, dans l'IA, le développement web et mobile, ainsi que la formation aux outils informatiques.", "en": "He is interested in roles as a Data Analyst, Data Engineer, BI Analyst, or Prompt Engineer, as well as work in AI, web and mobile development, and training in computer tools." },
     "keywords": ["poste recherché", "emploi", "job", "recherche"]
   },
   {
     "id": "mobility",
     "category": "profile",
-    "question": { "fr": "Est-il mobile à l'international ?", "en": "Is he open to international relocation?" },
-    "answer": { "fr": "Ses préférences de mobilité ne sont pas précisées. Le mieux est de lui demander directement.", "en": "His mobility preferences are not specified. It is best to ask him directly." },
+    "question": { "fr": "Est-il mobile ?", "en": "Is he open to mobility?" },
+    "answer": { "fr": "Oui, Yannick se déclare disponible et mobile.", "en": "Yes, Yannick states that he is available and open to mobility." },
     "keywords": ["mobilité", "déménagement", "international"]
   },
   {

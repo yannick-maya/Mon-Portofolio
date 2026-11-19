@@ -43,16 +43,16 @@
     }
   ],
   "availability": {
-    "fr": "[À COMPLÉTER PAR YANNICK]",
-    "en": "[À COMPLÉTER PAR YANNICK]"
+    "fr": "Disponible",
+    "en": "Available"
   },
   "desiredPosition": {
-    "fr": "[À COMPLÉTER PAR YANNICK]",
-    "en": "[À COMPLÉTER PAR YANNICK]"
+    "fr": "Data Analyst, Data Engineer, Analyste BI, Prompt Engineer, intelligence artificielle (IA), développeur web et mobile, formateur en outils informatiques.",
+    "en": "Data Analyst, Data Engineer, BI Analyst, Prompt Engineer, artificial intelligence (AI), web and mobile developer, and computer tools trainer."
   },
   "mobility": {
-    "fr": "[À COMPLÉTER PAR YANNICK]",
-    "en": "[À COMPLÉTER PAR YANNICK]"
+    "fr": "Disponible et mobile",
+    "en": "Available and open to mobility"
   },
   "interests": [
     { "fr": "Musique", "en": "Music" },

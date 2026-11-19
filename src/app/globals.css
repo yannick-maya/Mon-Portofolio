@@ -1273,6 +1273,7 @@ a {
 
 .facts-list dd {
   margin: 0;
+  overflow-wrap: anywhere;
   font-weight: 600;
 }
 
@@ -1655,6 +1656,74 @@ a {
 .site-footer__bottom a {
   color: var(--muted);
   text-decoration: none;
+}
+
+.site-footer__contact-links {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.route-loading {
+  display: grid;
+  gap: 2rem;
+}
+
+.route-loading__intro {
+  display: grid;
+  gap: 1rem;
+  max-width: 46rem;
+}
+
+.route-loading__block {
+  min-height: 1rem;
+  background: linear-gradient(
+    100deg,
+    var(--surface) 30%,
+    color-mix(in srgb, var(--border) 70%, var(--background)) 50%,
+    var(--surface) 70%
+  );
+  background-size: 220% 100%;
+  animation: route-loading-shimmer 1.4s linear infinite;
+}
+
+.route-loading__block--eyebrow {
+  width: 7rem;
+  min-height: 0.8rem;
+}
+
+.route-loading__block--title {
+  width: min(100%, 28rem);
+  min-height: 3rem;
+}
+
+.route-loading__block--copy {
+  width: min(100%, 42rem);
+  min-height: 1.1rem;
+}
+
+.route-loading__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: 1.5rem;
+}
+
+.route-loading__card {
+  min-height: 15rem;
+  border: 1px solid var(--border);
+  padding: 1.25rem;
+  background: var(--background);
+}
+
+@keyframes route-loading-shimmer {
+  to {
+    background-position-x: -220%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-loading__block {
+    animation: none;
+  }
 }
 
 .sr-only {
