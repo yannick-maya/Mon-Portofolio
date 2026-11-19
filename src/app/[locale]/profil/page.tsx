@@ -38,11 +38,18 @@ export default function ProfilePage() {
         </div>
 
         <section className="profile-overview" aria-labelledby="profile-summary">
-          <ImagePlaceholder
-            alt={t("portraitLabel")}
-            className="profile-portrait"
-            src="/images/profile.jpg"
-          />
+          <figure className="profile-portrait-frame">
+            <ImagePlaceholder
+              alt={t("portraitLabel")}
+              className="profile-portrait"
+              src="/images/profile.jpg"
+            />
+            <figcaption className="profile-portrait-caption">
+              <span>{profile.name[locale]}</span>
+              <span>{profile.location[locale]} · {profile.origin[locale]}</span>
+            </figcaption>
+            <span className="profile-portrait-index" aria-hidden="true">01 / PROFIL</span>
+          </figure>
           <div className="profile-overview__content">
             <h2 id="profile-summary">{t("summary")}</h2>
             <p className="long-copy">{profile.summary[locale]}</p>

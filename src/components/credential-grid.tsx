@@ -43,7 +43,7 @@ export function CredentialGrid() {
   const viewableCredentials = useMemo(
     () =>
       visibleCredentials.filter(
-        (credential) => credential.fichier || credential.vignette,
+        (credential) => credential.fichier,
       ),
     [visibleCredentials],
   );
@@ -70,20 +70,26 @@ export function CredentialGrid() {
       {visibleCredentials.length ? (
         <div className="credential-grid" aria-live="polite">
           {visibleCredentials.map((credential) => {
-            const preview = credential.vignette || credential.fichier;
-            const isViewable = Boolean(preview);
+            const isViewable = Boolean(credential.fichier);
 
             return (
               <article className="credential-card" key={credential.id}>
                 <div className="credential-card__preview">
                   {credential.vignette ? (
-                    <Image
-                      alt=""
-                      className="credential-card__image"
-                      fill
-                      sizes="(max-width: 48rem) 100vw, 33vw"
-                      src={credential.vignette}
-                    />
+                    <>
+                      <Image
+                        alt=""
+                        className="credential-card__image"
+                        fill
+                        sizes="(max-width: 48rem) 100vw, 33vw"
+                        src={credential.vignette}
+                      />
+                      {!credential.fichier ? (
+                        <span className="credential-card__illustration-label">
+                          {locale === "fr" ? "Illustration temporaire · document non fourni" : "Temporary illustration · document not provided"}
+                        </span>
+                      ) : null}
+                    </>
                   ) : (
                     <div
                       className="credential-card__placeholder"

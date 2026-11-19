@@ -51,17 +51,47 @@
     "type": "education"
   },
   {
-    "id": "fale-tech",
-    "period": { "fr": "Octobre 2024 à mars 2025", "en": "October 2024 to March 2025" },
-    "title": {
-      "fr": "Stagiaire IT",
-      "en": "IT intern"
-    },
-    "organization": { "fr": "Fale-Tech", "en": "Fale-Tech" },
+    "id": "epigraph",
+    "period": { "fr": "Janvier à février 2026", "en": "January to February 2026" },
+    "title": { "fr": "Data Scientist et cofondateur", "en": "Data Scientist & Co-founder" },
+    "organization": { "fr": "EpiGraph", "en": "EpiGraph" },
     "location": { "fr": "Togo", "en": "Togo" },
     "description": {
-      "fr": "Développement full-stack, infogérance et administration système.",
-      "en": "Full-stack development, IT services management, and systems administration."
+      "fr": "Co-développement d’une plateforme d’analyse et de prédiction épidémiologiques par graphes et IA : modélisation d’un réseau de plus de 10 000 patients, algorithmes Neo4j Graph Data Science, modèles prédictifs (85 % de précision), API FastAPI et interface Streamlit. Le CV indique une traçabilité des chaînes de contamination en moins de deux secondes.",
+      "en": "Co-developed a graph and AI platform for epidemiological analysis and prediction: modeled a network of 10,000+ patients, applied Neo4j Graph Data Science algorithms, built predictive models (85% accuracy), a FastAPI backend, and a Streamlit interface. The CV reports tracing contamination chains in under two seconds."
+    },
+    "type": "experience"
+  },
+  {
+    "id": "direction-generale-impots-tchad",
+    "period": { "fr": "Juillet à octobre 2025 (4 mois)", "en": "July to October 2025 (4 months)" },
+    "title": { "fr": "Stagiaire en informatique", "en": "Information Technology Intern" },
+    "organization": { "fr": "Direction générale des impôts du Tchad", "en": "Chad General Directorate of Taxes" },
+    "location": { "fr": "N’Djaména, Tchad", "en": "N'Djamena, Chad" },
+    "description": { "fr": "Assistance technique.", "en": "Technical support." },
+    "type": "experience"
+  },
+  {
+    "id": "grain-de-seneve",
+    "period": { "fr": "Juin à octobre 2025 (5 mois)", "en": "June to October 2025 (5 months)" },
+    "title": { "fr": "Instituteur informatique", "en": "IT Instructor" },
+    "organization": { "fr": "Centre de formation informatique Grain de Sénevé", "en": "Grain de Sénevé Computer Training Center" },
+    "location": { "fr": "", "en": "" },
+    "description": { "fr": "Enseignement de l’informatique.", "en": "Computer science instruction." },
+    "type": "experience"
+  },
+  {
+    "id": "fale-tech",
+    "period": { "fr": "Novembre 2024 à avril 2025", "en": "November 2024 to April 2025" },
+    "title": {
+      "fr": "Stagiaire projet",
+      "en": "Project Intern"
+    },
+    "organization": { "fr": "Fale-Tech", "en": "Fale-Tech" },
+    "location": { "fr": "N'Djaména, Tchad", "en": "N'Djamena, Chad" },
+    "description": {
+      "fr": "Formation Laravel, développement full-stack et infogérance.",
+      "en": "Laravel training, full-stack development, and IT services management."
     },
     "type": "experience"
   },

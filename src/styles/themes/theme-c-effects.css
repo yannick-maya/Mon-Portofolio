@@ -365,7 +365,17 @@ body {
 .site-page .project-card__action { margin-top: auto; color: var(--accent); font: 600 0.67rem ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.08em; text-transform: uppercase; }
 
 .profile-overview { grid-template-columns: minmax(15rem, 0.58fr) minmax(0, 1.15fr); align-items: stretch; gap: clamp(2rem, 7vw, 7rem); }
-.profile-portrait { width: 100%; max-height: 44rem; border: 1px solid var(--border); border-radius: 0; object-fit: cover; }
+.profile-portrait-frame { position: relative; margin: 0; padding: 1.1rem 1.1rem 3.6rem 0; isolation: isolate; }
+.profile-portrait-frame::before { position: absolute; z-index: -1; inset: 2.2rem 0 0.4rem 2.2rem; border: 1px solid var(--home-accent); content: ""; }
+.profile-portrait-frame::after { position: absolute; z-index: -1; inset: 0 1.2rem 3.5rem 1.2rem; background: var(--home-accent); opacity: 0.13; content: ""; transform: translate(0.55rem, 0.55rem); }
+.profile-portrait { width: 100%; max-height: 44rem; min-height: 22rem; border: 1px solid var(--border); border-radius: 0; object-fit: cover; box-shadow: 1rem 1rem 0 var(--surface-raised); }
+.profile-portrait-caption { position: absolute; inset: auto 0.25rem 0.65rem auto; display: grid; gap: 0.25rem; max-width: 80%; padding: 0.85rem 1rem; background: var(--surface-raised); border: 1px solid var(--border); font-size: 0.75rem; }
+.profile-portrait-caption span:first-child { font-weight: 700; letter-spacing: 0.04em; }
+.profile-portrait-caption span:last-child { color: var(--text-muted); }
+.profile-portrait-index { position: absolute; inset: 1.6rem auto auto 0.55rem; writing-mode: vertical-rl; color: var(--text-muted); font: 600 0.6rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.12em; }
+.credential-card__illustration-label { position: absolute; z-index: 1; inset: auto 0.55rem 0.55rem; padding: 0.55rem 0.65rem; background: rgb(17 20 22 / 88%); color: white; font: 600 0.62rem/1.35 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.04em; text-transform: uppercase; }
+.project-card__media { position: relative; }
+.project-card__illustration-label { position: absolute; z-index: 2; inset: auto 0.65rem 0.65rem auto; padding: 0.4rem 0.55rem; background: rgb(17 20 22 / 86%); color: white; font: 600 0.57rem/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.05em; text-transform: uppercase; }
 .profile-overview__content { align-content: start; padding-top: 0.5rem; }
 .profile-overview__content h2 { font-size: clamp(2rem, 4vw, 3.8rem); letter-spacing: -0.07em; }
 .long-copy { color: var(--foreground); font-size: clamp(1.05rem, 1.5vw, 1.3rem); line-height: 1.8; }
@@ -514,7 +524,7 @@ body {
   .site-page .project-grid { grid-template-columns: minmax(0, 1fr); }
   .site-page .project-grid > div,.site-page .project-grid > div:nth-child(n) { grid-column: auto; }
   .profile-overview { grid-template-columns: minmax(0, 1fr); gap: 1.7rem; }
-  .profile-portrait { width: min(74%, 21rem); justify-self: center; }
+  .profile-portrait-frame { width: min(86%, 24rem); justify-self: center; }
   .facts-list__item { grid-template-columns: minmax(7rem, 0.42fr) minmax(0, 1fr); gap: 0.8rem; }
   .expertise-grid,.skill-groups { grid-template-columns: minmax(0, 1fr); }
   .expertise-item:nth-child(odd) { border-right: 0; }
