@@ -576,3 +576,10 @@ body {
 @keyframes chat-panel-enter { from { opacity: 0; transform: translateY(.65rem) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
 @media (max-width: 40rem) { .chat-widget { right: max(.75rem, env(safe-area-inset-right)); bottom: max(.75rem, env(safe-area-inset-bottom)); } .chat-panel { width: calc(100vw - 1.5rem); height: min(40rem, calc(100dvh - 6.5rem)); } }
 @media (prefers-reduced-motion: reduce) { .chat-panel { animation: none; } .chat-widget__launcher, .chat-starters button, .chat-message__suggestions button { transition: none; } }
+
+/* Softer sage palette for the chat chrome, away from the portfolio's citron accent. */
+.chat-widget__launcher { background: #46665d; color: #fff; }
+.chat-widget__launcher:hover { background: #56776d; }
+.chat-panel__header { background: #46665d; }
+.chat-panel__brand-mark { background: #dce8df; color: #26443b; }
+.chat-panel__eyebrow { color: #dce8df; }
