@@ -1,0 +1,23 @@
+.theme-preview[data-preview-theme="A"] {
+  --tp-night: #101c2c;
+  --tp-night-soft: #1a2c43;
+  --tp-night-ink: #f4f6f8;
+  --tp-night-muted: #c0cbd7;
+  --tp-night-line: #52657c;
+  --tp-paper: #f4f6f8;
+  --tp-paper-alt: #e8edf2;
+  --tp-paper-ink: #18283b;
+  --tp-paper-muted: #4a5d72;
+  --tp-paper-line: #9aa8b8;
+  --tp-accent: #2864f0;
+  --tp-accent-ink: #ffffff;
+  --tp-accent-hot: #f2a900;
+  --tp-accent-hot-ink: #29200a;
+  --tp-hover: #174bc2;
+  --tp-focus: #f2a900;
+  --tp-focus-paper: #174bc2;
+  --tp-success: #167348;
+  --tp-error: #b42332;
+  --tp-success-bg: #e3f4ea;
+  --tp-error-bg: #fff0ef;
+}

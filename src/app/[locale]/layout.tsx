@@ -10,6 +10,10 @@ import { SiteFooter } from "@/components/site-footer";
 import { ChatWidgetLoader } from "@/components/chat-widget-loader";
 import profile from "@/data/profile.json";
 import "@/styles/themes/theme-c.css";
+import "@/styles/themes/preview-a.css";
+import "@/styles/themes/preview-b.css";
+import "@/styles/themes/preview-c.css";
+import "@/styles/themes/theme-preview.css";
 import "../globals.css";
 
 export const dynamic = "force-static";
