@@ -1,90 +1,92 @@
 :root {
   color-scheme: light;
-  --home-background: #092b2f;
-  --home-surface: #12393d;
-  --home-text: #f6f1e4;
-  --home-muted: #d2ded9;
-  --home-border: #667f82;
-  --home-accent: #e9a45b;
-  --home-accent-foreground: #1a1f1e;
-  --home-accent-hover: #d88d42;
-  --home-focus: #f4d58d;
 
-  --page-background: #f8f3e8;
-  --page-text: #27332f;
-  --page-accent: #00635d;
-  --page-border: #74796f;
+  /* Delta vivant: une lumière sahélienne, des eaux profondes et une terre chaude. */
+  --home-background: #10233f;
+  --home-surface: #193456;
+  --home-text: #f5f8f2;
+  --home-muted: #c5d6d9;
+  --home-border: #54717c;
+  --home-accent: #e9a23b;
+  --home-accent-foreground: #2b1c08;
+  --home-accent-hover: #f4b85c;
+  --home-focus: #e9a23b;
+
+  --page-background: #f5f8f2;
+  --page-text: #172c37;
+  --page-accent: #007f78;
+  --page-border: #93a7a2;
   --success: #146c43;
   --success-background: #ddf4e5;
   --error: #a52834;
   --error-background: #fce8e6;
 
-  --background: #f8f3e8;
-  --foreground: #27332f;
-  --muted: #4d5b55;
-  --surface: #fffcf5;
-  --border: #74796f;
-  --navy: #27332f;
-  --accent: #00635d;
+  --background: var(--page-background);
+  --foreground: var(--page-text);
+  --muted: #4a6269;
+  --surface: #ffffff;
+  --border: var(--page-border);
+  --navy: var(--page-text);
+  --accent: var(--page-accent);
   --accent-foreground: #ffffff;
-  --accent-hover: #004843;
+  --accent-hover: #00645f;
   --accent-hover-foreground: #ffffff;
-  --accent-warm: #8c4b22;
-  --accent-warm-foreground: #ffffff;
-  --signal: #8c4b22;
-  --focus: #005951;
+  --accent-warm: #e9a23b;
+  --accent-warm-foreground: #2b1c08;
+  --signal: #9a6419;
+  --focus: #00645f;
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --background: #10201f;
-  --foreground: #f1f4e9;
-  --muted: #c4d2ca;
-  --surface: #192c2a;
-  --border: #71827d;
-  --navy: #f1f4e9;
-  --accent: #70d2c0;
-  --accent-foreground: #062b27;
-  --accent-hover: #8be0d2;
-  --accent-hover-foreground: #062b27;
-  --accent-warm: #f0a46e;
-  --accent-warm-foreground: #2a160a;
-  --signal: #f0a46e;
-  --focus: #f4d58d;
+  --background: #10233f;
+  --foreground: #f5f8f2;
+  --muted: #c5d6d9;
+  --surface: #193456;
+  --border: #54717c;
+  --navy: #f5f8f2;
+  --accent: #48c7b7;
+  --accent-foreground: #10233f;
+  --accent-hover: #7ce0d3;
+  --accent-hover-foreground: #10233f;
+  --accent-warm: #f4b85c;
+  --accent-warm-foreground: #2b1c08;
+  --signal: #f4b85c;
+  --focus: #e9a23b;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --background: #10201f;
-    --foreground: #f1f4e9;
-    --muted: #c4d2ca;
-    --surface: #192c2a;
-    --border: #71827d;
-    --navy: #f1f4e9;
-    --accent: #70d2c0;
-    --accent-foreground: #062b27;
-    --accent-hover: #8be0d2;
-    --accent-hover-foreground: #062b27;
-    --accent-warm: #f0a46e;
-    --accent-warm-foreground: #2a160a;
-    --signal: #f0a46e;
-    --focus: #f4d58d;
+    --background: #10233f;
+    --foreground: #f5f8f2;
+    --muted: #c5d6d9;
+    --surface: #193456;
+    --border: #54717c;
+    --navy: #f5f8f2;
+    --accent: #48c7b7;
+    --accent-foreground: #10233f;
+    --accent-hover: #7ce0d3;
+    --accent-hover-foreground: #10233f;
+    --accent-warm: #f4b85c;
+    --accent-warm-foreground: #2b1c08;
+    --signal: #f4b85c;
+    --focus: #e9a23b;
   }
 }
 
 :root:has(.home-page) {
   color-scheme: dark;
-  --background: #092b2f;
-  --foreground: #f6f1e4;
-  --muted: #d2ded9;
-  --surface: #12393d;
-  --border: #667f82;
-  --navy: #e9a45b;
-  --accent: #e9a45b;
-  --accent-foreground: #1a1f1e;
-  --accent-hover: #d88d42;
-  --accent-hover-foreground: #1a1f1e;
-  --signal: #e9a45b;
-  --focus: #f4d58d;
+  --background: var(--home-background);
+  --foreground: var(--home-text);
+  --muted: var(--home-muted);
+  --surface: var(--home-surface);
+  --border: var(--home-border);
+  --navy: var(--home-accent);
+  --accent: var(--home-accent);
+  --accent-foreground: var(--home-accent-foreground);
+  --accent-hover: var(--home-accent-hover);
+  --accent-hover-foreground: var(--home-accent-foreground);
+  --signal: #56c9bd;
+  --focus: var(--home-focus);
 }

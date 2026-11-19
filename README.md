@@ -42,11 +42,13 @@ dans un autre terminal, puis exécuter `npm run eval:chat`.
 
 ## Système visuel
 
-Les couleurs de marque sont définies comme variables CSS sémantiques dans
-`src/app/globals.css` : bleu profond pour la structure, safran comme accent
-principal, rouge pour les repères ponctuels, et encre/blanc froid pour les
-surfaces. Le thème suit la préférence système et accepte une surcharge avec
-`data-theme="light"` ou `data-theme="dark"` sur l’élément racine.
+Les couleurs de la direction « Delta vivant » sont définies comme variables
+CSS sémantiques dans `src/styles/themes/theme-c.css` : accueil indigo profond,
+pages intérieures ivoire clair, lagon en accent principal et safran en accent
+chaud. Les courbes topographiques animées évoquent les territoires et les flux
+de données. Le thème suit la préférence système sur les pages intérieures et
+accepte une surcharge avec `data-theme="light"` ou `data-theme="dark"` sur
+l’élément racine ; l’accueil reste sombre.
 
 Les titres utilisent Bricolage Grotesque et le texte Public Sans, chargées et
 optimisées avec `next/font`. Les composants communs (boutons, conteneur,
