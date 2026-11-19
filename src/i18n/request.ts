@@ -2,7 +2,7 @@ import { hasLocale } from "next-intl";
 import { getRequestConfig } from "next-intl/server";
 import { routing } from "./routing";
 
-const messages = {
+export const messages = {
   fr: {
     languageSwitcher: {
       label: "Changer de langue",

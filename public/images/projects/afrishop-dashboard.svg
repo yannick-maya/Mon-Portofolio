@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <rect width="1200" height="675" fill="#e9eee5"/>
+  <rect x="28" y="28" width="1144" height="619" rx="24" fill="#f8faf5"/>
+  <rect x="28" y="28" width="224" height="619" rx="24" fill="#142c28"/>
+  <path d="M228 52v571" stroke="#37534a" stroke-width="2"/>
+  <rect x="53" y="56" width="38" height="38" rx="12" fill="#d7fa68"/>
+  <path d="M64 77h16M72 69v16" stroke="#142c28" stroke-width="3" stroke-linecap="round"/>
+  <text x="104" y="82" fill="#f8faf5" font-family="Arial,sans-serif" font-size="21" font-weight="700">AfriShop</text>
+  <text x="55" y="145" fill="#91a99d" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">COMMERCE DATA</text>
+  <rect x="47" y="164" width="180" height="43" rx="10" fill="#d7fa68"/>
+  <circle cx="68" cy="185" r="5" fill="#142c28"/><path d="M81 185h93" stroke="#142c28" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#90a59a" stroke-width="3" stroke-linecap="round"><path d="M65 239h104"/><path d="M65 287h78"/><path d="M65 335h112"/><path d="M65 383h89"/></g>
+  <g fill="#90a59a"><circle cx="55" cy="239" r="4"/><circle cx="55" cy="287" r="4"/><circle cx="55" cy="335" r="4"/><circle cx="55" cy="383" r="4"/></g>
+  <circle cx="72" cy="579" r="18" fill="#e1a681"/><path d="M101 573h75M101 585h46" stroke="#90a59a" stroke-width="3" stroke-linecap="round"/>
+  <text x="284" y="81" fill="#18342e" font-family="Arial,sans-serif" font-size="23" font-weight="700">Commerce overview</text>
+  <text x="284" y="105" fill="#81918a" font-family="Arial,sans-serif" font-size="12">Sales · orders · product performance</text>
+  <rect x="1004" y="53" width="134" height="39" rx="10" fill="#fff" stroke="#dce4da"/>
+  <path d="M1024 69h14m-14 8h14" stroke="#456058" stroke-width="2" stroke-linecap="round"/><path d="m1051 68 5 5 5-5" stroke="#456058" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <rect x="284" y="130" width="250" height="114" rx="15" fill="#fff" stroke="#e1e7de"/><rect x="551" y="130" width="250" height="114" rx="15" fill="#fff" stroke="#e1e7de"/><rect x="818" y="130" width="320" height="114" rx="15" fill="#d7fa68"/>
+    <text x="306" y="160" fill="#72847c" font-family="Arial,sans-serif" font-size="12">NET SALES</text><path d="M306 183h145M306 201h94" stroke="#b5c1b7" stroke-width="8" stroke-linecap="round"/><path d="M484 186v22m-8-8 8 8 8-8" stroke="#438a64" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="573" y="160" fill="#72847c" font-family="Arial,sans-serif" font-size="12">ORDERS</text><path d="M573 183h131M573 201h77" stroke="#b5c1b7" stroke-width="8" stroke-linecap="round"/><circle cx="756" cy="191" r="18" fill="#e5efe7"/><path d="m748 191 6 6 11-13" stroke="#438a64" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="840" y="160" fill="#3d573b" font-family="Arial,sans-serif" font-size="12">CUSTOMERS</text><path d="M840 184h200M840 204h126" stroke="#8caa5b" stroke-width="8" stroke-linecap="round"/><circle cx="1092" cy="187" r="19" fill="#f8faf5"/><path d="M1083 190c3-9 15-9 18 0M1092 179a4 4 0 1 0 0.1 0" stroke="#18342e" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <rect x="284" y="264" width="565" height="344" rx="16" fill="#fff" stroke="#e1e7de"/>
+  <text x="308" y="297" fill="#18342e" font-family="Arial,sans-serif" font-size="15" font-weight="700">Sales trend</text><text x="308" y="317" fill="#87958e" font-family="Arial,sans-serif" font-size="11">Daily activity</text>
+  <g stroke="#edf0eb" stroke-width="1"><path d="M322 359h489M322 410h489M322 461h489M322 512h489M322 563h489"/><path d="M367 343v230M435 343v230M503 343v230M571 343v230M639 343v230M707 343v230M775 343v230"/></g>
+  <path d="M323 526c49-6 56-52 104-39s54-41 104-35 55-39 101-22 59-59 104-42 55-68 76-74" stroke="#588b64" stroke-width="5" stroke-linecap="round"/>
+  <path d="M323 526c49-6 56-52 104-39s54-41 104-35 55-39 101-22 59-59 104-42 55-68 76-74v259H323z" fill="url(#a)" opacity=".7"/>
+  <g fill="#d7fa68" stroke="#588b64" stroke-width="3"><circle cx="427" cy="487" r="6"/><circle cx="531" cy="452" r="6"/><circle cx="632" cy="430" r="6"/><circle cx="736" cy="388" r="6"/></g>
+  <rect x="866" y="264" width="272" height="344" rx="16" fill="#fff" stroke="#e1e7de"/>
+  <text x="890" y="297" fill="#18342e" font-family="Arial,sans-serif" font-size="15" font-weight="700">Top categories</text><text x="890" y="317" fill="#87958e" font-family="Arial,sans-serif" font-size="11">Product mix</text>
+  <circle cx="1002" cy="430" r="75" stroke="#e8eee6" stroke-width="25"/><path d="M1002 355a75 75 0 0 1 69 104" stroke="#d7fa68" stroke-width="25"/><path d="M1071 459a75 75 0 0 1-103 35" stroke="#5f9571" stroke-width="25"/><path d="M968 494a75 75 0 0 1 34-139" stroke="#dda681" stroke-width="25"/>
+  <g stroke-linecap="round" stroke-width="7"><path d="M895 545h33" stroke="#d7fa68"/><path d="M989 545h33" stroke="#5f9571"/><path d="M1081 545h28" stroke="#dda681"/></g><g stroke="#b9c4bb" stroke-width="5" stroke-linecap="round"><path d="M938 545h35"/><path d="M1032 545h40"/><path d="M1117 545h0"/></g>
+  <defs><linearGradient id="a" x1="567" y1="365" x2="567" y2="564" gradientUnits="userSpaceOnUse"><stop stop-color="#d7fa68" stop-opacity=".38"/><stop offset="1" stop-color="#d7fa68" stop-opacity="0"/></linearGradient></defs>
+</svg>

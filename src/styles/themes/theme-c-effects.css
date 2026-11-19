@@ -253,7 +253,7 @@ body {
 
 .landing__portrait:hover { transform: rotate(0deg) translate(-3px, -3px); box-shadow: 1.2rem 1.2rem 0 var(--home-accent); }
 .landing__portrait-index { position: absolute; z-index: 2; inset: 0.85rem auto auto 0.9rem; border: 1px solid rgb(255 255 255 / 35%); padding: 0.45rem 0.55rem; color: white; font: 600 0.59rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.12em; }
-.landing__portrait-image { border-radius: 0; filter: saturate(0.72) contrast(1.03); }
+.landing__portrait-image { border-radius: 0; filter: saturate(1.18) contrast(1.1) brightness(0.99); }
 .landing__portrait-caption { inset-inline: 0; inset-block-end: 0; border: 0; border-top: 1px solid rgb(255 255 255 / 25%); border-radius: 0; padding: 0.85rem 1rem; background: rgb(17 20 22 / 88%); font: 600 0.63rem/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.06em; text-transform: uppercase; }
 
 .landing__art {
@@ -373,9 +373,7 @@ body {
 .profile-portrait-caption span:first-child { font-weight: 700; letter-spacing: 0.04em; }
 .profile-portrait-caption span:last-child { color: var(--text-muted); }
 .profile-portrait-index { position: absolute; inset: 1.6rem auto auto 0.55rem; writing-mode: vertical-rl; color: var(--text-muted); font: 600 0.6rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.12em; }
-.credential-card__illustration-label { position: absolute; z-index: 1; inset: auto 0.55rem 0.55rem; padding: 0.55rem 0.65rem; background: rgb(17 20 22 / 88%); color: white; font: 600 0.62rem/1.35 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.04em; text-transform: uppercase; }
 .project-card__media { position: relative; }
-.project-card__illustration-label { position: absolute; z-index: 2; inset: auto 0.65rem 0.65rem auto; padding: 0.4rem 0.55rem; background: rgb(17 20 22 / 86%); color: white; font: 600 0.57rem/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.05em; text-transform: uppercase; }
 .profile-overview__content { align-content: start; padding-top: 0.5rem; }
 .profile-overview__content h2 { font-size: clamp(2rem, 4vw, 3.8rem); letter-spacing: -0.07em; }
 .long-copy { color: var(--foreground); font-size: clamp(1.05rem, 1.5vw, 1.3rem); line-height: 1.8; }

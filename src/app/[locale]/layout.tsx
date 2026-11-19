@@ -3,8 +3,9 @@ import type { ReactNode } from "react";
 import { Bricolage_Grotesque, Public_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { messages as localeMessages } from "@/i18n/request";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ChatWidgetLoader } from "@/components/chat-widget-loader";
@@ -63,12 +64,12 @@ export default async function LocaleLayout({
   }
 
   setRequestLocale(locale);
-  const messages = await getMessages();
+  const messages = localeMessages[locale];
 
   return (
     <html lang={locale} className={`${bricolageGrotesque.variable} ${publicSans.variable}`}>
       <body>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <SiteHeader name={profile.name[locale]} />
           {children}
           <SiteFooter />

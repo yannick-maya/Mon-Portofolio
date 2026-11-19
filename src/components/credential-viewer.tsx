@@ -34,7 +34,7 @@ export function CredentialViewer({
   const currentIndex = viewableCredentials.findIndex(
     (credential) => credential.id === selected.id,
   );
-  const source = selected.fichier;
+  const source = selected.fichier || selected.vignette;
   const isPdf = source?.toLowerCase().split("?")[0].endsWith(".pdf") ?? false;
 
   useEffect(() => {

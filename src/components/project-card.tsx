@@ -31,9 +31,6 @@ export function ProjectCard({ project }: { project: Project }) {
             className="project-card__image"
             src={project.image}
           />
-          <span className="project-card__illustration-label">
-            {locale === "fr" ? "Illustration temporaire" : "Temporary illustration"}
-          </span>
         </div>
         <div className="project-card__body">
           <p className="project-card__category">{project.category[locale]}</p>
