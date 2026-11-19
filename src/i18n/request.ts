@@ -93,6 +93,9 @@ export const messages = {
     },
     chatWidget: {
       title: "Assistant du portfolio",
+      eyebrow: "YANNICK · PORTFOLIO",
+      subtitle: "Parcours, projets et sujets data",
+      greetingLabel: "Bonjour !",
       open: "Ouvrir l’assistant du portfolio",
       close: "Fermer l’assistant",
       greeting:
@@ -292,6 +295,9 @@ export const messages = {
     },
     chatWidget: {
       title: "Portfolio assistant",
+      eyebrow: "YANNICK · PORTFOLIO",
+      subtitle: "Projects, experience, and data topics",
+      greetingLabel: "Start here",
       open: "Open the portfolio assistant",
       close: "Close the assistant",
       greeting:

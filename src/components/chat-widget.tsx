@@ -193,7 +193,12 @@ export function ChatWidget({
           aria-labelledby="portfolio-chat-title"
         >
           <header className="chat-panel__header">
-            <h2 id="portfolio-chat-title">{t("title")}</h2>
+            <span className="chat-panel__brand-mark" aria-hidden="true">YM</span>
+            <div className="chat-panel__heading">
+              <p className="chat-panel__eyebrow">{t("eyebrow")}</p>
+              <h2 id="portfolio-chat-title">{t("title")}</h2>
+              <p className="chat-panel__subtitle">{t("subtitle")}</p>
+            </div>
             <div className="chat-panel__header-actions">
               <button
                 className="chat-panel__icon-button"
@@ -203,7 +208,7 @@ export function ChatWidget({
                 aria-label={t("clear")}
                 title={t("clear")}
               >
-                <span aria-hidden="true">↺</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M20 11a8 8 0 0 0-14.8-4L4 9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/><path d="M4 4v5h5M4 13a8 8 0 0 0 14.8 4L20 15" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/><path d="M20 20v-5h-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </button>
               <button
                 className="chat-panel__icon-button"
@@ -212,13 +217,14 @@ export function ChatWidget({
                 aria-label={t("close")}
                 title={t("close")}
               >
-                <span aria-hidden="true">×</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg>
               </button>
             </div>
           </header>
           <div className="chat-panel__messages" aria-live="polite">
             <div className="chat-message chat-message--assistant">
-              {t("greeting")}
+              <span className="chat-message__label">{t("greetingLabel")}</span>
+              <span>{t("greeting")}</span>
             </div>
             {messages.map((message, index) => (
               <div
@@ -285,7 +291,10 @@ export function ChatWidget({
               type="submit"
               disabled={isLoading || input.trim().length === 0}
             >
-              {t("send")}
+              <span>{t("send")}</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+                <path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </button>
           </form>
           <p className="chat-panel__disclaimer">{t("disclaimer")}</p>
@@ -298,7 +307,7 @@ export function ChatWidget({
         aria-label={isOpen ? t("close") : t("open")}
         onClick={() => setIsOpen((open) => !open)}
       >
-        <span aria-hidden="true">{isOpen ? "×" : "?"}</span>
+        {isOpen ? <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg> : <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M20 11.4a7.4 7.4 0 0 1-7.7 7.4 8.7 8.7 0 0 1-3.2-.6L4 20l1.4-4.1a7.2 7.2 0 0 1-1.1-3.8A7.4 7.4 0 0 1 12 4.7h.4a7.4 7.4 0 0 1 7.6 6.7Z" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round"/><path d="M8 12h.01M12 12h.01M16 12h.01" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"/></svg>}
       </button>
     </div>
   );
