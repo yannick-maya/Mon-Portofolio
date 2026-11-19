@@ -7,10 +7,8 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { ChatWidget } from "@/components/chat-widget";
+import { ChatWidgetLoader } from "@/components/chat-widget-loader";
 import profile from "@/data/profile.json";
-import "@/styles/themes/theme-a.css";
-import "@/styles/themes/theme-b.css";
 import "@/styles/themes/theme-c.css";
 import "../globals.css";
 
@@ -73,7 +71,7 @@ export default async function LocaleLayout({
           <SiteHeader name={profile.name[locale]} />
           {children}
           <SiteFooter />
-          <ChatWidget />
+          <ChatWidgetLoader />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -1,8 +1,9 @@
-:root[data-theme="c"],
-:root:has(.theme-preview[data-theme="c"]) {
+:root {
   color-scheme: light;
   --home-background: #092b2f;
+  --home-surface: #12393d;
   --home-text: #f6f1e4;
+  --home-muted: #d2ded9;
   --home-border: #667f82;
   --home-accent: #e9a45b;
   --home-accent-foreground: #1a1f1e;
@@ -12,23 +13,78 @@
   --page-background: #f8f3e8;
   --page-text: #27332f;
   --page-accent: #00635d;
+  --page-border: #74796f;
+  --success: #146c43;
+  --success-background: #ddf4e5;
+  --error: #a52834;
+  --error-background: #fce8e6;
+
   --background: #f8f3e8;
   --foreground: #27332f;
-  --muted: #27332f;
+  --muted: #4d5b55;
   --surface: #fffcf5;
-  --surface-text: #27332f;
   --border: #74796f;
+  --navy: #27332f;
   --accent: #00635d;
   --accent-foreground: #ffffff;
   --accent-hover: #004843;
   --accent-hover-foreground: #ffffff;
   --accent-warm: #8c4b22;
   --accent-warm-foreground: #ffffff;
-  --focus: #005951;
-  --success: #146c43;
-  --success-background: #ddf4e5;
-  --error: #a52834;
-  --error-background: #fce8e6;
-  --navy: #27332f;
   --signal: #8c4b22;
+  --focus: #005951;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #10201f;
+  --foreground: #f1f4e9;
+  --muted: #c4d2ca;
+  --surface: #192c2a;
+  --border: #71827d;
+  --navy: #f1f4e9;
+  --accent: #70d2c0;
+  --accent-foreground: #062b27;
+  --accent-hover: #8be0d2;
+  --accent-hover-foreground: #062b27;
+  --accent-warm: #f0a46e;
+  --accent-warm-foreground: #2a160a;
+  --signal: #f0a46e;
+  --focus: #f4d58d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --background: #10201f;
+    --foreground: #f1f4e9;
+    --muted: #c4d2ca;
+    --surface: #192c2a;
+    --border: #71827d;
+    --navy: #f1f4e9;
+    --accent: #70d2c0;
+    --accent-foreground: #062b27;
+    --accent-hover: #8be0d2;
+    --accent-hover-foreground: #062b27;
+    --accent-warm: #f0a46e;
+    --accent-warm-foreground: #2a160a;
+    --signal: #f0a46e;
+    --focus: #f4d58d;
+  }
+}
+
+:root:has(.home-page) {
+  color-scheme: dark;
+  --background: #092b2f;
+  --foreground: #f6f1e4;
+  --muted: #d2ded9;
+  --surface: #12393d;
+  --border: #667f82;
+  --navy: #e9a45b;
+  --accent: #e9a45b;
+  --accent-foreground: #1a1f1e;
+  --accent-hover: #d88d42;
+  --accent-hover-foreground: #1a1f1e;
+  --signal: #e9a45b;
+  --focus: #f4d58d;
 }

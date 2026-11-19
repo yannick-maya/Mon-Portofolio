@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { usePathname } from "@/i18n/navigation";
 import { Link } from "@/i18n/navigation";
 
 type Locale = "fr" | "en";
@@ -39,24 +38,10 @@ function parseAssistantResponse(text: string) {
   };
 }
 
-export function ChatWidget() {
-  const isThemePreview = usePathname() === "/theme-preview";
-
-  return (
-    <ChatWidgetContent
-      initiallyOpen={isThemePreview}
-      isPreview={isThemePreview}
-      key={isThemePreview ? "theme-preview" : "site"}
-    />
-  );
-}
-
-function ChatWidgetContent({
-  initiallyOpen,
-  isPreview,
+export function ChatWidget({
+  initiallyOpen = false,
 }: {
-  initiallyOpen: boolean;
-  isPreview: boolean;
+  initiallyOpen?: boolean;
 }) {
   const locale = (useLocale() === "en" ? "en" : "fr") as Locale;
   const t = useTranslations("chatWidget");
@@ -200,10 +185,7 @@ function ChatWidgetContent({
   ];
 
   return (
-    <div
-      className={`chat-widget${isPreview ? " chat-widget--preview" : ""}`}
-      id={isPreview ? "preview-chat" : undefined}
-    >
+    <div className="chat-widget">
       {isOpen ? (
         <section
           className="chat-panel"

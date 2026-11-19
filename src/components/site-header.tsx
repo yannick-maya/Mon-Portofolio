@@ -4,10 +4,12 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LocaleSwitcher } from "@/components/locale-switcher";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export function SiteHeader({ name }: { name: string }) {
   const t = useTranslations("navigation");
   const pathname = usePathname();
+  const isHomePage = pathname === "/";
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const items = [
     { href: "/" as const, label: t("home") },
@@ -71,6 +73,7 @@ export function SiteHeader({ name }: { name: string }) {
             );
           })}
         </nav>
+        {!isHomePage ? <ThemeToggle /> : null}
         <LocaleSwitcher />
       </div>
     </header>

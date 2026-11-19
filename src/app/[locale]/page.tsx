@@ -7,6 +7,7 @@ import cv from "@/data/cv.json";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { HeroContours } from "@/components/hero-contours";
 
 export default async function Home() {
   const locale = await getLocale();
@@ -16,9 +17,10 @@ export default async function Home() {
   const cvFile = cv[language];
 
   return (
-    <main>
+    <main className="home-page">
       <section className="landing">
         <Container className="landing__layout">
+          <HeroContours />
           <section className="landing__copy" aria-labelledby="home-title">
             <p className="landing__eyebrow">
               <span aria-hidden="true" />
