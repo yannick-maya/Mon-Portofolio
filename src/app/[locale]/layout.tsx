@@ -9,6 +9,9 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ChatWidget } from "@/components/chat-widget";
 import profile from "@/data/profile.json";
+import "@/styles/themes/theme-a.css";
+import "@/styles/themes/theme-b.css";
+import "@/styles/themes/theme-c.css";
 import "../globals.css";
 
 export const dynamic = "force-static";

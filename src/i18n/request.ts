@@ -49,6 +49,32 @@ const messages = {
       contact: "Me contacter",
       github: "Voir GitHub",
     },
+    themePreview: {
+      pageTitle: "Aperçu des thèmes",
+      intro:
+        "Comparez trois palettes sur les mêmes composants. Le formulaire de démonstration n’envoie aucun message.",
+      chooseTheme: "Choisir un thème",
+      themeA: "A — Sobre",
+      themeB: "B — Vif",
+      themeC: "C — Courants cartographiques",
+      home: "Accueil",
+      projects: "Projets",
+      credentials: "Diplômes",
+      journey: "Parcours",
+      cv: "CV",
+      contact: "Contact",
+      chat: "Assistant",
+      homeEyebrow: "Ingénierie · Données · Territoires",
+      homeDescription:
+        "Des solutions data et numériques pour transformer les données en outils utiles aux territoires.",
+      dashboardTitle: "Tableau de bord territorial",
+      dashboardDescription:
+        "Exemple visuel d’un tableau de bord intégré, recoloré avec chaque palette.",
+      dashboardVisits: "Indicateurs suivis",
+      dashboardConversion: "Couverture des données",
+      dashboardSessions: "Sources connectées",
+      dashboardActivity: "Évolution hebdomadaire",
+    },
     cvPage: {
       eyebrow: "CV",
       title: "Parcours et compétences",
@@ -199,6 +225,7 @@ const messages = {
       error:
         "Le message n'a pas pu être envoyé. Réessayez ou contactez Yannick par email.",
       validationError: "Vérifiez les champs et réessayez.",
+      previewDisabled: "Aperçu uniquement : aucun message n’a été envoyé.",
     },
   },
   en: {
@@ -246,6 +273,32 @@ const messages = {
       viewProjects: "View my projects",
       contact: "Contact me",
       github: "View GitHub",
+    },
+    themePreview: {
+      pageTitle: "Theme preview",
+      intro:
+        "Compare three palettes on the same components. The demo form does not send messages.",
+      chooseTheme: "Choose a theme",
+      themeA: "A — Refined",
+      themeB: "B — Vivid",
+      themeC: "C — Mapping currents",
+      home: "Home",
+      projects: "Projects",
+      credentials: "Credentials",
+      journey: "Journey",
+      cv: "Résumé",
+      contact: "Contact",
+      chat: "Assistant",
+      homeEyebrow: "Engineering · Data · Places",
+      homeDescription:
+        "Data and digital solutions that turn information into useful tools for communities.",
+      dashboardTitle: "Regional dashboard",
+      dashboardDescription:
+        "A visual example of an embedded dashboard, recolored for each palette.",
+      dashboardVisits: "Tracked indicators",
+      dashboardConversion: "Data coverage",
+      dashboardSessions: "Connected sources",
+      dashboardActivity: "Weekly activity",
     },
     cvPage: {
       eyebrow: "Résumé",
@@ -396,6 +449,7 @@ const messages = {
       error:
         "The message could not be sent. Try again or contact Yannick by email.",
       validationError: "Check the fields and try again.",
+      previewDisabled: "Preview only: no message was sent.",
     },
   },
 };

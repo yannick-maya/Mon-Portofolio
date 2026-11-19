@@ -9,9 +9,11 @@ type ContactResponse = {
   message?: string;
 };
 
-export function ContactForm() {
+export function ContactForm({ preview = false }: { preview?: boolean }) {
   const t = useTranslations("contactPage");
-  const [status, setStatus] = useState<"idle" | "sending" | "success" | "fallback" | "error">("idle");
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "fallback" | "error" | "preview"
+  >("idle");
   const [fallbackUrl, setFallbackUrl] = useState("");
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -23,6 +25,11 @@ export function ContactForm() {
       email: String(formData.get("email") ?? ""),
       message: String(formData.get("message") ?? ""),
     };
+
+    if (preview) {
+      setStatus("preview");
+      return;
+    }
 
     setStatus("sending");
 
@@ -84,6 +91,7 @@ export function ContactForm() {
         role={status === "error" ? "alert" : "status"}
       >
         {status === "success" ? t("success") : null}
+        {status === "preview" ? t("previewDisabled") : null}
         {status === "error" ? t("error") : null}
         {status === "fallback" ? (
           <>
